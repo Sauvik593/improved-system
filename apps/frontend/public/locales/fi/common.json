@@ -1,0 +1,429 @@
+{
+	"common": {
+		"auth": {
+			"common": {
+				"form": {
+					"email": {
+						"label": "Sähköposti",
+						"placeholder": "Syötä sähköpostiosoite"
+					},
+					"first_name": {
+						"label": "Etunimi"
+					},
+					"last_name": {
+						"label": "Sukunimi"
+					},
+					"newsletter": {
+						"label": "Osallistu saadaksesi kiinteistösuosituksia, inspiraatiota ja vinkkejä ulkomaille muuttamiseen"
+					},
+					"password": {
+						"label": "Salasana",
+						"placeholder": "Syötä salasana"
+					}
+				},
+				"or_email": "Tai sähköpostilla"
+			},
+			"login": {
+				"aside": {
+					"copy": "Autamme sinua löytämään unelmiesi kiinteistön",
+					"cta": "Liity nyt",
+					"subtitle": "Liity Kyero-perheeseen",
+					"title": "Oletko uusi täällä?"
+				},
+				"cta": "Kirjaudu",
+				"forgot_password": "Unohditko salasanasi?",
+				"switch_to_signup": "Etkö ole vielä liittynyt Kyeroon?",
+				"title": "Tervetuloa takaisin"
+			},
+			"login_button": "Kirjaudu sisään",
+			"oauth": {
+				"facebook": "Jatka Facebookin avulla"
+			},
+			"signup": {
+				"cta": "Liity Kyeroon",
+				"disclaimer": "Luomalla asiakastilin voit hyväksyä käyttöehdot, yksityisyydensuoja, suostumuksensa evästeiden tallentumisen sinun laite, ja hyväksyt, että saatamme yhteyttä asianmukaisilla tiedoilla. Voit lopettaa tai pyytää tilisi on poistettu käytöstä milloin tahansa.",
+				"switch_to_login": "Oletko jo Kyeron jäsen?",
+				"title": "Liity Kyero-perheeseen"
+			},
+			"signup_button": "Rekisteröidy"
+		},
+		"buyers_guide": {
+			"section": {
+				"form": {
+					"cta": "Hanki opas",
+					"email": "Sähköpostiosoitteesi",
+					"newsletter": "Osallistu saadaksesi kiinteistösuosituksia, inspiraatiota ja vinkkejä ulkomaille muuttamiseen",
+					"privacy": "Yksityisyytesi on meille tärkeää <a href=\"{{privacy}}\" rel=\"noreferrer noopener\" target=\"_blank\" class=\"underline\">Lue tietosuojakäytäntömme ja ehdot</a>"
+				},
+				"subtitle": "Löydä kaikki tarvittava tieto kiinteistön ostamisesta maassa {{countryName}} terveydenhuoltoa koskevista tiedoista oikeudellisiin asioihin",
+				"title": "Lataa maan {{countryName}} osto-oppaamme"
+			}
+		},
+		"cookie_policy": {
+			"learn_more": "Lue lisää",
+			"opt_in": "Hyväksy",
+			"text": "Kyero käyttää tietoja ja evästeitä tarjotakseen sinulle paremman käyttökokemuksen, analysoidakseen liikennettä, ja sitä voidaan käyttää personoituun ja ei-personoituun mainontaan"
+		},
+		"errors": {
+			"error_401": "401: Luvaton",
+			"error_403": "403: Ei sallittu",
+			"error_404": "404 Sivua ei löydy",
+			"error_500": "500: Palvelinvirhe",
+			"error_client": "Odottamaton virhe",
+			"links": {
+				"advertise_link": "Mainosta",
+				"for_rent_spain_link": "Kiinteistöjä tarjotaan vuokralle Espanjassa",
+				"for_sale_france_link": "Kiinteistöjä myytävänä Ranskassa",
+				"for_sale_portugal_link": "Kiinteistöjä myytävänä Portugalissa",
+				"for_sale_spain_link": "Kiinteistöjä myytävänä Espanjassa",
+				"helpful_links": "Tässä on sen sijaan muutamia hyödyllisiä linkkejä:",
+				"homepage_link": "Kotisivu",
+				"support_link": "Apua & tuki"
+			},
+			"title": "Oho, jokin meni pieleen"
+		},
+		"footer": {
+			"bcorp": {
+				"copy": "Kyero auttaa sinua nauttimaan auringonpaisteesta matkasi varrella ja antaa sinulle inspiraatiota, tietoa sekä tarvittavia työkaluja elämäsi hallintaan.",
+				"cta": "Lisätietoja Kyerosta"
+			},
+			"join_cta": "Mainosta Kyerolla",
+			"links": {
+				"about_us": "Meistä",
+				"advertise": "Mainosta Kyerossa",
+				"advice": "Ostajan neuvoja",
+				"agent_directory": "Kiinteistönvälittäjien hakemisto",
+				"contact_us": "Ota yhteyttä",
+				"cookie_preferences": "Evästeasetukset",
+				"cookies": "Evästeet",
+				"faq": "UKK",
+				"france_search": "Kiinteistö Ranskassa",
+				"italy_search": "Italian kiinteistöt",
+				"market_data": "Markkinatiedot",
+				"podcasts": "Kiinteistöpodcastit",
+				"portugal_search": "Kiinteistö Portugalissa",
+				"privacy": "Tietosuoja",
+				"sitemap": "Sivukartta",
+				"spain_search": "Kiinteistö Espanjassa",
+				"terms": "Ehdot",
+				"work_with_us": "Tehdään töitä yhdessä"
+			},
+			"sections": {
+				"find_property_title": "Etsi kiinteistö",
+				"for_agents": {
+					"cta": "Ota selvää, kuinka Kyero voi auttaa sinua myymään lisää kiinteistöjä",
+					"title": "Välittäjille"
+				},
+				"help_info_title": "Ohjeita",
+				"resources_title": "Resurssit"
+			}
+		},
+		"form": {
+			"email": {
+				"invalid": "Anna kelvollinen sähköpostiosoite"
+			},
+			"required": "Tämä kentä on pakollinen",
+			"submitting": "Lähetetään..."
+		},
+		"homepage": {
+			"advice_section": {
+				"cta": "Katso kaikki maan {{countryName}} oppaat ja neuvot",
+				"fallback": {
+					"cta": "Oppaat ja neuvot {{countryName}}ssa",
+					"text": "Löydä auringonpaisteesi luottavaisin mielin. Asiantuntijoiden kirjoittamat oppaamme ja neuvontaosiomme auttavat sinua tekemään oikeita päätöksiä."
+				},
+				"title": "Lue uusimmat neuvomme"
+			},
+			"agents_section": {
+				"copy": "Työskentelemme yli 10 000 kiinteistönvälittäjän kanssa ympäri Eurooppaa. Löydä sinulle oikea kiinteistönvälittäjä, joka täyttää vaatimuksesi ja ota seuraava askel unelmiesi kiinteistön löytämiseen",
+				"cta": "Etsi välittäjiä maasta {{countryName}}",
+				"title": "Löydä sinulle sopiva kiinteistönvälittäjä"
+			},
+			"faq_section": {
+				"title": "Usein kysyttyjä kysymyksiä kiinteistöistä {{countryName}}ssa"
+			},
+			"france": {
+				"meta": {
+					"description": "Löydä unelmiesi koti Ranskassa osoitteesta Kyero.com - Ranskan kiinteistöportaali. Valitse 200.000:sta ulkomaista myytävästä ja vuokrattavasta kiinteistöstä, joista vastaavat johtavat kiinteistönvälittäjät",
+					"title": "Kiinteistö myytävänä ja vuokrattavana Ranskassa"
+				},
+				"subtitle": "200.000 kiinteistöä myytävänä ja vuokrattavana maan Ranska kiinteistönvälittäjiltä",
+				"title": "Löydä unelmiesi koti <span class=\"char-decor\">Ranska</span>",
+				"top_locations": {
+					"title": "Suosituimmat alueet maassa Ranska"
+				}
+			},
+			"italy": {
+				"meta": {
+					"description": "Löydä unelmiesi koti Italiassa osoitteesta Kyero.com - Italialainen kiinteistöportaali. Valitse 45 000:sta ulkomaista myytävästä ja vuokrattavasta kiinteistöstä, joista vastaavat johtavat kiinteistönvälittäjät",
+					"title": "Myytävät ja vuokrattavat kiinteistöt Italiassa"
+				},
+				"subtitle": "45 000 kiinteistöä myytävänä ja vuokrattavana maan Italia kiinteistönvälittäjiltä",
+				"title": "Löydä unelmiesi koti <span class=\"char-decor\">Italia</span>",
+				"top_locations": {
+					"title": "Suosituimmat alueet maassa Italia"
+				}
+			},
+			"join_section": {
+				"copy": "Listaa kiinteistösi markkinoiden johtavaan portaaliimme, jotta saat ne miljoonien ostajien nähtäville maailmanlaajuisesti",
+				"cta": "Lue lisää",
+				"title": "Myytkö kiinteistöjä maassa {{countryName}}?"
+			},
+			"location_tree": {
+				"costas": "Rannikot",
+				"islands": "Saaret",
+				"provinces": "Maakunnat",
+				"regions": "Alueilla",
+				"title": "Kaikki sijainnit paikassa {{location}}"
+			},
+			"neutral": {
+				"meta": {
+					"description": "Yli 750 000 kiinteistöä myytävänä ja vuokrattavana Espanjassa, Portugalissa, Ranskassa ja Italiassa",
+					"title": "Löydä unelmiesi koti"
+				}
+			},
+			"portugal": {
+				"meta": {
+					"description": "Löydä unelmiesi koti Portugalissa osoitteesta Kyero.com - Portugalin kiinteistöportaali. Valitse 250.000:sta myytävästä ja vuokrattavasta kiinteistöstä, joista vastaavat johtavat kiinteistönvälittäjät Portugalissa",
+					"title": "Myytävät ja vuokrattavat kiinteistöt Portugalissa"
+				},
+				"subtitle": "250 000 kiinteistöä myytävänä ja vuokrattavana maan Portugali kiinteistönvälittäjiltä",
+				"title": "Löydä unelmiesi koti <span class=\"char-decor\" data-char=\"i\">Portugali</span>",
+				"top_locations": {
+					"title": "Suosituimmat alueet maassa Portugali"
+				}
+			},
+			"recommended_locations": {
+				"cta": "Näytä kiinteistöt",
+				"error": {
+					"cta": "Selaa kaikkia {{country}}",
+					"message": "Jokin meni vikaan",
+					"title": "Oho"
+				},
+				"title": "Suositellut paikat maassa {{country}}"
+			},
+			"searchbox": {
+				"browse_in": "Selaa kiinteistöjä paikoissa <a href=\"{{first_href}}\" class=\"underline\">{{first_location}}</a>, <a href=\"{{second_href}}\" class=\"underline\">{{second_location}}</a> tai <a href=\"{{third_href}}\" class=\"underline\">{{third_location}}</a>",
+				"clear_cta": "Tyhjennä haku",
+				"close_modal": "Sulje haku",
+				"cta": "Etsi",
+				"label": "Etsi vuokrattavia tai myytäviä kiinteistöjä tai etsi välittäjä",
+				"loading": "Ladataan tuloksia...",
+				"min_chars": "Kirjoita vähintään 3 merkkiä...",
+				"mobile_title": "Etsi",
+				"no_results": "Emme löytäneet tuloksia haulle <strong>{{search}}</strong><br />Yritä hakua uudelleen.",
+				"placeholder": "Hae alueen, maakunnan tai kaupungin mukaan",
+				"route": {
+					"agents": "Etsi välittäjiä",
+					"agents_mobile": "Välittäjät",
+					"buy": "Myytävät kiinteistöt",
+					"buy_mobile": "Osta",
+					"rent": "Vuokrattavat kiinteistöt",
+					"rent_mobile": "Vuokraa"
+				},
+				"route_label": "Valitse hakutyyppi"
+			},
+			"spain": {
+				"meta": {
+					"description": "Löydä unelmiesi koti Espanjassa osoitteesta Kyero.com - Espanjan kiinteistöportaali. Valitse 450.000:sta myytävästä ja vuokrattavasta kiinteistöstä, joista vastaavat johtavat kiinteistönvälittäjät",
+					"title": "Myytävät ja vuokrattavat kiinteistöt Espanjassa"
+				},
+				"subtitle": "450 000 kiinteistöä myytävänä ja vuokrattavana maan Espanjan kiinteistönvälittäjiltä",
+				"title": "Löydä unelmiesi koti <span class=\"char-decor\">Espanjan</span>",
+				"top_locations": {
+					"title": "Suosituimmat alueet maassa Espanjan"
+				}
+			},
+			"testimonials_section": {
+				"title": "Asiakkaat rakastavat Kyeroa"
+			},
+			"top_locations": {
+				"cta": "Hae kaikilta alueilta",
+				"title": "Suosituimmat alueet maassa {{country}}",
+				"view_properties": "{{count}} kiinteistöä"
+			},
+			"top_properties": {
+				"cta": "Katso kaikki kiinteistöt",
+				"title": "Suosituimmat kiinteistöt maassa {{country}}"
+			},
+			"top_property_types": {
+				"cta": "Katso kaikki kiinteistöt",
+				"item_cta": "{{count}} kiinteistöä",
+				"title": "Suosituimmat kiinteistötyypit"
+			}
+		},
+		"language_switcher": {
+			"title": "Valitse kieli"
+		},
+		"main_menu": {
+			"advice": "Oppaat",
+			"agents": "Välittäjät",
+			"agents_in": "Välittäjät maassa {{countryName}}",
+			"buy": "Osta",
+			"buy_in_country": "Osta maassa {{countryName}}",
+			"home": "Koti",
+			"rent": "Vuokraa",
+			"rent_in": "Vuokraa maassa {{countryName}}"
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		},
+		"newsletter": {
+			"section": {
+				"form": {
+					"cta": "Tilaa",
+					"email": "Sähköpostiosoitteesi",
+					"privacy": "<a href=\"{{policy}}\" rel=\"noreferrer noopener\" target=\"_blank\" class=\"underline\">Lue tietosuojakäytäntömme ja ehdot</a>"
+				},
+				"title": "Osallistu saadaksesi kiinteistösuosituksia, inspiraatiota ja vinkkejä ulkomaille muuttamiseen"
+			}
+		},
+		"personalisation_modal": {
+			"form": {
+				"cta": "Tilaa",
+				"email": {
+					"label": "Sähköposti"
+				},
+				"first_name": {
+					"label": "Etunimi"
+				},
+				"privacy": "<span>Jatkamalla hyväksyt meidän <a href='{{terms}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>ehtomme</a> ja <a href='{{privacy}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>yksityisyyskäytäntömme</a>. Voit lopettaa sähköpostien saamisen peruuttamalla tilauksen jokaisen sähköpostin alareunassa.</span>",
+				"subtitle": "Autamme sinua löytämään uuden elämäsi auringonpaisteessa. Emme jaa näitä tietoja kenenkään kanssa.",
+				"title": "Kerro meille lisää itsestäsi",
+				"wants_to_buy_in": {
+					"label": "Kuinka pian aiot ostaa kiinteistön?",
+					"options": {
+						"in_six_to_twelve_months": "6-12 kuukautta",
+						"in_three_months": "1-3 kuukautta",
+						"in_three_to_six_months": "3-6 kuukautta",
+						"more_than_year": "Yli vuoden",
+						"unsure": "En ole varma"
+					}
+				},
+				"why_buy": {
+					"label": "Mikä on pääasiallinen syy sille, että aiot muuttaa ulkomaille?",
+					"options": {
+						"for_work": "Ulkomailla työskentelyyn",
+						"holiday_home": "Loma-asunnoksi",
+						"investment": "Sijoitusasunnoksi",
+						"relocate": "Muuton vuoksi",
+						"to_retire": "Eläkettä varten"
+					}
+				}
+			},
+			"intro": {
+				"later_button": "Teen sen myöhemmin",
+				"next_button": "Kerro meille lisää muutostasi"
+			},
+			"intro_guide": {
+				"subtitle": "Olemme lähettäneet oppaasi sähköpostitse osoitteeseen <span class=\"font-bold\">{{email}}</span>. <br /> Jos et näe sitä, tarkista roskapostikansiosi tai <span class=\"font-bold\">tutustu oppaaseen <a href=\"{{guidesURL}}\" class=\"underline\" target=\"_blank\" rel=\"noopener noreferrer\">täällä</a></span>",
+				"title": "Kiitos! Olemme lähettäneet sinulle oppaan"
+			},
+			"intro_newsletter": {
+				"subtitle": "Saat joka sunnuntai säännöllisen viikoittaisen sähköpostin, jossa kerrotaan uusimmista kiinteistöistä, joista uskomme sinun pitävän. Katso ensimmäinen sähköpostisi tulevana sunnuntaina!",
+				"title": "Lähetämme kiinteistöilmoitukset osoitteeseen {{email}}"
+			},
+			"success": {
+				"cta": "Selvä",
+				"subtitle": "Käytämme tietoja varmistaaksemme, että suosittelemme sinulle kiinteistöjä, joista löytyy kaikki tarvitsemasi asiat, jotta olet askeleen lähempänä uutta elämääsi auringonpaisteessa.",
+				"title": "Olemme tallentaneet tietosi"
+			}
+		},
+		"property_gallery": {
+			"image_alt": "{{propertyDescription}} - kuva {{number}}"
+		},
+		"property_types": {
+			"types": {
+				"town_houses": "Omakotitaloja",
+				"under_100k": "Alle 100 000 €",
+				"under_150k": "Alle 150 000 €",
+				"villas": "Huvilat",
+				"with_pool": "Paikat, joissa on uima-altaita"
+			}
+		},
+		"recent_searches": {
+			"cta": {
+				"count": "{{count}} uusia kiinteistöjä",
+				"loading": "Lataa...",
+				"no_count": "Näytä kiinteistöt"
+			},
+			"features": {
+				"disabled_access": "Pääsy poistettu käytöstä",
+				"garage": "Autotalli",
+				"garden": "Puutarha",
+				"lift": "Hissi",
+				"near_beach": "Läh. ranta",
+				"near_golf": "Lähellä golf-kohdetta",
+				"near_shops": "Lähellä kauppoja",
+				"near_transport": "Läh. yhteyksiä",
+				"new_build": "Vain uusi rakennus",
+				"parking": "Pysäk",
+				"pool": "Allas",
+				"remote_viewing": "Etäkatselu käytettävissä",
+				"resale_only": "Vain jäll.",
+				"terrace": "Terassi",
+				"video": "Videon kanssa",
+				"virtual_tour": "Virtuaalinen esittely kanssa"
+			},
+			"filter_ranges": {
+				"price": {
+					"max": "<{{max}}",
+					"min": "{{min}}+",
+					"min_max": "{{min}}-{{max}}",
+					"no_range": "Mikä tahansa hinta"
+				}
+			},
+			"payment_scheme": {
+				"for_sale": "Ostaa",
+				"to_rent": "Vuokrata"
+			},
+			"property_group": {
+				"apartment": "Asunto",
+				"cave_house": "Luola-asunto",
+				"commercial_property": "Kaupallinen kiinteistö",
+				"country_house": "Maatalo",
+				"garage": "Autotalli",
+				"land": "Tontti",
+				"town_house": "Omakotitalo",
+				"unknown": "Kaikki kiinteistötyypit",
+				"villa": "Huvila",
+				"wooden_home": "Puutalo/asuntovaunu"
+			},
+			"title": "Viimeisimmät haut"
+		},
+		"ui": {
+			"close": "Sulje",
+			"close_menu": "Sulje valikko",
+			"icons": {
+				"bathrooms": "Kylpyhuoneiden lukumäärä",
+				"bedrooms": "Makuuhuoneiden lukumäärä",
+				"build_size": "Rakennuksen ala",
+				"gallery_size": "Kuvien lukumäärä"
+			},
+			"modals": {
+				"error": {
+					"accept": "Selvä",
+					"subtitle": "Meillä on ongelmia toteuttaa tekemäsi pyyntö. Ongelma on meidän päässämme, ei sinun. Napsauta painiketta yrittääksesi uudelleen tai tule myöhemmin takaisin.",
+					"title": "Jokin ei toimi kunnolla"
+				}
+			},
+			"next": "Seuraava",
+			"open": "Avaa",
+			"open_menu": "Avaa valikko",
+			"prev": "Edellinen",
+			"retry": "Yritä uudelleen",
+			"select": "Valitse"
+		},
+		"user_menu": {
+			"links": {
+				"account": "Tili",
+				"enquiries": "Tiedustelut",
+				"favourites": "Suosikit",
+				"logout": "Kirjaudu ulos",
+				"saved_searches": "Tallennetut haut"
+			},
+			"message": "Hei, {{name}}",
+			"mobile_title": "Käyttäjätili"
+		}
+	}
+}

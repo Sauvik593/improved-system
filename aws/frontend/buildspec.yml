@@ -1,0 +1,42 @@
+version: 0.2
+env:
+  shell: bash
+  variables:
+    #### below variables are defined in AWS codebuild service
+    ### REPOSITORY_URI is nothing but ECR Repository uri, SERVICE is nothing but application name, ENV is nothing but type of environment
+    DOCKER_BUILDKIT: $DOCKER_BUILDKIT
+    ECR_URL: $ECR_URL
+    ENV: $ENV
+    REPOSITORY_URI: $REPOSITORY_URI
+    SENTRY_ORG: $SENTRY_ORG
+    SENTRY_PROJECT: $SENTRY_PROJECT
+    SERVICE: $SERVICE
+  secrets-manager:
+    GITHUB_AUTH_TOKEN: 'auth-tokens:GITHUB_AUTH_TOKEN'
+    SENTRY_AUTH_TOKEN: 'auth-tokens:SENTRY_AUTH_TOKEN'
+phases:
+  pre_build:
+    commands:
+      #### Below AWS command is using for login into AWS ECR service
+      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $ECR_URL
+  build:
+    commands:
+      ### building docker image
+      - docker build -f aws/frontend/Dockerfile -t $REPOSITORY_URI:$ENV-$CODEBUILD_BUILD_NUMBER --build-arg VERSION_CD=$CODEBUILD_RESOLVED_SOURCE_VERSION --build-arg SECRET_SENTRY_AUTH_TOKEN=$SENTRY_AUTH_TOKEN --build-arg SENTRY_ENV_CD=$SENTRY_ENV .
+      - docker tag $REPOSITORY_URI:$ENV-$CODEBUILD_BUILD_NUMBER $REPOSITORY_URI:latest
+
+      ### Updating imagedefinitions.json Script, imagedefinitions.json file using for deploying updated docker image to AWS ECS service
+      - echo updating imagedefinitions.json Script using sed command
+      - sed -i s/ENV/$ENV/g aws/frontend/imagedefinitions.json
+      - sed -i s/SERVICE/$SERVICE/g aws/frontend/imagedefinitions.json
+      - sed -i "s#REPOSITORY_URI#$REPOSITORY_URI#g" aws/frontend/imagedefinitions.json
+      - sed -i s/CODEBUILD_BUILD_NUMBER/$CODEBUILD_BUILD_NUMBER/g aws/frontend/imagedefinitions.json
+      - cat aws/frontend/imagedefinitions.json
+  post_build:
+    commands:
+      ### pushing docker images to AWS ECR
+      - docker push $REPOSITORY_URI:$ENV-$CODEBUILD_BUILD_NUMBER
+      - docker push $REPOSITORY_URI:latest
+artifacts:
+  files:
+    - 'aws/frontend/imagedefinitions.json'

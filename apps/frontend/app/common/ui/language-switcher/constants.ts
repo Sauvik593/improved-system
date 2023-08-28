@@ -1,0 +1,15 @@
+export const TRANSLATIONS = {
+  ca: 'Catalan',
+  da: 'Dansk',
+  de: 'Deutsch',
+  en: 'English',
+  es: 'Español',
+  fi: 'Suomi',
+  fr: 'Français',
+  it: 'Italiano',
+  nl: 'Nederlands',
+  no: 'Norsk',
+  pt: 'Português',
+  ru: 'Русский',
+  sv: 'Svenska',
+};

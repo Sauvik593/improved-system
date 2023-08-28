@@ -1,0 +1,64 @@
+.article-content {
+  p {
+    @apply text-p-2 my-2;
+  }
+
+  h2 {
+    @apply text-h-2-sm text-tile-100;
+  }
+
+  h2 > a,
+  h3 > a,
+  h4 > a,
+  h5 > a {
+    @apply text-ocean-100 hover:text-ocean-150 focus:text-ocean-150;
+  }
+
+  h2 + p,
+  h3 + p {
+    @apply mt-3;
+  }
+
+  ul {
+    @apply pl-4;
+
+    list-style: outside;
+  }
+
+  .image-style-side {
+    @apply m-2;
+
+    float: right;
+  }
+}
+
+[data-article-component] + [data-article-component] {
+  @apply mt-12;
+}
+
+.heading-hooks {
+  // For creating anchor link without JS and height offset
+  &::before {
+    content: '';
+    display: block;
+    margin-top: -120px;
+    height: 120px;
+    visibility: hidden;
+  }
+}
+
+.comment-header {
+  &::before {
+    content: '';
+    display: block;
+    margin-top: -75px;
+    height: 75px;
+    visibility: hidden;
+  }
+}
+
+.comment-terms {
+  a {
+    @apply underline;
+  }
+}

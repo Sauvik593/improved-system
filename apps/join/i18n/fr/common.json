@@ -1,0 +1,762 @@
+{
+	"homepage": {
+		"hero": {
+			"title": "Faites de la publicité à l'échelle mondiale. Vendre plus de biens <span class=\"char-decor\">immobiliers</span>.",
+			"description": "Optimisez votre succès en annonçant vos propriétés à un monde d'acheteurs internationaux. Générez des demandes qui se traduisent par des ventes. Vos annonces peuvent être en ligne en aussi peu qu'une heure.",
+			"image": {
+				"alt": "Vue de l’affichage de la propriété"
+			}
+		},
+		"advantage_cards": {
+			"buyers": {
+				"description": "Vos propriétés vues par jusqu’à 3 millions d’acheteurs internationaux par mois.",
+				"title": "3 millions <span class=\"text-h-5-sm\">d'acheteurs</span>"
+			},
+			"enquiries": {
+				"description": "Plus de {{enquiries}} demandes de qualité transmises chaque mois à des agents comme vous. ",
+				"title": "{{enquiries}} <span class=\"text-h-5-sm\">demandes</span>"
+			},
+			"languages": {
+				"description": "Commercialisez vos biens en 13 langues dans {{countries}} pays.",
+				"title": "13 <span class=\"text-h-5-sm\">langues</span>"
+			},
+			"live_listings": {
+				"description": "Les annonces sont en ligne en 1 heure via notre flux XML standard de l’industrie.",
+				"title": "Les annonces <span class=\"text-h-5-sm\">sont publiées</span> dans l'heure"
+			}
+		},
+		"country_neutral": {
+			"hero": {
+				"description": "<span class=\"font-bold text-h-4-sm md:text-h-4\">Bienvenue à Kyero!</span></br> Nous voulons vous aider à réussir en faisant connaître vos propriétés à un monde d'acheteurs internationaux.",
+				"title": "Accès à des millions d'acheteurs <span class=\"char-decor\">internationaux</span>"
+			}
+		},
+		"international_audience": {
+			"description": "Au cours des 12 derniers mois, des millions d'acheteurs du monde entier ont visité Kyero.com.",
+			"title": "Accédez à notre public d’acheteurs internationaux",
+			"unique_visits": "Visites uniques"
+		},
+		"listings_exposure": {
+			"international_buyers": "Des millions d’acheteurs internationaux consultent vos propriétés",
+			"mailing": "Nos multiples campagnes d’e-mails, de médias et de relations publiques sont vues par des centaines de milliers d’acheteurs chaque mois",
+			"prime_boost": "Prime Boost vous permet d’obtenir les 3 premières places dans l’emplacement de votre choix",
+			"prime_listings": "Les annonces Prime apparaissent en haut des résultats de recherche",
+			"publications": "Rapports réguliers sur les propriétés de Kyero dans les publications nationales",
+			"social_media": "Possibilité d'atteindre plus d'acheteurs grâce aux réseaux sociaux de Kyero",
+			"title": "Augmentez la visibilité de vos annonces"
+		},
+		"market_chart": {
+			"domestic": "National",
+			"domestic_percentage": "de nos acheteurs sont nationaux",
+			"international": "International",
+			"international_percentage": "de nos acheteurs sont internationaux",
+			"title": "Plus de trafic de la part des acheteurs internationaux"
+		},
+		"why_kyero": {
+			"advantages": {
+				"b_corp": "Nous sommes en affaires pour faire le bien et sommes certifiés B Corp.",
+				"established_in": "Nous avons été créés en 2003 et avons aidé plus de 50 000 personnes en Espagne, au Portugal, en France et en Italie à trouver leur rayon de soleil en toute confiance.",
+				"fast_and_easy": "Configuration rapide et facile avec des flux xml standard de l’industrie. Vos propriétés sont en direct dans l’heure et automatiquement mises à jour quotidiennement.",
+				"guides_and_advice": "Des guides et des conseils complets pour éliminer l'incertitude des acheteurs. Des acheteurs mieux informés et donc des prospects de meilleure qualité. ",
+				"international_team": "Équipe de vente internationale et multilingue ; qui connaît le marché et parle votre langue.",
+				"languages": "Traduction pour les acheteurs dans 13 langues différentes.",
+				"prime_portal": "Kyero est le portail Prime pour les prospects des acheteurs internationaux."
+			},
+			"title": "Pourquoi Kyero?"
+		}
+	},
+	"articles": {
+		"navigation": {
+			"label": "Montre-moi:"
+		}
+	},
+	"comments": {
+		"length": {
+			"one": "{{length}} commentaire",
+			"other": "{{length}} commentaires"
+		}
+	},
+	"contact": {
+		"description": "Obtenez une présentation personnelle de Kyero par un membre de notre équipe : entrez quelques détails et nous vous contacterons pour vous donner plus d'informations.",
+		"form": {
+			"agent_province": {
+				"label": "Où êtes-vous basé?"
+			},
+			"arrange_callback": "Organiser un rappel",
+			"business_information": "Entrez les informations de votre entreprise",
+			"business_name": {
+				"label": "Nom de l’entreprise"
+			},
+			"contact_information": "Entrez vos coordonnées",
+			"date": {
+				"afternoon": "Après-midi",
+				"aria_label": "Date de contact",
+				"label": "Quel serait le meilleur moment pour parler? (facultatif)",
+				"morning": "Matin"
+			},
+			"first_name": {
+				"label": "Votre prénom"
+			},
+			"footer": {
+				"terms_and_privacy": "En utilisant Kyero, vous acceptez <a href=\\\"https://docs.kyero.com/fr/privacy/\\\" class=\"text-ocean-100\">les conditions d’utilisation et la politique de confidentialité</a> et vous acceptez d'être contacté avec des informations pertinentes."
+			},
+			"get_in_touch": {
+				"email": "E-mail",
+				"label": "Quelle est la meilleure façon pour nous d’entrer en contact? (facultatif)",
+				"phone_call": "Appel",
+				"whatsapp": "WhatsApp"
+			},
+			"header": "Parlez-nous de votre entreprise",
+			"help": {
+				"label": "Comment pouvons-nous vous aider? (facultatif)"
+			},
+			"last_name": {
+				"label": "Votre nom de famille"
+			},
+			"phone_number": {
+				"label": "Numéro de téléphone"
+			},
+			"properties": {
+				"label": "Combien de biens immobiliers avez-vous en portefeuille ?"
+			},
+			"properties_number": {
+				"label": "En gros, combien de propriétés avez-vous dans vos livres?"
+			},
+			"select": {
+				"placeholder": "Choisir"
+			},
+			"submit": "Envoyer",
+			"user_type": {
+				"label": "Pour une réponse plus rapide. Veuillez confirmer que vous êtes :",
+				"options": {
+					"buyer": "Particulier",
+					"current_agent": "Agent Kyero actuel",
+					"developer": "Promoteur",
+					"new": "Nouveau sur Kyero",
+					"other": "Autre"
+				},
+				"required": "Ce champ est obligatoire"
+			},
+			"work_email": {
+				"label": "Adresse e-mail professionnelle"
+			}
+		},
+		"success": {
+			"message": "Nous avons envoyé une confirmation de votre demande à <span class=\"font-bold\">{{email}}</span>",
+			"title": "Merci! Un membre de notre équipe vous contactera dans les prochaines 24 heures."
+		},
+		"title": "En savoir plus sur <span class=\"char-decor\">Kyero</span>"
+	},
+	"content": {
+		"ad": {
+			"placeholder": "Espace publicitaire"
+		},
+		"anchor": {
+			"title": "Dans cet article :"
+		},
+		"comments": {
+			"add": "Faites-vous entendre !",
+			"cta": {
+				"cancel": "Annuler",
+				"post": "Publiez votre commentaire",
+				"reply": "Répondre"
+			},
+			"errors": {
+				"email": {
+					"format": "L’e-mail doit être formaté correctement.",
+					"required": "L’adresse e-mail est requise"
+				},
+				"name": {
+					"required": "Le nom est obligatoire"
+				},
+				"terms": {
+					"checked": "Ce champ doit être coché"
+				}
+			},
+			"first": "Soyez le premier à commenter!",
+			"placeholders": {
+				"comment": "Votre commentaire",
+				"email": "Adresse e-mail (ne sera pas publiée)",
+				"name": "Nom"
+			},
+			"reply": "Répondre à {{user}}",
+			"success": "Votre commentaire a été partagé avec notre équipe de modération. Il sera visible sous peu",
+			"terms": "J’accepte les <a href=\\\"https://docs.kyero.com/fr/privacy/\\\">conditions d’utilisation et la politique de confidentialité</a>"
+		},
+		"cta": {
+			"next_article": "Voir l’article"
+		},
+		"info": {
+			"comment": "commentaire",
+			"comments": "commentaires",
+			"minute_read": "Une lecture en {{time}} minutes",
+			"no_comments": "Pas encore de commentaire"
+		},
+		"next_article": "Prochaine étape :",
+		"share": {
+			"copy_tooltip": "Lien copié dans votre presse-papiers",
+			"title": "Partagez ceci :"
+		}
+	},
+	"country_cards": {
+		"title": "Où sont situées vos propriétés?"
+	},
+	"error_404": {
+		"header": "Nous ne trouvons pas la page que vous recherchez.",
+		"message": "Le lien que vous avez suivi pour arriver ici ne semble pas fonctionner. C'est peut-être parce qu'il est ancien et que la page n'existe plus, ou parce que vous avez mal saisi l'URL dans la barre d'adresse.",
+		"title": "404 : Page introuvable"
+	},
+	"features": {
+		"features_list": {
+			"agent_branding": {
+				"subtitle": "Chaque annonce Prime est marquée de votre logo.",
+				"title": "Image de marque de l’agent"
+			},
+			"agent_directory": {
+				"subtitle": "Les agents Prime sont toujours affichés avant les agents libres.",
+				"title": "Répertoire des agents"
+			},
+			"bigger_photos": {
+				"subtitle": "Les annonces Prime sont plus attrayantes visuellement et sont plus souvent cliquées.",
+				"title": "Photos plus grandes"
+			},
+			"daily_imports": {
+				"subtitle": "Seules les propriétés de l’agent Prime sont mises à jour quotidiennement (plutôt qu’hebdomadairement).",
+				"title": "Importations quotidiennes"
+			},
+			"email_alerts": {
+				"subtitle": "Seules les nouvelles annonces Prime sont automatiquement envoyées par e-mail aux acheteurs.",
+				"title": "Alertes e-mail"
+			},
+			"enhanced_analytics": {
+				"subtitle": "Les agents Prime peuvent accéder à des analyses de marché et de performance plus détaillées.",
+				"title": "Analyses améliorées"
+			},
+			"floorplans": {
+				"subtitle": "Seules les annonces Prime peuvent afficher un lien de plan d’étage.",
+				"title": "Plans d’étage"
+			},
+			"full_export": {
+				"subtitle": "Seuls les agents Prime peuvent exporter leurs annonces complètes et traduites depuis Kyero.",
+				"title": "Exportation complète"
+			},
+			"media_visibility": {
+				"subtitle": "Seules les annonces Prime peuvent faire l'objet d'une diffusion supplémentaire dans les médias sociaux.",
+				"title": "Visibilité médiatique supplémentaire"
+			},
+			"priority_results": {
+				"subtitle": "Les annonces Prime sont toujours affichées avant les annonces gratuites.",
+				"title": "Résultats prioritaires"
+			},
+			"property_videos": {
+				"subtitle": "Seules les annonces Prime peuvent afficher un lien vidéo.",
+				"title": "Vidéos sur l'immobilier"
+			},
+			"recommended_properties": {
+				"subtitle": "Les annonces Prime sont toujours recommandées avant les annonces gratuites.",
+				"title": "Propriétés recommandées"
+			},
+			"remote_viewing": {
+				"subtitle": "Seules les annonces Prime affichent une option d’affichage à distance.",
+				"title": "Visualisation à distance"
+			},
+			"virtual_tours": {
+				"subtitle": "Seules les annonces Prime affichent un lien de visite virtuelle.",
+				"title": "Visites virtuelles"
+			}
+		},
+		"hero": {
+			"description": "Donnez à vos annonces une visibilité prioritaire auprès d'acheteurs qualifiés. Kyero Prime augmente considérablement le nombre de demandes que vous recevez. C'est un véritable coup de fouet pour votre marketing immobilier.",
+			"title": "L’avantage de Kyero <span class=\"char-decor\">Prime</span>"
+		},
+		"integrations": {
+			"cta": {
+				"button": "En savoir plus",
+				"subtitle": "Nous nous intégrons à tous les principaux systèmes de gestion immobilière, il est donc facile de synchroniser les annonces.",
+				"title": "Ajouter et mettre à jour automatiquement les annonces immobilières grâce à des intégrations"
+			}
+		}
+	},
+	"footer": {
+		"b_corp": {
+			"alt": "Certification B Corp"
+		},
+		"cta": {
+			"more_about": "Plus d'informations sur Kyero"
+		},
+		"description": "Kyero vous aide à trouver votre rayon de soleil. Nous vous accompagnons dans votre voyage et vous fournissons l'inspiration, les informations et les outils qui vous permettent de garder le contrôle.",
+		"explore_kyero": {
+			"advertise": "Annoncez avec Kyero",
+			"advice": "Guides & Conseils",
+			"agent_search": "Recherche d’agents",
+			"search_properties": "Rechercher des biens",
+			"title": "Découvrez Kyero"
+		},
+		"for_agents": {
+			"description": "Découvrez comment Kyero peut vous aider à vendre plus de biens",
+			"title": "Pour les professionnels"
+		},
+		"help_and_information": {
+			"contact": "Contact",
+			"faqs": "FAQ",
+			"help": "Aide",
+			"title": "Aide & Info"
+		},
+		"links": {
+			"find_property": {
+				"france": {
+					"link": "france-immobilier-a-vendre-0l55702",
+					"title": "Immobilier en France"
+				},
+				"italy": {
+					"link": "italie-immobilier-a-vendre-0l55732",
+					"title": "Immobilier en Italie"
+				},
+				"portugal": {
+					"link": "portugal-immobilier-a-vendre-0l55731",
+					"title": "Immobilier au Portugal"
+				},
+				"spain": {
+					"link": "espagne-immobilier-a-vendre-0l55529",
+					"title": "Immobilier en Espagne"
+				},
+				"title": "Recherche de biens"
+			},
+			"help_and_info": {
+				"about_us": {
+					"link": "anotrepropos",
+					"title": "Qui sommes-nous"
+				},
+				"contact_us": {
+					"title": "Contactez-nous"
+				},
+				"faq": {
+					"title": "FAQ"
+				},
+				"title": "Aide & Info",
+				"work_with_us": {
+					"title": "Travaillez avec nous"
+				}
+			},
+			"resources": {
+				"buyer_advice": {
+					"title": "Conseils aux acheteurs"
+				},
+				"estate_agent_directory": {
+					"france": {
+						"title": "agents-immobiliers-france"
+					},
+					"italy": {
+						"title": "agents-immobiliers-italie"
+					},
+					"portugal": {
+						"title": "agents-immobiliers-portugal"
+					},
+					"spain": {
+						"title": "agents-immobiliers-espagne"
+					},
+					"title": "Répertoire des agents immobiliers"
+				},
+				"market_data": {
+					"link": "data/donnees/espagne",
+					"title": "Données de marché"
+				},
+				"property_podcasts": {
+					"title": "Podcasts immobiliers"
+				},
+				"title": "Ressources"
+			}
+		},
+		"site_links": {
+			"cookie_preferences": "Préférences en matière de cookies",
+			"cookies": "Cookies",
+			"privacy": "Politique de confidentialité",
+			"sitemap": "Plan de site",
+			"terms": "Conditions"
+		}
+	},
+	"form": {
+		"error": {
+			"modal": {
+				"description": "Nous avons des difficultés à envoyer votre formulaire. C'est notre faute, pas la vôtre - vous n'avez rien fait de mal. Veuillez revenir plus tard et réessayer.",
+				"title": "Quelque chose ne fonctionne pas correctement"
+			}
+		},
+		"validations": {
+			"business_name": "Veuillez entrer le nom de votre entreprise",
+			"date": "La date doit être supérieure à aujourd’hui",
+			"email": {
+				"format": "Veuillez saisir une adresse e-mail valide",
+				"required": "L’adresse e-mail est requise"
+			},
+			"first_name": "Le prénom est obligatoire",
+			"last_name": "Le nom de famille est obligatoire",
+			"phone_number": {
+				"format": "Le numéro de téléphone doit être formaté correctement",
+				"required": "Le numéro de téléphone est requis"
+			}
+		}
+	},
+	"general": {
+		"agent_display": {
+			"alt": "Logo {{name}}",
+			"title": "Approuvé par des milliers d'agents"
+		},
+		"countries": {
+			"france": {
+				"alt": "Drapeau de la France",
+				"title": "France"
+			},
+			"germany": {
+				"alt": "Drapeau de l’Allemagne",
+				"title": "Allemagne"
+			},
+			"italy": {
+				"alt": "Drapeau de l’Italie",
+				"title": "Italie"
+			},
+			"netherlands": {
+				"alt": "Drapeau des Pays-Bas",
+				"title": "Pays-Bas"
+			},
+			"portugal": {
+				"alt": "Drapeau du Portugal",
+				"title": "Portugal"
+			},
+			"spain": {
+				"alt": "Drapeau de l’Espagne",
+				"title": "Espagne"
+			},
+			"united_kingdom": {
+				"alt": "Drapeau du Royaume-Uni",
+				"title": "Royaume-Uni"
+			},
+			"united_states": {
+				"alt": "Drapeau des États-Unis",
+				"title": "États-Unis"
+			}
+		},
+		"get_in_touch": {
+			"title": "Vous voulez parler à quelqu’un?"
+		},
+		"get_started": {
+			"title": "Commencez avec Kyero Prime dès aujourd’hui"
+		},
+		"icons": {
+			"error": "Icône d’erreur",
+			"success": "Icône de réussite"
+		},
+		"properties_dashboard": {
+			"alt": "Tableau de bord des propriétés Kyero"
+		},
+		"testimonials": {
+			"quotes": {
+				"alt": "Guillemets doubles"
+			},
+			"title": "Ce que disent nos agents Prime"
+		}
+	},
+	"header": {
+		"menu": {
+			"close": {
+				"label": "Fermer le menu"
+			},
+			"features": "Fonctionnalités",
+			"hamburger": {
+				"label": "Menu"
+			},
+			"home": "Accueil",
+			"label": "Menu de navigation",
+			"log_in": "S'identifier",
+			"market_insights": "Aperçu du marché",
+			"pricing": "Tarif"
+		}
+	},
+	"insights_newsletter": {
+		"buttons": {
+			"sign_up": "S’enregistrer"
+		},
+		"description": "Soyez le premier à lire les dernières analyses et opinions publiées ici",
+		"error": {
+			"title": "Désolé, nous n’avons pas tout à fait compris ça"
+		},
+		"footer": {
+			"policy": "Voir notre politique",
+			"privacy": "Nous nous soucions de votre vie privée."
+		},
+		"title": "Obtenez les dernières informations dans votre boîte de réception"
+	},
+	"integrations": {
+		"cta": {
+			"icon": {
+				"alt": "Flèches rotatives"
+			}
+		},
+		"hero": {
+			"description": "Gagnez du temps en mettant à jour vos annonces Kyero automatiquement à partir de votre propre système.",
+			"image": {
+				"alt": "Processus d’intégration"
+			},
+			"title": "Ajouter et mettre à jour automatiquement vos annonces <span class=\"char-decor\">immobilières</span>"
+		},
+		"learn_more": {
+			"compatible_systems": {
+				"cta": "Visitez notre centre d’aide",
+				"link": "agences-immobilieres/flux-xml-de-kyero",
+				"title": "Comment fonctionnent les intégrations ?"
+			},
+			"missing_system": {
+				"cta": "Faites-le nous savoir",
+				"title": "Votre système manque-t-il ?"
+			},
+			"title": "En savoir plus sur son fonctionnement"
+		},
+		"management_systems": {
+			"title": "Systèmes de gestion immobilière compatibles"
+		}
+	},
+	"market_insights": {
+		"description": "Obtenez les dernières nouvelles, des rapports de marché, des informations sur les acheteurs et des conseils de vente pour vous aider à atteindre plus d’acheteurs, à générer plus de prospects et à vendre plus de propriétés.",
+		"title": "Aperçu du marché"
+	},
+	"menu": {
+		"country_select": {
+			"close": "Fermer le menu du pays",
+			"countries": {
+				"france": "Annoncez en France",
+				"italy": "Annoncez en Italie",
+				"portugal": "Annoncez au Portugal",
+				"spain": "Annoncez en Espagne"
+			},
+			"label": "Sélectionner un pays",
+			"title": "Où sont les propriétés que vous souhaitez annoncer?"
+		},
+		"language_switcher": {
+			"close": "Fermer le menu de langue",
+			"en": "English",
+			"es": "Español",
+			"fr": "Français",
+			"it": "Italiano",
+			"label": "Sélectionner une langue",
+			"pt": "Português",
+			"title": "Sélectionnez une langue",
+			"uk": {
+				"alt": "Drapeau du Royaume-Uni"
+			}
+		}
+	},
+	"newsletter": {
+		"button": {
+			"label": "Abonnez-vous à la newsletter"
+		},
+		"email": {
+			"error": "L’adresse e-mail est requise",
+			"format": "Veuillez saisir une adresse e-mail valide",
+			"label": "Votre adresse e-mail",
+			"placeholder": "Votre adresse e-mail"
+		},
+		"error": {
+			"message": "Un problème s'est produit de notre côté et nous n'avons pas reçu votre adresse électronique. Une nouvelle tentative devrait résoudre le problème."
+		},
+		"footer": {
+			"privacy_policy": "politique de confidentialité",
+			"terms": "conditions générales",
+			"text": "Nous accordons une grande importance à la protection de votre vie privée. Lire notre"
+		},
+		"success": {
+			"first_email": "Attendez votre premier courriel dimanche prochain !",
+			"property_alerts": "Nous enverrons des alertes immobilières à {{email}}",
+			"weekly_email": "Chaque dimanche, vous recevrez un courriel hebdomadaire contenant les dernières propriétés que nous pensons vous plaire."
+		},
+		"title": "Restez à la pointe de votre marché. Recevez les dernières informations dans votre boîte de réception."
+	},
+	"pricing": {
+		"all_plans": {
+			"agent_portal": {
+				"cta": "Explorer les fonctionnalités du portail de l'agent.",
+				"description": "Optimisez les annonces, obtenez des informations sur les demandes de renseignements qui vous indiquent la probabilité d’achat d’une personne et accédez aux rapports dont vous avez besoin pour être le meilleur.",
+				"link": {
+					"title": "Découvrez les fonctionnalités du portail des agents"
+				},
+				"title": "Accès complet au portail des agents"
+			},
+			"integration": {
+				"description": "Vous utilisez déjà un outil de gestion immobilière ? Pas de problème : Kyero intègre de manière transparente plus de 80 systèmes, de sorte que vous n'avez rien à changer.",
+				"link": {
+					"title": "Consultez notre liste d'intégrations"
+				},
+				"title": "Intégration complète avec vos systèmes existants"
+			},
+			"prime_boost": {
+				"cta": "En savoir plus sur Prime Boost",
+				"description": "Avec Prime Boost, vos biens sont présentés à un plus grand nombre d'acheteurs. Choisissez l'endroit et la durée de la promotion, et regardez les demandes affluer.",
+				"link": {
+					"title": "En savoir plus sur Prime Boost"
+				},
+				"title": "Prime Boost : un coup de pouce supplémentaire pour les propriétés importantes"
+			},
+			"title": "Tous les plans incluent :"
+		},
+		"kyero_prime": {
+			"contact": "Vous ne trouvez pas de pack qui corresponde à votre portefeuille ou à votre budget ? Nous avons d'autres options, contactez-nous maintenant pour nous dire ce dont vous avez besoin.",
+			"description": "Kyero Prime aide les agences de toutes tailles à vendre des propriétés plus rapidement et plus facilement que jamais.",
+			"filters": {
+				"1_month": "1 mois",
+				"1_year": "1 an",
+				"3_months": "3 mois",
+				"6_months": "6 mois"
+			},
+			"plans": {
+				"billing": {
+					"1_month": "Facturé mensuellement",
+					"1_year": "Facturé annuellement",
+					"3_months": "Facturé tous les 3 mois",
+					"6_months": "Facturé tous les 6 mois"
+				},
+				"cost": {
+					"1_month": "{{cost}} /mois",
+					"1_year": "{{cost}} /an",
+					"3_months": "{{cost}} /3 mois",
+					"6_months": "{{cost}} /6 mois"
+				},
+				"cost_per_listing": "Coût par annonce Prime : {{cost}} /mois",
+				"cta": {
+					"title": "Inscrivez-vous maintenant"
+				},
+				"most_popular": "Les plus populaires",
+				"prime_listings": "{{listings}} Annonces Prime"
+			},
+			"show_prices": "Afficher les prix pour:",
+			"title": "Commencez avec Kyero Prime dès <span class=\"char-decor\">aujourd’hui</span>"
+		}
+	},
+	"seo": {
+		"homepage": {
+			"country_neutral": {
+				"description": "Kyero.com vous donne accès à des millions d'acheteurs internationaux. Plus de 10 000 agents en Espagne, en France, au Portugal et en Italie nous font confiance.",
+				"title": "Vendre plus de biens immobiliers"
+			}
+		}
+	},
+	"share_buttons": {
+		"copy": "Copier le lien",
+		"email": "Envoyer par e-mail",
+		"facebook": "Partagez sur Facebook",
+		"linkedin": "Partagez sur LinkedIn",
+		"twitter": "Partagez sur Twitter"
+	},
+	"tell_us_about": {
+		"form": {
+			"address": {
+				"label": "Adresse"
+			},
+			"business_info": "Entrez les informations de votre entreprise",
+			"company": {
+				"description": "C'est le nom que les acheteurs verront sur Kyero.com. Il ne doit pas nécessairement s'agir du nom sous lequel votre entreprise est enregistrée.",
+				"label": "Nom de l’entreprise"
+			},
+			"company_vat": "Entrez le numéro de TVA de l'entreprise",
+			"country": {
+				"label": "Pays"
+			},
+			"cta": {
+				"title": "Enregistrez les informations de l'entreprise"
+			},
+			"email": {
+				"description": "Lorsque les acheteurs font une demande, nous l'envoyons à l'adresse électronique suivante",
+				"label": "E-mail"
+			},
+			"first_name": {
+				"label": "Prénom"
+			},
+			"last_name": {
+				"label": "Nom"
+			},
+			"legal_name": {
+				"label": "Nom légal"
+			},
+			"manual_input": "Entrez l'adresse et le nom légal manuellement",
+			"phone": {
+				"description": "Vous pouvez choisir de l’afficher sur vos annonces immobilières.",
+				"label": "Numéro de téléphone de l’entreprise"
+			},
+			"postcode": {
+				"label": "Code postal"
+			},
+			"region": {
+				"label": "Région"
+			},
+			"subtitle": "Vous y êtes presque ! Entrez votre entreprise et vos informations de paiement pour commencer à utiliser Kyero.",
+			"title": "Parlez-nous de votre entreprise",
+			"town": {
+				"label": "Ville"
+			},
+			"vat_number": {
+				"description": "Nous l'utiliserons pour rechercher l'adresse et le nom légal de votre entreprise.",
+				"label": "Numéro d’immatriculation à la TVA de l’UE"
+			},
+			"website": {
+				"description": "Elle sera affichée avec les informations relatives à votre agence sur Kyero.com.",
+				"label": "Site Web (facultatif)"
+			}
+		},
+		"package": {
+			"cost_per_listing": "Équivalent de {{cost}} /mois par annonce",
+			"plan": {
+				"1_month": "Prime {{listings}} /mensuel",
+				"1_year": "Prime {{listings}} / 12 mois",
+				"3_months": "Prime {{listings}} / 3 mois",
+				"6_months": "Prime {{listings}} / 6 mois"
+			},
+			"title": "Forfait préféré",
+			"total": "Total",
+			"vat_disclaimer": "Les entreprises britanniques se verront appliquer la TVA au taux en vigueur."
+		},
+		"success": {
+			"email_message": "Une fois que nous aurons terminé, un membre de notre équipe enverra un e-mail de bienvenue à <span class=\"font-bold\">{{email}}</span> avec des instructions sur la façon de commencer.",
+			"image_alt": "Bannière publicitaire pour les biens Prime",
+			"message": "Merci de vous être inscrit à Kyero, {{name}}! Nous vérifierons les détails de votre entreprise et nous nous assurerons que tout est correct. Cela prend généralement quelques jours.",
+			"title": "Laissez-nous promouvoir vos biens immobiliers auprès de millions d'acheteurs internationaux"
+		}
+	},
+	"ui": {
+		"buttons": {
+			"call_back": "Demander un rappel",
+			"find_out_more": "En savoir plus",
+			"get_in_touch": "Contactez-nous",
+			"get_started": "Démarrer",
+			"pricing_and_packages": "Prix et forfaits",
+			"subscribe": "S’inscrire",
+			"try_again": "Réessayez"
+		},
+		"cookie": {
+			"bar": {
+				"cta": {
+					"accept": "Accepter",
+					"preferences": "Préférences en matière de cookies"
+				},
+				"title": "Kyero utilise des cookies pour vous offrir une meilleure expérience"
+			},
+			"cookie_policy": "<span>Pour en savoir plus, consultez la <a href=\"https://docs.kyero.com/{{locale}}/cookies/\" class=\"text-ocean-100 underline\">politique des cookies</a></span>",
+			"modal": {
+				"always_active": "Toujours actif",
+				"cta": {
+					"save_preferences": "Enregistrer les préférences"
+				},
+				"essential_cookies": {
+					"message": "Il s'agit de nos propres cookies qui sont nécessaires au fonctionnement de Kyero.com. Sans eux, nous ne pouvons pas fonctionner correctement. Par exemple, un cookie vous permet de vous connecter ou de mémoriser vos recherches.",
+					"title": "Cookies essentiels"
+				},
+				"non_essential": {
+					"message": "Ces cookies non essentiels nous aident à analyser comment vous nous avez trouvés et comment vous utilisez Kyero.com. Cela nous aide à nous améliorer continuellement.",
+					"title": "Cookies non essentiels"
+				},
+				"switch": {
+					"active": "Actif",
+					"inactive": "Inactif",
+					"label": "Changement de cookies non essentiels"
+				}
+			}
+		}
+	}
+}

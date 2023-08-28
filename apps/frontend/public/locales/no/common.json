@@ -1,0 +1,429 @@
+{
+	"common": {
+		"auth": {
+			"common": {
+				"form": {
+					"email": {
+						"label": "E-post",
+						"placeholder": "Angi e-postadresse"
+					},
+					"first_name": {
+						"label": "Fornavn"
+					},
+					"last_name": {
+						"label": "Etternavn"
+					},
+					"newsletter": {
+						"label": "Registrer deg for å få eiendomsanbefalinger, inspirasjon og tips om å flytte til utlandet"
+					},
+					"password": {
+						"label": "Passord",
+						"placeholder": "Angi passord"
+					}
+				},
+				"or_email": "Eller på e-post"
+			},
+			"login": {
+				"aside": {
+					"copy": "Vi helper deg med å finne drømmeeiendommen",
+					"cta": "Registrer deg nå",
+					"subtitle": "Bli med i Kyero-familen",
+					"title": "Er du ny her?"
+				},
+				"cta": "Logg inn",
+				"forgot_password": "Glemt passord?",
+				"switch_to_signup": "Har du ikke registrert deg på Kyero enda?",
+				"title": "Velkommen tilbake"
+			},
+			"login_button": "Logg inn",
+			"oauth": {
+				"facebook": "Fortsett med Facebook"
+			},
+			"signup": {
+				"cta": "Registrer deg på Kyero",
+				"disclaimer": "Ved å opprette en konto du godta våre vilkår for bruk, personvern, godtar cookies blir lagret på din enheten, og godtar at vi kan kontakte deg med relevant informasjon. Du kan avslutte abonnementet eller be om kontoen er deaktivert når som helst.",
+				"switch_to_login": "Er du allerede Kyero-medlem?",
+				"title": "Bli med i Kyero-familien"
+			},
+			"signup_button": "Ny bruker"
+		},
+		"buyers_guide": {
+			"section": {
+				"form": {
+					"cta": "Få guiden",
+					"email": "Din epost",
+					"newsletter": "Registrer deg for å få eiendomsanbefalinger, inspirasjon og tips om å flytte til utlandet",
+					"privacy": "Personvernet ditt er viktig for oss <a href=\"{{privacy}}\" rel=\"noreferrer noopener\" target=\"_blank\" class=\"underline\">Les personvernerklæringen og brukervilkårene</a>"
+				},
+				"subtitle": "Fra informasjon om helsetjenester til juridiske hensyn, her finner du alt du trenger å vite når du skal kjøpe eiendom i {{countryName}}",
+				"title": "Last ned vår kjøpsguide for {{countryName}}"
+			}
+		},
+		"cookie_policy": {
+			"learn_more": "Lær mer",
+			"opt_in": "Godta",
+			"text": "Kyero bruker data og informasjonskapsler for å gi deg en bedre opplevelse, for å analysere trafikk, og kan brukes til personlig og ikke-tilpasset annonsering"
+		},
+		"errors": {
+			"error_401": "401: ikke autorisert",
+			"error_403": "403: ikke tillatt",
+			"error_404": "404 finner ikke siden",
+			"error_500": "500: serverfeil",
+			"error_client": "Uventet feil",
+			"links": {
+				"advertise_link": "Annonser",
+				"for_rent_spain_link": "Eiendom til leie i Spania",
+				"for_sale_france_link": "Eiendommen til salgs i Frankrike",
+				"for_sale_portugal_link": "Eiendommer til salgs i Portugal",
+				"for_sale_spain_link": "Eiendom til salgs i Spania",
+				"helpful_links": "Her er noen nyttige lenker i stedet:",
+				"homepage_link": "Hjemmeside",
+				"support_link": "Hjelp og støtte"
+			},
+			"title": "Au da, noe gikk galt"
+		},
+		"footer": {
+			"bcorp": {
+				"copy": "Kyero er her for å hjelpe deg med å finne solen du vil ha, ved å hjelpe deg med å navigere gjennom hele reisen, og ved å gi deg inspirasjonen, informasjonen og verktøyene som gir deg kontroll.",
+				"cta": "Mer om Kyero"
+			},
+			"join_cta": "Annonser med Kyero",
+			"links": {
+				"about_us": "Om oss",
+				"advertise": "Annonser med Kyero",
+				"advice": "Råd til kjøpere",
+				"agent_directory": "Meglerregister",
+				"contact_us": "Ta kontakt",
+				"cookie_preferences": "Preferanser for informasjonskapsler",
+				"cookies": "Informasjonskapsler",
+				"faq": "FAQs",
+				"france_search": "Frankrike eiendom",
+				"italy_search": "Italia eiendom",
+				"market_data": "Markedsdata",
+				"podcasts": "Podcaster om eiendom",
+				"portugal_search": "Portugal eiendom",
+				"privacy": "Personvern",
+				"sitemap": "Områdekart",
+				"spain_search": "Spania eiendom",
+				"terms": "Vilkår",
+				"work_with_us": "Vil du bli vår nye kollega?"
+			},
+			"sections": {
+				"find_property_title": "Finn eiendom",
+				"for_agents": {
+					"cta": "Se hvordan Kyero kan hjelpe deg med å selge flere eiendommer",
+					"title": "For megler"
+				},
+				"help_info_title": "Få hjelp",
+				"resources_title": "Ressurser"
+			}
+		},
+		"form": {
+			"email": {
+				"invalid": "Oppgi en gyldig e-postadresse"
+			},
+			"required": "Dette feltet er påkrevd",
+			"submitting": "Sender ..."
+		},
+		"homepage": {
+			"advice_section": {
+				"cta": "Se alle guider og råd om {{countryName}}",
+				"fallback": {
+					"cta": "Guider og råd for {{countryName}}",
+					"text": "Finn ditt solskinn med selvtillit. Retningslinjene og rådsidene våre er skrevet av eksperter og hjelper deg med å ta de beste beslutningene."
+				},
+				"title": "Les våre nyeste guider"
+			},
+			"agents_section": {
+				"copy": "Vi samarbeider med over 10 000 eiendomsmeklere over hele Europa. Finn rett eiendomsmegler for å oppfylle behovene dine og ta neste steg mot å finne drømmeboligen din",
+				"cta": "Finn meglere i {{countryName}}",
+				"title": "Finn eiendomsmekleren som passer for deg"
+			},
+			"faq_section": {
+				"title": "Ofte stilte spørsmål om eiendom i {{countryName}}"
+			},
+			"france": {
+				"meta": {
+					"description": "Finn din drømmebolig i Frankrike på Kyero - den franske eiendomsportalen. Velg blant 200 000 eiendommer til salgs og til leie fra ledende eiendomsmeglere på Kyero.com",
+					"title": "Eiendom til salgs og til leie i Frankrike"
+				},
+				"subtitle": "200 000 eiendommer til salgs og til leie fra eiendomsmeglere i Frankrike",
+				"title": "Finn din drømmebolig i <span class=\"char-decor\">Frankrike</span>",
+				"top_locations": {
+					"title": "Toppregioner i Frankrike"
+				}
+			},
+			"italy": {
+				"meta": {
+					"description": "Finn din drømmebolig i Italia på Kyero - den italienske eiendomsportalen. Velg blant 45 000 eiendommer til salgs og til leie fra ledende eiendomsmeglere på Kyero.com",
+					"title": "Eiendom til salgs og til leie i Italia"
+				},
+				"subtitle": "45 000 eiendommer til salgs og til leie fra eiendomsmeglere i Italia",
+				"title": "Finn din drømmebolig i <span class=\"char-decor\">Italia</span>",
+				"top_locations": {
+					"title": "Toppregioner i Italia"
+				}
+			},
+			"join_section": {
+				"copy": "Før opp eiendommene dine i vår markedsledende portal, slik at de ses av flere millioner av kjøpere globalt",
+				"cta": "Finn ut mer",
+				"title": "Selger du eiendom i {{countryName}}?"
+			},
+			"location_tree": {
+				"costas": "Kystområder",
+				"islands": "Øyer",
+				"provinces": "Provinser",
+				"regions": "Regioner",
+				"title": "Ale steder i {{location}}"
+			},
+			"neutral": {
+				"meta": {
+					"description": "Over 750 000 eiendommer til salgs og til leie i Spania, Portugal, Frankrike og Italia.",
+					"title": "Finn din drømmebolig"
+				}
+			},
+			"portugal": {
+				"meta": {
+					"description": "Finn din drømmebolig i Portugal på Kyero - den portugisiske eiendomsportalen. Velg blant 250 000 eiendommer til salgs og til leie fra ledende eiendomsmeglere i Portugal på Kyero.com",
+					"title": "Eiendom til salgs og til leie i Portugal"
+				},
+				"subtitle": "250 000 eiendommer til salgs og til leie fra eiendomsmeglere i Portugal",
+				"title": "Finn din drømmebolig i <span class=\"char-decor\" data-char=\"l\">Portugal</span>",
+				"top_locations": {
+					"title": "Toppdistrikter i Portugal"
+				}
+			},
+			"recommended_locations": {
+				"cta": "Se eiendommer",
+				"error": {
+					"cta": "Bla i hele {{country}}",
+					"message": "Noe gikk galt",
+					"title": "Oisann"
+				},
+				"title": "Anbefalte steder i {{country}}"
+			},
+			"searchbox": {
+				"browse_in": "Eller bla i eiendommer i <a href=\"{{first_href}}\" class=\"underline\">{{first_location}}</a>, <a href=\"{{second_href}}\" class=\"underline\">{{second_location}}</a> or <a href=\"{{third_href}}\" class=\"underline\">{{third_location}}</a>",
+				"clear_cta": "Tøm søk",
+				"close_modal": "Lukk søk",
+				"cta": "Søk",
+				"label": "Søk etter eiendommer til leie eller for salg, eller finn en megler",
+				"loading": "Laster inn resultater ...",
+				"min_chars": "Angi minst 3 tegn ...",
+				"mobile_title": "Søk",
+				"no_results": "Vi fant ingen resultater for <strong>{{search}}</strong><br />Prøv å søke på nytt.",
+				"placeholder": "Søk etter region, provins eller by",
+				"route": {
+					"agents": "Finn meglere",
+					"agents_mobile": "Megler",
+					"buy": "Eiendommer for salg",
+					"buy_mobile": "Kjøp",
+					"rent": "Eiendommer til leie",
+					"rent_mobile": "Leie"
+				},
+				"route_label": "Velg type søk"
+			},
+			"spain": {
+				"meta": {
+					"description": "Finn din drømmebolig i Frankrike på Kyero - den franske eiendomsportalen. Velg blant 200 000 eiendommer til salgs og til leie fra ledende eiendomsmeglere på Kyero.com",
+					"title": "Eiendom til salgs og til leie i Spania"
+				},
+				"subtitle": "450 000 eiendommer til salgs og til leie fra eiendomsmeglere i Spania",
+				"title": "Finn din drømmebolig i <span class=\"char-decor\">Spania</span>",
+				"top_locations": {
+					"title": "Toppregioner i Spania"
+				}
+			},
+			"testimonials_section": {
+				"title": "Kundene elsker Kyero"
+			},
+			"top_locations": {
+				"cta": "Søk i alle områder",
+				"title": "Toppregioner i {{country}}",
+				"view_properties": "{{count}} eiendommer"
+			},
+			"top_properties": {
+				"cta": "Se alle eiendommer",
+				"title": "Toppeiendommer i {{country}}"
+			},
+			"top_property_types": {
+				"cta": "Se alle eiendommer",
+				"item_cta": "{{count}} eiendommer",
+				"title": "Toppeiendomstyper"
+			}
+		},
+		"language_switcher": {
+			"title": "Velg et språk"
+		},
+		"main_menu": {
+			"advice": "Guider",
+			"agents": "Megler",
+			"agents_in": "Megler i {{countryName}}",
+			"buy": "Kjøp",
+			"buy_in_country": "Kjøp i {{countryName}}",
+			"home": "Hjem",
+			"rent": "Leie",
+			"rent_in": "Leie i {{countryName}}"
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		},
+		"newsletter": {
+			"section": {
+				"form": {
+					"cta": "Abonnere",
+					"email": "Din epost",
+					"privacy": "<a href=\"{{policy}}\" rel=\"noreferrer noopener\" target=\"_blank\" class=\"underline\">Les personvernerklæringen og brukervilkårene</a>"
+				},
+				"title": "Registrer deg for å få eiendomsanbefalinger, inspirasjon og tips om å flytte til utlandet"
+			}
+		},
+		"personalisation_modal": {
+			"form": {
+				"cta": "Abonnere",
+				"email": {
+					"label": "E-post"
+				},
+				"first_name": {
+					"label": "Fornavn"
+				},
+				"privacy": "<span>Ved å fortsette aksepterer du våre <a href='{{terms}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>vilkår</a> og <a href='{{privacy}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>personvernregler</a>. Du kan reservere deg mot e-post når som helst ved å stoppe abonnementet på bunnen av hver e-post</span>",
+				"subtitle": "Hjelp oss med å hjelpe deg finne solen. Vi deler ikke disse opplysningene med andre.",
+				"title": "Fortell oss mer om deg selv",
+				"wants_to_buy_in": {
+					"label": "Hvor snart har du tenkt å kjøpe en eiendom?",
+					"options": {
+						"in_six_to_twelve_months": "6-12 måneder",
+						"in_three_months": "1-3 måneder",
+						"in_three_to_six_months": "3-6 måneder",
+						"more_than_year": "Over 1 år",
+						"unsure": "Usikker"
+					}
+				},
+				"why_buy": {
+					"label": "Hva er hovedårsaken til at du vil flytte utenlands?",
+					"options": {
+						"for_work": "Ønsker å jobbe i utlandet",
+						"holiday_home": "Ønsker som feriebolig",
+						"investment": "Som en investering",
+						"relocate": "Ønsker å flytte",
+						"to_retire": "Ønsker å pensjonere meg"
+					}
+				}
+			},
+			"intro": {
+				"later_button": "Jeg gjør det senere",
+				"next_button": "Fortell oss mer om flyttingen din"
+			},
+			"intro_guide": {
+				"subtitle": "Vi har sendt guiden på e-post til <span class=\"font-bold\">{{email}}</span>. <br /> Hvis du ikke ser den, kan du sjekke spam- eller søppelpostmappen din, eller <span class=\"font-bold\">vise guiden <a href=\"{{guidesURL}}\" class=\"underline\" target=\"_blank\" rel=\"noopener noreferrer\">her</a></span>",
+				"title": "Takk! Vi har sendt deg guiden"
+			},
+			"intro_newsletter": {
+				"subtitle": "Hver søndag får du en ukentlig e-post med de nyeste eiendommene vi tror du vil like. Sjekk e-posten din nå på søndag!",
+				"title": "Vi sender eiendomsvarsler til {{email}}"
+			},
+			"success": {
+				"cta": "Skjønner",
+				"subtitle": "Vi vil bruke dem til å sikre at vi kan anbefale eiendommer som har alt du trenger, slik at du er ett steg nærmere å finne solskinnet du er ute etter.",
+				"title": "Vi har lagret opplysningene dine"
+			}
+		},
+		"property_gallery": {
+			"image_alt": "{{propertyDescription}} - bilde {{number}}"
+		},
+		"property_types": {
+			"types": {
+				"town_houses": "Rekkehus",
+				"under_100k": "Under 100 000 €",
+				"under_150k": "Under 150 000 €",
+				"villas": "Villaer",
+				"with_pool": "Steder med svømmebasseng"
+			}
+		},
+		"recent_searches": {
+			"cta": {
+				"count": "{{count}} nye egenskaper",
+				"loading": "Laster...",
+				"no_count": "Se eiendommer"
+			},
+			"features": {
+				"disabled_access": "Tilgjengelig for funksjonshemmede",
+				"garage": "Garasje",
+				"garden": "Hage",
+				"lift": "Heis",
+				"near_beach": "Nær strand",
+				"near_golf": "Nær golf",
+				"near_shops": "I nærheten av butikker",
+				"near_transport": "Nær transport",
+				"new_build": "Kun nybygg",
+				"parking": "Parkering",
+				"pool": "Basseng",
+				"remote_viewing": "Online visning tilgjengelig",
+				"resale_only": "Kun videresalg",
+				"terrace": "Terrasse",
+				"video": "Med video",
+				"virtual_tour": "Med en virtuell omvisning"
+			},
+			"filter_ranges": {
+				"price": {
+					"max": "<{{max}}",
+					"min": "{{min}}+",
+					"min_max": "{{min}}-{{max}}",
+					"no_range": "Alle priser"
+				}
+			},
+			"payment_scheme": {
+				"for_sale": "Å kjøpe",
+				"to_rent": "Å leie"
+			},
+			"property_group": {
+				"apartment": "Leilighet",
+				"cave_house": "Grottehus",
+				"commercial_property": "Næringseiendom",
+				"country_house": "Herregård",
+				"garage": "Garasje",
+				"land": "Tomt",
+				"town_house": "Rekkehus",
+				"unknown": "Alle eiendomstyper",
+				"villa": "Villa",
+				"wooden_home": "Trehus/husvogn"
+			},
+			"title": "Nylige søk"
+		},
+		"ui": {
+			"close": "Lukk",
+			"close_menu": "Lukk meny",
+			"icons": {
+				"bathrooms": "Antall bad",
+				"bedrooms": "Antall soverom",
+				"build_size": "Bygningens størrelse",
+				"gallery_size": "Antall bilder"
+			},
+			"modals": {
+				"error": {
+					"accept": "Skjønner",
+					"subtitle": "Vi har problemer med å gjøre det du ba om. Problemet er på vår side, ikke din. Klikk på knappen for å prøve igjen, eller kom tilbake senere.",
+					"title": "Noe fungerer ikke som det skal"
+				}
+			},
+			"next": "Neste",
+			"open": "Åpne",
+			"open_menu": "Åpne meny",
+			"prev": "Forrige",
+			"retry": "Prøv igjen",
+			"select": "Velg"
+		},
+		"user_menu": {
+			"links": {
+				"account": "Konto",
+				"enquiries": "Forespørsler",
+				"favourites": "Favoritter",
+				"logout": "Logg ut",
+				"saved_searches": "Lagrede søk"
+			},
+			"message": "Hei, {{name}}",
+			"mobile_title": "Brukerkonto"
+		}
+	}
+}

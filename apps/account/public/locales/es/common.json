@@ -1,0 +1,253 @@
+{
+  "greeting": "Hello!",
+  "navigation": {
+    "dashboard": "Panel de control",
+    "properties": "Inmuebles",
+    "cart": "Su carrito"
+  },
+  "dashboard": {
+    "title": "Panel de control"
+  },
+  "cart": {
+    "title": "Su carrito",
+    "alert": "Las propiedades se retirarán de la cesta a medianoche, si no se han retirado",
+    "card": {
+      "title": "Carrito total",
+      "boosts": "El carrito contiene {{boosts}} Boosts",
+      "vat": "VAT incluido",
+      "totalPrice": "Total:"
+    },
+    "table": {
+      "name": "Nombre",
+      "location": "Ubicación",
+      "price": "Precio"
+    },
+    "list": {
+      "empty": {
+        "title": "Sin propiedades potenciadas en el carro",
+        "message": "Añadir propiedades al carrito",
+        "cta": "Ver todos los inmuebles"
+      }
+    }
+  },
+  "properties": {
+    "title": "Inmuebles",
+    "search": {
+      "placeholder": "Buscar inmuebles"
+    },
+    "filters": {
+      "title": "Propiedades del filtro"
+    },
+    "primeSwitch": {
+      "unavailableMessage": "Esta función no está implementada",
+      "label": "Interruptor Prime"
+    },
+    "list": {
+      "columns": {
+        "prime": "Prime",
+        "info": "Información sobre la propiedad",
+        "boostStatus": "Estado del impulso",
+        "createdAt": "Creado en",
+        "views": "Vistas",
+        "enquiries": "Información"
+      },
+      "empty": {
+        "title": "Sin propiedades",
+        "message": "Por favor, limite su búsqueda",
+        "cta": "Restablecer filtros"
+      }
+    },
+    "show": {
+      "photos": "Fotos ({{photos}})",
+      "propertyInfo": {
+        "title": "Información del inmueble",
+        "price": "Precio de venta",
+        "bedrooms": "Dormitorios",
+        "bathrooms": "Baños",
+        "buildSize": "Tamaño del edificio",
+        "plotSize": "Tamaño de la parcela"
+      },
+      "description": "Descripción",
+      "descriptionAlert": "Intente escribir unas 200 palabras para obtener consultas de mayor calidad.",
+      "photosAlert": "Las propiedades con más fotos se convierten mejor. Procure tener al menos 12.",
+      "keyFeatures": {
+        "title": "Características principales",
+        "pool": "Piscina privada",
+        "gate": "Complejo cerrado",
+        "parking": "Garaje doble",
+        "views": "Vistas a la montaña, al campo y a la piscina",
+        "airConditioning": "Aire acondicionado",
+        "golf": "Cerca del golf",
+        "town": "Cerca de la ciudad",
+        "furnished": "Amueblado",
+        "gardens": "Jardines de bajo mantenimiento",
+        "schools": "Cerca de las escuelas"
+      }
+    },
+    "boost": {
+      "title": "Propiedad de Boost",
+      "description": "Los inmuebles destacados aparecen en la parte superior de las páginas de resultados de búsqueda. Elige dónde quieres que aparezca tu propiedad promocionada y observa cómo llegan las consultas.",
+      "cta": "Más información sobre Boosts",
+      "form": {
+        "title": "¿En qué resultados de búsqueda quieres que aparezca tu impulso?",
+        "available": "Ya está disponible:",
+        "active": {
+          "title": "Ya activo",
+          "description": "Estos lugares ya están potenciados o en proceso"
+        },
+        "unavailable": {
+          "title": "Actualmente no disponible",
+          "description": "En estos lugares no hay plazas libres para Boost en este momento."
+        }
+      }
+    }
+  },
+  "primeBoosts": {
+    "priceForMonth": "{{priceFormatted}} / month",
+    "addToCart": {
+      "successFlash": {
+        "message": "Ha añadido una propiedad a su cesta",
+        "linkTo": "Pedido"
+      },
+      "errorFlash": {
+        "message": "Algo salió mal"
+      }
+    }
+  },
+  "ui": {
+    "sortBy": "Ordenar por",
+    "edit": "Editar",
+    "filter": "Filter",
+    "search": "Buscar en",
+    "close": "Cerrar",
+    "resetFilters": "Reiniciar filtros",
+    "popularityScore": {
+      "high": "Gran popularidad",
+      "mid": "Popularidad media",
+      "low": "Baja popularidad"
+    },
+    "badge": {
+      "live": "Vivir",
+      "incomplete": "Incompleto",
+      "hidden": "Escondido",
+      "enquiries": "{{enquiries}} nuevas solicitudes"
+    },
+    "boostStatus": {
+      "freemium": {
+        "title": "Hacer Prime",
+        "message": "Ir a kyero dashboard y hacer prime"
+      },
+      "pending": {
+        "title": "Procesado..."
+      },
+      "inCart": {
+        "title": "En carrito"
+      },
+      "boosted": {
+        "title": "Boosted!"
+      },
+      "boostable": {
+        "title": "Boost la propiedad"
+      },
+      "locationsUnavailable": {
+        "title": "Ubicación no disponible",
+        "message": "Los Boosts no están disponibles para las ubicaciones de esta propiedad"
+      },
+      "invalidStatus": {
+        "title": "Activar listado",
+        "message": "Por favor, active el listado para 'boost'"
+      }
+    },
+    "property": {
+      "view": "Ver propiedad",
+      "share": "Compartir propiedad"
+    },
+    "boost": {
+      "add": "Añadir al carro",
+      "cancel": "Cancelar"
+    },
+    "cart": {
+      "clear": "Claro",
+      "boostOrder": "Realizar pedido Boost",
+      "monthlyBoost": "Boost mensual",
+      "removeAlert": "¿Estás seguro de que quieres eliminar este boost de tu cesta?",
+      "clearAlert": "Are you sure you want to remove all boosts from your cart?",
+      "clearAction": {
+        "success": "Sucessfully removed all items from the cart",
+        "error": "Something went wrong. Try again or contact our support team support@kyero.com"
+      },
+      "removeAction": {
+        "success": "Sucessfully removed item from the cart",
+        "error": "Something went wrong. Try again or contact our support team support@kyero.com"
+      },
+      "checkoutAction": {
+        "success": "Se ha registrado correctamente",
+        "error": "Algo ha ido mal. Inténtelo de nuevo o póngase en contacto con nuestro equipo de asistencia support@kyero.com ",
+        "notFound": "Boost was not found"
+      }
+    }
+  },
+  "filters": {
+    "propertiesSort": {
+      "newest": "Lo más nuevo primero",
+      "oldest": "Los más antiguos primero",
+      "recent": "Actividad más reciente",
+      "expensive": "Lo más caro primero",
+      "cheapest": "Lo más barato primero",
+      "views": "Número de visitas",
+      "enquiries": "Número de consultas"
+    },
+    "listingType": {
+      "label": "Tipo de inmueble",
+      "options": {
+        "all": "Todos",
+        "prime": "Prime",
+        "free": "Free"
+      }
+    },
+    "boostStatus": {
+      "label": "Boost status",
+      "options": {
+        "any": "Alguno",
+        "anyBoost": "Boosted",
+        "noBoost": "No boosted",
+        "live": "Activo",
+        "pending": "Pendiente",
+        "inCart": "En el carrito"
+      }
+    },
+    "propertyStatus": {
+      "label": "Estado de la propiedad",
+      "options": {
+        "all": "Todos",
+        "live": "Vivo",
+        "incomplete": "Incompleto",
+        "hold": "En Espera"
+      }
+    },
+    "propertyTypes": {
+      "label": "Tipo de inmueble",
+      "options": {
+        "apartment": "Apartamento",
+        "villa": "Villa",
+        "townhouse": "Casa adosada",
+        "countryhouse": "Casa de campo",
+        "land": "Terreno",
+        "cave": "Casa cueva",
+        "garage": "Garage",
+        "commercial": "Local comercial",
+        "wooden": "Casa de madera/movil"
+      }
+    },
+    "bedrooms": {
+      "label": "Dormitorios"
+    }
+  },
+  "validation": {
+    "primeBoosts": {
+      "addToCart": {
+        "minLocationType": "Tiene que seleccionar al menos una ubicación"
+      }
+    }
+  }
+}

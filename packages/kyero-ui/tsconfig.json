@@ -1,0 +1,10 @@
+{
+  "extends": "@kyero/tsconfig/base",
+  "include": ["src", "__tests__"],
+  "exclude": ["dist", "node_modules", "*.spec.tsx"],
+  "compilerOptions": {
+    "lib": ["ES2015"],
+    "outDir": "dist",
+    "declaration": true
+  }
+}

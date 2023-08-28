@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Subscribe When form is filled shows validation errors 1`] = `
+<DocumentFragment>
+  <section
+    class="relative w-full"
+  >
+    <div
+      class="relative hidden w-full lg:block xl:-mb-[1px]"
+    >
+      <svg
+        fill="none"
+        viewBox="0 0 1440 48"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1440 0C714.542 82.8493 58.5527 36.1644 0 19.726V48H1440V0Z"
+          fill="#1f3b71"
+        />
+      </svg>
+    </div>
+    <div
+      class="relative block w-full lg:hidden"
+    >
+      <svg
+        fill="none"
+        viewBox="0 0 375 36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M375 0C208.5 47.9278 20.5 30.7683 0 27.2355V36H375V0Z"
+          fill="#1f3b71"
+        />
+      </svg>
+    </div>
+    <div
+      class="bg-[#1f3b71] px-4 pt-10 pb-2 md:px-0"
+    >
+      <div
+        class="flex justify-center text-white"
+      >
+        <div
+          class="lg:max-w-3xl"
+          data-testid="form-wrapper"
+        >
+          <h3
+            class="text-h-4-sm lg:text-h-4 mx-auto mb-4 text-center font-bold"
+          >
+            newsletter.title
+          </h3>
+          <form
+            data-testid="form"
+          >
+            <div
+              class="mx-auto mb-5 w-3/4 lg:grid lg:grid-cols-3 lg:gap-2"
+            >
+              <div
+                class="w-full lg:col-span-2 lg:mr-4"
+              >
+                <div>
+                  <input
+                    class="border-sierra-night-40 text-sierra-night-60 w-full rounded-md border p-2 pl-4"
+                    data-testid="email"
+                    name="email"
+                    placeholder="newsletter.email.placeholder"
+                    type="email"
+                  />
+                  <p
+                    class="px-2 error-tooltip"
+                    data-testid="email-error"
+                  >
+                    newsletter.email.format
+                  </p>
+                </div>
+              </div>
+              <input
+                name="hsLanguage"
+                type="hidden"
+                value="en"
+              />
+              <input
+                name="defaultNationContact"
+                type="hidden"
+                value="Spain"
+              />
+              <input
+                name="receiveMarketAnalysis"
+                type="hidden"
+                value="true"
+              />
+              <div
+                class="text-h-5-sm lg:text-h-5 mt-4 lg:mt-0 lg:grid-cols-1"
+              >
+                <button
+                  class="inline-block w-full rounded-full px-4 text-center font-bold text-white disabled:cursor-not-allowed bg-sky-100 border-sky-100 text-tile-100 hover:border-sky-150 hover:bg-sky-150 focus:border-sky-150 focus:bg-sky-150 border-1 py-2"
+                >
+                  ui.buttons.subscribe
+                </button>
+              </div>
+            </div>
+            <footer>
+              <div
+                class="text-center font-medium"
+              >
+                newsletter.footer.text
+                <a
+                  class="mx-1 underline"
+                  href="https://docs.kyero.com/en/privacy"
+                >
+                  newsletter.footer.privacy_policy
+                </a>
+                <span>
+                  &
+                </span>
+                <a
+                  class="ml-1 underline"
+                  href="https://docs.kyero.com/en/terms"
+                >
+                  newsletter.footer.terms
+                </a>
+              </div>
+            </footer>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative hidden w-full bg-white pb-4 lg:block"
+    >
+      <svg
+        fill="none"
+        viewBox="0 0 1440 40"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M1440 0C714.542 69.4187 58.5527 30.3018 0 16.5283V0H1440Z"
+          fill="#1f3b71"
+        />
+      </svg>
+    </div>
+    <div
+      class="relative block w-full bg-white pb-6 lg:hidden"
+    >
+      <svg
+        fill="none"
+        viewBox="0 0 375 32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M375 0C208.5 46.3198 20.5 29.736 0 26.3217V0H375Z"
+          fill="#1f3b71"
+        />
+      </svg>
+    </div>
+  </section>
+</DocumentFragment>
+`;

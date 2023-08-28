@@ -1,0 +1,16 @@
+node_modules
+
+.cache
+.env
+.output
+
+/build/
+/public/build
+/app/styles/app.css
+
+/cypress/screenshots
+/cypress/videos
+
+/test-results/
+/playwright-report/
+/playwright/.cache/

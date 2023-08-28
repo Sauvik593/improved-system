@@ -1,0 +1,26 @@
+FROM mcr.microsoft.com/playwright:v1.37.0-jammy
+
+ENV NODE_ENV development
+
+# add turborepo
+RUN npm install --global turbo
+
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+# Install app dependencies
+COPY  ["package-lock.json", "package.json", "./"]  /usr/src/app/
+
+# Copy source files
+COPY . /usr/src/app
+
+# Install app dependencies
+RUN npm install
+RUN npx playwright install
+
+# Ports
+# 3000 - account(remix) | frontend(remix) | join(nextjs)
+# 3100 - mock server
+# 3110 - mock server API
+# 80   - nginx
+EXPOSE 3000 3100 3110 80

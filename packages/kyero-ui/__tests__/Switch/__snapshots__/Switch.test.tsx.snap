@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Switch /> checked type should render correctly 1`] = `
+<button
+  aria-checked={false}
+  className="relative inline-flex h-7 w-11 items-center rounded-full bg-sierra-night-10 "
+  data-headlessui-state=""
+  id="headlessui-switch-:r1:"
+  onClick={[Function]}
+  onKeyPress={[Function]}
+  onKeyUp={[Function]}
+  role="switch"
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="sr-only"
+  >
+    Test
+  </span>
+  <span
+    className="relative inline-block h-5 w-5 transform rounded-full transition bg-sierra-night-20 translate-x-1"
+  >
+    <span
+      className="sr-only"
+    >
+      Test
+    </span>
+    <span
+      className="absolute left-0 flex h-full w-full items-center justify-center after:content[''] after:top-0 after:left-0 after:-right-0 after:bottom-0 after:block after:h-[16px] after:w-[16px] after:bg-[url('/images/check.svg')] after:bg-cover after:bg-no-repeat after:transition-all' after:scale-100'"
+    />
+  </span>
+</button>
+`;
+
+exports[`<Switch /> disabled should render correctly 1`] = `
+<button
+  aria-checked={false}
+  className="relative inline-flex h-7 w-11 items-center rounded-full bg-sierra-night-10 focus-within:outline-terracotta-100 cursor-not-allowed opacity-60"
+  data-headlessui-state=""
+  disabled={true}
+  id="headlessui-switch-:r2:"
+  role="switch"
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="sr-only"
+  >
+    Test
+  </span>
+  <span
+    className="relative inline-block h-5 w-5 transform rounded-full transition bg-sierra-night-20 translate-x-1"
+  >
+    <span
+      className="sr-only"
+    >
+      Test
+    </span>
+    <span
+      className="absolute left-0 flex h-full w-full items-center justify-center after:content[''] after:top-0 after:left-0 after:-right-0 after:bottom-0 after:block after:h-[16px] after:w-[16px] after:bg-[url('/images/check.svg')] after:bg-cover after:bg-no-repeat after:transition-all' after:scale-100'"
+    />
+  </span>
+</button>
+`;
+
+exports[`<Switch /> should render correctly 1`] = `
+<button
+  aria-checked={false}
+  className="relative inline-flex h-7 w-11 items-center rounded-full bg-sierra-night-10 "
+  data-headlessui-state=""
+  id="headlessui-switch-:r0:"
+  onClick={[Function]}
+  onKeyPress={[Function]}
+  onKeyUp={[Function]}
+  role="switch"
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="sr-only"
+  >
+    Test
+  </span>
+  <span
+    className="relative inline-block h-5 w-5 transform rounded-full transition bg-sierra-night-20 translate-x-1"
+  >
+    <span
+      className="sr-only"
+    >
+      Test
+    </span>
+    <span
+      className="absolute left-0 flex h-full w-full items-center justify-center after:content[''] after:top-0 after:left-0 after:-right-0 after:bottom-0 after:block after:h-[16px] after:w-[16px] after:bg-[url('/images/check.svg')] after:bg-cover after:bg-no-repeat after:transition-all' after:scale-100'"
+    />
+  </span>
+</button>
+`;

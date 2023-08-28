@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/gilroy-medium-webfont.woff2') format('woff2'),
+      url('/fonts/gilroy-medium-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: normal;
+    font-display: swap;
+    font-style: italic;
+    src: url('/fonts/gilroy-mediumitalic-webfont.woff2') format('woff2'),
+      url('/fonts/gilroy-mediumitalic-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-display: swap;
+    src: url('/fonts/gilroy-semibold-webfont.woff2') format('woff2'),
+      url('/fonts/gilroy-semibold-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-display: swap;
+    font-style: italic;
+    src: url('/fonts/gilroy-semibolditalic-webfont.woff2') format('woff2'),
+      url('/fonts/gilroy-semibolditalic-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-display: swap;
+    src: url('/fonts/gilroy-bold-webfont.woff2') format('woff2'),
+      url('/fonts/gilroy-bold-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-display: swap;
+    font-style: italic;
+    src: url('/fonts/gilroy-bolditalic-webfont.woff2') format('woff2'),
+      url('/fonts/gilroy-bolditalic-webfont.woff') format('woff');
+  }
+}
+
+.slider {
+  position: fixed;
+  width: 100%;
+  height: 3px;
+  overflow-x: hidden;
+  top: 0;
+  z-index: 10;
+  left: 0;
+}
+
+.line {
+  position: fixed;
+  opacity: 0.4;
+  background: #4a8df8;
+  width: 100%;
+  height: 3px;
+  top: 0;
+  left: 0;
+}
+
+.subline {
+  position: absolute;
+  background: #4a8df8;
+  height: 3px;
+}
+
+.inc {
+  animation: increase 2s infinite;
+}
+.dec {
+  animation: decrease 2s 0.5s infinite;
+}
+
+@keyframes increase {
+  from {
+    left: 0%;
+    width: 15%;
+  }
+  to {
+    left: 130%;
+    width: 100%;
+  }
+}
+@keyframes decrease {
+  from {
+    left: -70%;
+    width: 70%;
+  }
+  to {
+    left: 100%;
+    width: 20%;
+  }
+}

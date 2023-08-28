@@ -1,0 +1,22 @@
+.banner-wave-image {
+  background-size: 100% auto;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url('../public/images/home-page/hero-banner/banner-wave-mobile.svg');
+}
+
+@media screen and (min-width: 426px) {
+  .banner-wave-image {
+    background-image: url('../public/images/home-page/hero-banner/banner-wave.svg');
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .banner-wave-image {
+    background-position: 100% 115%;
+  }
+}
+
+.curved-hero {
+  clip-path: url(#curve);
+}

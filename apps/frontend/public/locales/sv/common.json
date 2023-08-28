@@ -1,0 +1,429 @@
+{
+	"common": {
+		"auth": {
+			"common": {
+				"form": {
+					"email": {
+						"label": "E-post",
+						"placeholder": "Ange e-postadress"
+					},
+					"first_name": {
+						"label": "Förnamn"
+					},
+					"last_name": {
+						"label": "Efternamn"
+					},
+					"newsletter": {
+						"label": "Anmäl dig för att få fastighetsrekommendationer, inspiration och tips om att flytta utomlands"
+					},
+					"password": {
+						"label": "Lösenord",
+						"placeholder": "Ange lösenord"
+					}
+				},
+				"or_email": "Eller per e-post"
+			},
+			"login": {
+				"aside": {
+					"copy": "Vi finns här för att hjälpa dig att hitta din drömfastighet",
+					"cta": "Anslut dig nu",
+					"subtitle": "Anslut dig till Kyero-familjen",
+					"title": "Ny här?"
+				},
+				"cta": "Logga in",
+				"forgot_password": "Glömt lösenordet?",
+				"switch_to_signup": "Inte ansluten till Kyero än?",
+				"title": "Välkommen tillbaka"
+			},
+			"login_button": "Logga in",
+			"oauth": {
+				"facebook": "Fortsätt med Facebook"
+			},
+			"signup": {
+				"cta": "Anslut dig till Kyero",
+				"disclaimer": "Genom att skapa ett konto du acceptera våra användarvillkor, Sekretesspolicy, samtycker till att cookies lagras på din enhet, och samtycker att vi kan kontakta dig med relevant information. Du kan avbryta prenumerationen eller begära ditt konto avaktiveras när som helst.",
+				"switch_to_login": "Redan en Kyero-medlem?",
+				"title": "Anslut dig till Kyero-familjen"
+			},
+			"signup_button": "Skapa konto"
+		},
+		"buyers_guide": {
+			"section": {
+				"form": {
+					"cta": "Skaffa guiden",
+					"email": "Din e-postadress",
+					"newsletter": "Anmäl dig för att få fastighetsrekommendationer, inspiration och tips om att flytta utomlands",
+					"privacy": "Din sekretess är viktig för oss <a href=\"{{privacy}}\" rel=\"noreferrer noopener\" target=\"_blank\" class=\"underline\">Läs får integritetspolicy och villkor</a>"
+				},
+				"subtitle": "Från information om hälsovård till juridiska överväganden, upptäck allt du behöver för att få lära dig allt du behöver kunna om att köpa en fastighet i {{countryName}}",
+				"title": "Ladda ner vår guide för att köpa i {{countryName}}"
+			}
+		},
+		"cookie_policy": {
+			"learn_more": "Läs mer",
+			"opt_in": "Godkänn",
+			"text": "Kyero använder data och cookies för att ge dig en bättre upplevelse, för att analysera trafik och kan användas för personlig och icke-personaliserad reklam"
+		},
+		"errors": {
+			"error_401": "401: Otillåten",
+			"error_403": "403: Ej tillåten",
+			"error_404": "404 Sidan hittades inte",
+			"error_500": "500: Serverfel",
+			"error_client": "Oväntat fel",
+			"links": {
+				"advertise_link": "Annonsera",
+				"for_rent_spain_link": "Fastighet uthyres i Spanien",
+				"for_sale_france_link": "Fastigheter till salu i Frankrike",
+				"for_sale_portugal_link": "Fastigheter till salu i Portugal",
+				"for_sale_spain_link": "Fastighet till salu i Spanien",
+				"helpful_links": "Här är några användbara länkar i stället:",
+				"homepage_link": "Startsida",
+				"support_link": "Hjälp & support"
+			},
+			"title": "Ojdå, något gick fel"
+		},
+		"footer": {
+			"bcorp": {
+				"copy": "Kyero finns här för att hjälpa dig till solskenet, genom att hjälpa dig att navigera under hela din resa, och ger dig inspirationen, informaitonen och verktygen du behöver för att ha kontroll.",
+				"cta": "Mer om Kyero"
+			},
+			"join_cta": "Annonsera med Kyero",
+			"links": {
+				"about_us": "Om oss",
+				"advertise": "Annonsera med Kyero",
+				"advice": "Råd till köpare",
+				"agent_directory": "Förteckning över fastighetsmäklare",
+				"contact_us": "Kontakta oss",
+				"cookie_preferences": "Inställningar för cookies",
+				"cookies": "Cookies",
+				"faq": "FAQs",
+				"france_search": "Fastighet i Frankrike",
+				"italy_search": "Fastighet i Italien",
+				"market_data": "Marknadsuppgifter",
+				"podcasts": "Boendet podcasts",
+				"portugal_search": "Fastighet i Portugal",
+				"privacy": "Sekretess",
+				"sitemap": "Webbplatskarta",
+				"spain_search": "Fastighet i Spanien",
+				"terms": "Villkor",
+				"work_with_us": "Jobba hos oss"
+			},
+			"sections": {
+				"find_property_title": "Hitta fastighet",
+				"for_agents": {
+					"cta": "Ta reda på hur Kyero kan hjälpa dig att sälja fler fastigheter",
+					"title": "För professionella"
+				},
+				"help_info_title": "Få hjälp",
+				"resources_title": "Resurser"
+			}
+		},
+		"form": {
+			"email": {
+				"invalid": "Ange en giltig e-postadress"
+			},
+			"required": "Detta fält är obligatoriskt",
+			"submitting": "Lämnar in..."
+		},
+		"homepage": {
+			"advice_section": {
+				"cta": "Se alla {{countryName}} guider och råd",
+				"fallback": {
+					"cta": "{{countryName}} broschyrer och råd",
+					"text": "Hitta ditt solsken med självförtroende. Vår sektion med broschyrer och råd, skrivna av våra experter, kommer att hjälpa dig att fatta rätt beslut."
+				},
+				"title": "Läs våra senaste guider"
+			},
+			"agents_section": {
+				"copy": "Vi arbetar med över 10 000 fastighetsmäklare över Europa. Hitta rätt fastighetsmäklare för att uppfylla dina önskemål och ta nästa steg i att hitta din drömfastighet",
+				"cta": "Hitta agenter i {{countryName}}",
+				"title": "Hitta rätt mäklare för dig"
+			},
+			"faq_section": {
+				"title": "Vanligt förekommande frågor om fastigheter i {{countryName}}"
+			},
+			"france": {
+				"meta": {
+					"description": "Hitta ditt drömhem i Frankrike på Kyero - den franska fastighetsportalen. Välj bland 200 000 fastigheter till salu och för uthyrning från ledande fastighetsmäklare på Kyero.com",
+					"title": "Fastigheter till salu och för uthyrning i Frankrike"
+				},
+				"subtitle": "200 000 fastigheter till salu och för uthyrning från fastighetsmäklare i Frankrike",
+				"title": "Hitta ditt drömhem i <span class=\"char-decor\">Frankrike</span>",
+				"top_locations": {
+					"title": "De populäraste regionerna i Frankrike"
+				}
+			},
+			"italy": {
+				"meta": {
+					"description": "Hitta ditt drömhem i Italien på Kyero - den italienska fastighetsportalen. Välj bland 45 000 fastigheter till salu och för uthyrning från ledande fastighetsmäklare på Kyero.com",
+					"title": "Fastigheter till salu och för uthyrning i Italien"
+				},
+				"subtitle": "45 000 fastigheter till salu och för uthyrning från fastighetsmäklare i Italien",
+				"title": "Hitta ditt drömhem i <span class=\"char-decor\">Italien</span>",
+				"top_locations": {
+					"title": "De populäraste regionerna i Italien"
+				}
+			},
+			"join_section": {
+				"copy": "Registrera dina fastigheter på vår marknadsledande portal för att presentera dem för miljoner av globala köpare",
+				"cta": "Läs mer",
+				"title": "Sälja fastigheter i {{countryName}}?"
+			},
+			"location_tree": {
+				"costas": "Kuster",
+				"islands": "Öar",
+				"provinces": "Provinser",
+				"regions": "Regioner",
+				"title": "Alla platser i{{location}}"
+			},
+			"neutral": {
+				"meta": {
+					"description": "Över 750 000 fastigheter till salu och för uthyrning i Spanien, Portugal, Frankrike och Italien",
+					"title": "Hitta ditt drömhem"
+				}
+			},
+			"portugal": {
+				"meta": {
+					"description": "Hitta ditt drömhem i Portugal på Kyero - den portugisiska fastighetsportalen. Välj bland 250,000 fastigheter till salu och för uthyrning från ledande fastighetsmäklare i Portugalpå Kyero.com",
+					"title": "Fastigheter till salu och för uthyrning i Portugal"
+				},
+				"subtitle": "250,000 fastigheter till salu och för uthyrning från fastighetsmäklare i Portugal",
+				"title": "Hitta ditt drömhem i <span class=\"char-decor\" data-char=\"l\">Portugal</span>",
+				"top_locations": {
+					"title": "De mest populära distrikten i Portugal"
+				}
+			},
+			"recommended_locations": {
+				"cta": "Visa egenskaper",
+				"error": {
+					"cta": "Bläddra bland alla {{country}}",
+					"message": "Något gick fel",
+					"title": "Ojdå"
+				},
+				"title": "Rekommenderade platser i {{country}}"
+			},
+			"searchbox": {
+				"browse_in": "Eller bläddra bland fastigheter i <a href=\"{{first_href}}\" class=\"underline\">{{first_location}}</a>, <a href=\"{{second_href}}\" class=\"underline\">{{second_location}}</a> eller <a href=\"{{third_href}}\" class=\"underline\">{{third_location}}</a>",
+				"clear_cta": "Rensa sökning",
+				"close_modal": "Stäng sökning",
+				"cta": "Söka",
+				"label": "Sök fastigheter för uthyrning eller försäljning eller hitta en mäklare",
+				"loading": "Laddar resultat...",
+				"min_chars": "Skriv minst 3 tecken...",
+				"mobile_title": "Söka",
+				"no_results": "Vi kunde inte hitta några resultat för <strong>{{search}}</strong><br />Försök att söka igen.",
+				"placeholder": "Sök efter region, provins eller stad",
+				"route": {
+					"agents": "Hitta mäklare",
+					"agents_mobile": "Mäklare",
+					"buy": "Fastigheter att köpa",
+					"buy_mobile": "Köpa",
+					"rent": "Fastigheter att hyra",
+					"rent_mobile": "Hyra"
+				},
+				"route_label": "Välj söktyp"
+			},
+			"spain": {
+				"meta": {
+					"description": "Hitta ditt drömhem i Spanien på Kyero - den spanska fastighetsportalen. Välj bland 450,000 fastigheter till salu och för uthyrning från ledande fastighetsmäklare i Spanien på Kyero.com",
+					"title": "Fastigheter till salu och för uthyrning i Spanien"
+				},
+				"subtitle": "450,000 fastigheter till salu och för uthyrning från fastighetsmäklare i Spanien",
+				"title": "Hitta ditt drömhem i <span class=\"char-decor\">Spanien</span>",
+				"top_locations": {
+					"title": "De populäraste regionerna i Spanien"
+				}
+			},
+			"testimonials_section": {
+				"title": "Kunder älskar Kyero"
+			},
+			"top_locations": {
+				"cta": "Sök alla områden",
+				"title": "De populäraste regionerna i {{country}}",
+				"view_properties": "{{count}} egenskaper"
+			},
+			"top_properties": {
+				"cta": "Se alla fastigheter",
+				"title": "De populäraste fastigheterna i {{country}}"
+			},
+			"top_property_types": {
+				"cta": "Se alla fastigheter",
+				"item_cta": "{{count}} fastigheter",
+				"title": "Populäraste fastighetstyperna"
+			}
+		},
+		"language_switcher": {
+			"title": "Välj ett språk"
+		},
+		"main_menu": {
+			"advice": "Guider",
+			"agents": "Mäklare",
+			"agents_in": "Mäklare i {{countryName}}",
+			"buy": "Köpa",
+			"buy_in_country": "Köpa i {{countryName}}",
+			"home": "Hem",
+			"rent": "Hyra",
+			"rent_in": "Hyra i {{countryName}}"
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		},
+		"newsletter": {
+			"section": {
+				"form": {
+					"cta": "Prenumerera",
+					"email": "Din e-postadress",
+					"privacy": "<a href=\"{{policy}}\" rel=\"noreferrer noopener\" target=\"_blank\" class=\"underline\">Läs får integritetspolicy och villkor</a>"
+				},
+				"title": "Få fastighetsrekommendationer, inspiration och tips om att flytta utomlands"
+			}
+		},
+		"personalisation_modal": {
+			"form": {
+				"cta": "Prenumerera",
+				"email": {
+					"label": "E-postadress"
+				},
+				"first_name": {
+					"label": "Förnamn"
+				},
+				"privacy": "<span>Genom att fortsätta accepterar du <a href='{{terms}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>våra villkor</a> och <a href='{{privacy}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>vår Sekretesspolicy.</a>. Du kan sluta ta emot e-post när som helst genom att avsluta prenumerationen längst ned i varje e-postmeddelande.</span>",
+				"subtitle": "Hjälp oss att hitta ditt solsken. Vi kommer inte att dela den här informationen med någon annan.",
+				"title": "Berätta mer om dig själv för oss",
+				"wants_to_buy_in": {
+					"label": "Hur snart avser du att köpa en fastighet?",
+					"options": {
+						"in_six_to_twelve_months": "6-12 månader",
+						"in_three_months": "1-3 månader",
+						"in_three_to_six_months": "3-6 månader",
+						"more_than_year": "Över 1 år",
+						"unsure": "Inte säker"
+					}
+				},
+				"why_buy": {
+					"label": "Vilken är huvudorsaken till att du vill flytta utomlands?",
+					"options": {
+						"for_work": "För arbete",
+						"holiday_home": "Som fritidshus",
+						"investment": "Som en investering",
+						"relocate": "För att flytta till ny ort",
+						"to_retire": "Att gå i pension"
+					}
+				}
+			},
+			"intro": {
+				"later_button": "Jag gör det senare",
+				"next_button": "Berätta mer om din flytt"
+			},
+			"intro_guide": {
+				"subtitle": "Vi skickade din guide till <span class=\"font-bold\">{{email}}</span>. <br /> Kontrollera din spam- eller skräppost, eller <span class=\"font-bold\">visa guiden <a href=\"{{guidesURL}}\" class=\"underline\" target=\"_blank\" rel=\"noopener noreferrer\">här</a></span>",
+				"title": "Tack! Vi har skickat guiden till dig"
+			},
+			"intro_newsletter": {
+				"subtitle": "Varje söndag kommer du regelbundet att få ett veckobrev med de senaste fastigheterna som vi tror att du älskar. Kolla efter ditt första meddelande, det kommer på söndag!",
+				"title": "Vi kommer att skicka föstighetslarm till {{email}}"
+			},
+			"success": {
+				"cta": "Jag förstår",
+				"subtitle": "Vi kommer att använda den för att säkerställa att vi rekommenderar fastigheter som täcker dina behov, så att du kommer ett steg närmre att hitta ditt solsken.",
+				"title": "Vi har sparat din information"
+			}
+		},
+		"property_gallery": {
+			"image_alt": "{{propertyDescription}} - foto {{number}}"
+		},
+		"property_types": {
+			"types": {
+				"town_houses": "Radhus",
+				"under_100k": "Under 100 000 €",
+				"under_150k": "Under 150 000 €",
+				"villas": "Villor",
+				"with_pool": "Platser med pooler"
+			}
+		},
+		"recent_searches": {
+			"cta": {
+				"count": "{{count}} nya egenskaper",
+				"loading": "Laddar...",
+				"no_count": "Visa egenskaper"
+			},
+			"features": {
+				"disabled_access": "Inaktiverad åtkomst",
+				"garage": "Garage",
+				"garden": "Trädgård",
+				"lift": "Lift",
+				"near_beach": "Nära stranden",
+				"near_golf": "Nära golf",
+				"near_shops": "Nära butiker",
+				"near_transport": "Nära transport",
+				"new_build": "Endast nybygge",
+				"parking": "Parkering",
+				"pool": "Pool",
+				"remote_viewing": "Online-visning tillgänglig",
+				"resale_only": "Endast återförsäljning",
+				"terrace": "Terrass",
+				"video": "Med video",
+				"virtual_tour": "Med virtuell rundtur"
+			},
+			"filter_ranges": {
+				"price": {
+					"max": "<{{max}}",
+					"min": "{{min}}+",
+					"min_max": "{{min}}-{{max}}",
+					"no_range": "Alla priser"
+				}
+			},
+			"payment_scheme": {
+				"for_sale": "Köpa",
+				"to_rent": "Hyra"
+			},
+			"property_group": {
+				"apartment": "Lägenhet",
+				"cave_house": "Grotthus",
+				"commercial_property": "Kommersiell fastighet",
+				"country_house": "Hus på landet",
+				"garage": "Garage",
+				"land": "Tomt",
+				"town_house": "Radhus",
+				"unknown": "Alla fastighetstyper",
+				"villa": "Villa",
+				"wooden_home": "Trä-/mobilt hus"
+			},
+			"title": "Senaste sökningar"
+		},
+		"ui": {
+			"close": "Stäng",
+			"close_menu": "Stäng meny",
+			"icons": {
+				"bathrooms": "Antal badrum",
+				"bedrooms": "Antal sovrum",
+				"build_size": "Byggnadsstorlek",
+				"gallery_size": "Antal bilder"
+			},
+			"modals": {
+				"error": {
+					"accept": "Jag förstår",
+					"subtitle": "Vi har bekymmer med att göra det du frågade om. Problemet är på vår sida och inte din. Vänligen klicka på knappen för att försöka igen, eller återkom vid ett senare tillfälle.",
+					"title": "Något fungerar inte som det ska"
+				}
+			},
+			"next": "Nästa",
+			"open": "Öppna",
+			"open_menu": "Öppna meny",
+			"prev": "Föregående",
+			"retry": "Försök igen",
+			"select": "Välj"
+		},
+		"user_menu": {
+			"links": {
+				"account": "Konto",
+				"enquiries": "Förfrågningar",
+				"favourites": "Favoriter",
+				"logout": "Logga ut",
+				"saved_searches": "Sparade sökningar"
+			},
+			"message": "Hej, {{name}}",
+			"mobile_title": "Användarkonto"
+		}
+	}
+}

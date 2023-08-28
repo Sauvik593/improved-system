@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Badge /> Gray Variant should render correctly 1`] = `
+<span
+  className="text-p-3 inline-flex items-center rounded-2xl p-1 px-2 text-white bg-sierra-night-40"
+>
+  Test Message
+</span>
+`;
+
+exports[`<Badge /> Orange Variant should render correctly 1`] = `
+<span
+  className="text-p-3 inline-flex items-center rounded-2xl p-1 px-2 text-white bg-orange-100"
+>
+  Test Message
+</span>
+`;
+
+exports[`<Badge /> should render correctly 1`] = `
+<span
+  className="text-p-3 inline-flex items-center rounded-2xl p-1 px-2 text-white bg-meadow-100"
+>
+  Test Message
+</span>
+`;
+
+exports[`<Badge /> with indicator should render correctly 1`] = `
+<span
+  className="text-p-3 inline-flex items-center rounded-2xl p-1 px-2 text-white bg-orange-100"
+>
+  <span
+    className="mr-2 block h-2 w-2 animate-pulse rounded-full bg-white"
+  />
+  Test Message
+</span>
+`;

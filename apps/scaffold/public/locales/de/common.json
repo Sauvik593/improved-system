@@ -1,0 +1,17 @@
+{
+	"common": {
+		"homepage": {
+			"meta": {
+				"description": {
+					"neutral": "Über 750.000 Immobilien zum Verkauf und zur Miete in Spanien, Portugal, Frankreich und Italien"
+				},
+				"title": {
+					"neutral": "Finden Sie Ihr Traumhaus"
+				}
+			}
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		}
+	}
+}

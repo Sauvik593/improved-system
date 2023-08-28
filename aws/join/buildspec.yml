@@ -1,0 +1,38 @@
+version: 0.2
+env:
+  shell: bash
+  variables:
+    #### below variables are defined in AWS codebuild service
+    ### REPOSITORY_URI is nothing but ECR Repository uri, SERVICE is nothing but application name, ENV is nothing but type of environment
+    ECR_URL: $ECR_URL
+    REPOSITORY_URI: $REPOSITORY_URI
+    SERVICE: $SERVICE
+    DOCKER_BUILDKIT: $DOCKER_BUILDKIT
+    ENV: $ENV
+  secrets-manager:
+    GITHUB_AUTH_TOKEN: 'auth-tokens:GITHUB_AUTH_TOKEN'
+phases:
+  pre_build:
+    commands:
+      #### Below AWS command is using for login into AWS ECR service
+      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username AWS --password-stdin $ECR_URL
+  build:
+    commands:
+      ### building docker image
+      - docker image build  -f aws/join/Dockerfile -t $REPOSITORY_URI:$ENV-$CODEBUILD_BUILD_NUMBER --build-arg STRAPI_TOKEN_CD=$STRAPI_TOKEN --build-arg NEXT_PUBLIC_STRAPI_API_URL_CD=$NEXT_PUBLIC_STRAPI_API_URL --build-arg NEXT_PUBLIC_STRAPI_MEDIA_URL_CD=$NEXT_PUBLIC_STRAPI_MEDIA_URL --build-arg NEXT_PUBLIC_IMAGE_RESIZER_URL_CD=$NEXT_PUBLIC_IMAGE_RESIZER_URL --build-arg NEXT_PUBLIC_BASE_URL_CD=$NEXT_PUBLIC_BASE_URL  .
+      - docker tag $REPOSITORY_URI:$ENV-$CODEBUILD_BUILD_NUMBER $REPOSITORY_URI:latest
+      ### Updating imagedefinitions.json Script, imagedefinitions.json file using for deploying updated docker image to AWS ECS service
+      - echo updating imagedefinitions.json Script using sed command
+      - sed -i s/ENV/$ENV/g aws/join/imagedefinitions.json
+      - sed -i s/SERVICE/$SERVICE/g aws/join/imagedefinitions.json
+      - sed -i "s#REPOSITORY_URI#$REPOSITORY_URI#g" aws/join/imagedefinitions.json
+      - sed -i s/CODEBUILD_BUILD_NUMBER/$CODEBUILD_BUILD_NUMBER/g aws/join/imagedefinitions.json
+      - cat aws/join/imagedefinitions.json
+  post_build:
+    commands:
+      ### pushing docker images to AWS ECR
+      - docker push $REPOSITORY_URI:$ENV-$CODEBUILD_BUILD_NUMBER
+      - docker push $REPOSITORY_URI:latest
+artifacts:
+  files:
+    - 'aws/join/imagedefinitions.json'

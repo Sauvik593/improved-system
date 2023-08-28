@@ -1,0 +1,449 @@
+// Vitest Snapshot v1
+
+exports[`CountryLinks > #getDynamicLinks > generates correct locale for france 1`] = `
+[
+  {
+    "href": "http://new-frontend.kyero.test/en/france",
+    "hrefLang": "en",
+    "rel": "canonical",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/ca/fran%C3%A7a",
+    "hrefLang": "ca",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/da/frankrig",
+    "hrefLang": "da",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/de/frankreich",
+    "hrefLang": "de",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/en/france",
+    "hrefLang": "en",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/es/francia",
+    "hrefLang": "es",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/fi/ranska",
+    "hrefLang": "fi",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/fr/france",
+    "hrefLang": "fr",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/it/francia",
+    "hrefLang": "it",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/nl/frankrijk",
+    "hrefLang": "nl",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/no/frankrike",
+    "hrefLang": "no",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/pt/franca",
+    "hrefLang": "pt",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/ru/%D1%84%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F",
+    "hrefLang": "ru",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/sv/frankrike",
+    "hrefLang": "sv",
+    "rel": "alternate",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/france/home-mobile.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/france/home-mobile@2x.webp 2x",
+    "media": "(max-width: 799px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/france/home-tablet.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/france/home-tablet@2x.webp 2x",
+    "media": "(min-width: 799.1px) and (max-width: 1279px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/france/home-md.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/france/home-md@2x.webp 2x",
+    "media": "(min-width: 1279.1px) and (max-width: 1400px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/france/home-hi.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/france/home-hi@2x.webp 2x",
+    "media": "(min-width: 1400.1px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/en/france",
+    "hrefLang": "x-default",
+    "rel": "alternate",
+  },
+]
+`;
+
+exports[`CountryLinks > #getDynamicLinks > generates correct locale for italy 1`] = `
+[
+  {
+    "href": "http://new-frontend.kyero.test/en/italy",
+    "hrefLang": "en",
+    "rel": "canonical",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/ca/it%C3%A0lia",
+    "hrefLang": "ca",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/da/italien",
+    "hrefLang": "da",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/de/italien",
+    "hrefLang": "de",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/en/italy",
+    "hrefLang": "en",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/es/italia",
+    "hrefLang": "es",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/fi/italia",
+    "hrefLang": "fi",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/fr/italie",
+    "hrefLang": "fr",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/it/italia",
+    "hrefLang": "it",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/nl/itali%C3%AB",
+    "hrefLang": "nl",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/no/italia",
+    "hrefLang": "no",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/pt/it%C3%A1lia",
+    "hrefLang": "pt",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/ru/%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D1%8F",
+    "hrefLang": "ru",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/sv/italien",
+    "hrefLang": "sv",
+    "rel": "alternate",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/italy/home-mobile.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/italy/home-mobile@2x.webp 2x",
+    "media": "(max-width: 799px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/italy/home-tablet.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/italy/home-tablet@2x.webp 2x",
+    "media": "(min-width: 799.1px) and (max-width: 1279px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/italy/home-md.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/italy/home-md@2x.webp 2x",
+    "media": "(min-width: 1279.1px) and (max-width: 1400px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/italy/home-hi.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/italy/home-hi@2x.webp 2x",
+    "media": "(min-width: 1400.1px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/en/italy",
+    "hrefLang": "x-default",
+    "rel": "alternate",
+  },
+]
+`;
+
+exports[`CountryLinks > #getDynamicLinks > generates correct locale for portugal 1`] = `
+[
+  {
+    "href": "http://new-frontend.kyero.test/en/portugal",
+    "hrefLang": "en",
+    "rel": "canonical",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/ca/portugal",
+    "hrefLang": "ca",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/da/portugal",
+    "hrefLang": "da",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/de/portugal",
+    "hrefLang": "de",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/en/portugal",
+    "hrefLang": "en",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/es/portugal",
+    "hrefLang": "es",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/fi/portugali",
+    "hrefLang": "fi",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/fr/portugal",
+    "hrefLang": "fr",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/it/portogallo",
+    "hrefLang": "it",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/nl/portugal",
+    "hrefLang": "nl",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/no/portugal",
+    "hrefLang": "no",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/pt/portugal",
+    "hrefLang": "pt",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/ru/%D0%BF%D0%BE%D1%80%D1%82%D1%83%D0%B3%D0%B0%D0%BB%D0%B8%D1%8F",
+    "hrefLang": "ru",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/sv/portugal",
+    "hrefLang": "sv",
+    "rel": "alternate",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/portugal/home-mobile.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/portugal/home-mobile@2x.webp 2x",
+    "media": "(max-width: 799px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/portugal/home-tablet.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/portugal/home-tablet@2x.webp 2x",
+    "media": "(min-width: 799.1px) and (max-width: 1279px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/portugal/home-md.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/portugal/home-md@2x.webp 2x",
+    "media": "(min-width: 1279.1px) and (max-width: 1400px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/portugal/home-hi.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/portugal/home-hi@2x.webp 2x",
+    "media": "(min-width: 1400.1px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/en/portugal",
+    "hrefLang": "x-default",
+    "rel": "alternate",
+  },
+]
+`;
+
+exports[`CountryLinks > #getDynamicLinks > generates correct locale for spain 1`] = `
+[
+  {
+    "href": "http://new-frontend.kyero.test",
+    "hrefLang": "en",
+    "rel": "canonical",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/ca",
+    "hrefLang": "ca",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/da",
+    "hrefLang": "da",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/de",
+    "hrefLang": "de",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test",
+    "hrefLang": "en",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/es",
+    "hrefLang": "es",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/fi",
+    "hrefLang": "fi",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/fr",
+    "hrefLang": "fr",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/it",
+    "hrefLang": "it",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/nl",
+    "hrefLang": "nl",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/no",
+    "hrefLang": "no",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/pt",
+    "hrefLang": "pt",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/ru",
+    "hrefLang": "ru",
+    "rel": "alternate",
+  },
+  {
+    "href": "http://new-frontend.kyero.test/sv",
+    "hrefLang": "sv",
+    "rel": "alternate",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/spain/home-mobile.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/spain/home-mobile@2x.webp 2x",
+    "media": "(max-width: 799px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/spain/home-tablet.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/spain/home-tablet@2x.webp 2x",
+    "media": "(min-width: 799.1px) and (max-width: 1279px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/spain/home-md.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/spain/home-md@2x.webp 2x",
+    "media": "(min-width: 1279.1px) and (max-width: 1400px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "as": "image",
+    "href": "/new-frontend-assets/images/homepage/v1/spain/home-hi.webp",
+    "imageSrcSet": "/new-frontend-assets/images/homepage/v1/spain/home-hi@2x.webp 2x",
+    "media": "(min-width: 1400.1px)",
+    "rel": "preload",
+    "type": "image/webp",
+  },
+  {
+    "href": "http://new-frontend.kyero.test",
+    "hrefLang": "x-default",
+    "rel": "alternate",
+  },
+]
+`;

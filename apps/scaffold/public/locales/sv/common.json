@@ -1,0 +1,17 @@
+{
+	"common": {
+		"homepage": {
+			"meta": {
+				"description": {
+					"neutral": "Över 750 000 fastigheter till salu och uthyrning i Spanien, Portugal, Frankrike och Italien."
+				},
+				"title": {
+					"neutral": "Hitta ditt drömhus"
+				}
+			}
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		}
+	}
+}

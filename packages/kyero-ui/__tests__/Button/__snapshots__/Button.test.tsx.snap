@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> anchor link should render correctly 1`] = `
+<a
+  className="inline-block font-bold px-4 rounded-full text-center bg-ocean-100 text-white border-ocean-100 hover:border-ocean-120 hover:bg-ocean-120 focus:border-ocean-120 focus:bg-ocean-120 disabled:bg-ocean-40 disabled:border-ocean-40 disabled:cursor-not-allowed py-2 border-1"
+  data-testid="dummy-link"
+  href="/testing"
+>
+  Test
+</a>
+`;
+
+exports[`<Button /> big size should render correctly 1`] = `
+<button
+  className="inline-block font-bold px-4 rounded-full text-center bg-ocean-100 text-white border-ocean-100 hover:border-ocean-120 hover:bg-ocean-120 focus:border-ocean-120 focus:bg-ocean-120 disabled:bg-ocean-40 disabled:border-ocean-40 disabled:cursor-not-allowed py-3 border-2"
+  disabled={false}
+  type="button"
+>
+  Test
+</button>
+`;
+
+exports[`<Button /> clickable should render correctly 1`] = `
+<button
+  className="inline-block font-bold px-4 rounded-full text-center bg-ocean-100 text-white border-ocean-100 hover:border-ocean-120 hover:bg-ocean-120 focus:border-ocean-120 focus:bg-ocean-120 disabled:bg-ocean-40 disabled:border-ocean-40 disabled:cursor-not-allowed py-2 border-1"
+  disabled={false}
+  onClick={[MockFunction]}
+  type="button"
+>
+  Test
+</button>
+`;
+
+exports[`<Button /> green type should render correctly 1`] = `
+<button
+  className="inline-block font-bold px-4 rounded-full text-center bg-meadow-100 text-white hover:border-meadow-120 hover:bg-meadow-120 focus:border-meadow-120 focus:bg-meadow-120 py-2 border-1"
+  disabled={false}
+  type="button"
+>
+  Test
+</button>
+`;
+
+exports[`<Button /> orange type should render correctly 1`] = `
+<button
+  className="inline-block font-bold px-4 rounded-full text-center bg-orange-100 text-white hover:border-orange-120 hover:bg-orange-120 focus:border-orange-120 focus:bg-orange-120 py-2 border-1"
+  disabled={false}
+  type="button"
+>
+  Test
+</button>
+`;
+
+exports[`<Button /> outline variant should render correctly 1`] = `
+<button
+  className="inline-block font-bold px-4 rounded-full text-center text-ocean-100 hover:border-ocean-120 hover:text-ocean-120 focus:border-ocean-120 focus:text-ocean-120 py-2 border-1"
+  disabled={false}
+  type="button"
+>
+  Test
+</button>
+`;
+
+exports[`<Button /> should render correctly 1`] = `
+<button
+  className="inline-block font-bold px-4 rounded-full text-center bg-ocean-100 text-white border-ocean-100 hover:border-ocean-120 hover:bg-ocean-120 focus:border-ocean-120 focus:bg-ocean-120 disabled:bg-ocean-40 disabled:border-ocean-40 disabled:cursor-not-allowed py-2 border-1"
+  disabled={false}
+  type="button"
+>
+  Test
+</button>
+`;
+
+exports[`<Button /> sunshine type should render correctly 1`] = `
+<button
+  className="inline-block font-bold px-4 rounded-full text-center bg-sunshine-100 border-sunshine-100 text-sierra-night-100 hover:border-sunshine-150 hover:bg-sunshine-150 focus:border-sunshine-150 focus:bg-sunshine-150 py-2 border-1"
+  disabled={false}
+  type="button"
+>
+  Test
+</button>
+`;

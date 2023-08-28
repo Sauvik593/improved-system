@@ -1,0 +1,429 @@
+{
+	"common": {
+		"auth": {
+			"common": {
+				"form": {
+					"email": {
+						"label": "E-mail",
+						"placeholder": "E-mailadres invoeren"
+					},
+					"first_name": {
+						"label": "Voornaam"
+					},
+					"last_name": {
+						"label": "Achternaam"
+					},
+					"newsletter": {
+						"label": "Meld u aan om aanbevelingen, suggesties en tips te ontvangen over verhuizen naar het buitenland"
+					},
+					"password": {
+						"label": "Wachtwoord",
+						"placeholder": "Voer wachtwoord in"
+					}
+				},
+				"or_email": "Of met e-mail"
+			},
+			"login": {
+				"aside": {
+					"copy": "Wij zijn er om u te helpen uw droomhuis te vinden",
+					"cta": "Meld u nu aan",
+					"subtitle": "Word lid van de Kyero-familie",
+					"title": "Nieuw hier?"
+				},
+				"cta": "Inloggen",
+				"forgot_password": "Wachtwoord vergeten?",
+				"switch_to_signup": "Nog geen lid van Kyero?",
+				"title": "Welkom terug"
+			},
+			"login_button": "Aanmelden",
+			"oauth": {
+				"facebook": "Doorgaan met Facebook"
+			},
+			"signup": {
+				"cta": "Word lid van Kyero",
+				"disclaimer": "Door een account aan te maken, accepteert u onze gebruiksvoorwaarden, privacybeleid, toestemming voor het opslaan van cookies op uw apparaat en gaat u ermee akkoord dat we contact met u kunnen opnemen met relevante informatie. U kunt zich op elk gewenst moment afmelden of verzoeken dat uw account wordt gedeactiveerd.",
+				"switch_to_login": "Bent u al lid van Kyero?",
+				"title": "Word lid van de Kyero-familie"
+			},
+			"signup_button": "Inschrijven"
+		},
+		"buyers_guide": {
+			"section": {
+				"form": {
+					"cta": "Download de gids",
+					"email": "Uw e-mailadres",
+					"newsletter": "Meld u aan om aanbevelingen, suggesties en tips te ontvangen over verhuizen naar het buitenland",
+					"privacy": "Uw privacy is belangrijk voor ons <a href='{{privacy}}' rel='noreferrer noopener' target='_blank' class='underline'>Lees ons privacybeleid en voorwaarden</a>"
+				},
+				"subtitle": "Van informatie over gezondheidszorg tot juridische aspecten - ontdek alles wat u moet weten over het kopen van een huis in {{countryName}}",
+				"title": "Download onze gids voor het kopen in {{countryName}}"
+			}
+		},
+		"cookie_policy": {
+			"learn_more": "Lees meer",
+			"opt_in": "Aanvaard",
+			"text": "Kyero gebruikt gegevens en cookies om u een betere ervaring te bieden, om verkeer te analyseren, en kan worden gebruikt voor gepersonaliseerde en niet-gepersonaliseerde advertenties"
+		},
+		"errors": {
+			"error_401": "401: Niet geautoriseerd",
+			"error_403": "403: Niet toegestaan",
+			"error_404": "404 Pagina niet gevonden",
+			"error_500": "500: Serverfout",
+			"error_client": "Onverwachte fout",
+			"links": {
+				"advertise_link": "Adverteren",
+				"for_rent_spain_link": "Onroerend goed te huur in Spanje",
+				"for_sale_france_link": "Onroerend goed te koop in Frankrijk",
+				"for_sale_portugal_link": "Onroerend goed te koop in Portugal",
+				"for_sale_spain_link": "Vastgoed te koop in Spanje",
+				"helpful_links": "In plaats daarvan zijn hier enkele nuttige links:",
+				"homepage_link": "Startpagina",
+				"support_link": "Help en ondersteuning"
+			},
+			"title": "Oeps, er ging iets mis"
+		},
+		"footer": {
+			"bcorp": {
+				"copy": "Kyero wil u helpen uw zonneschijn te vinden door u tijdens uw reis te begeleiden en u de inspiratie, informatie en hulpmiddelen te geven die u nodig hebt.",
+				"cta": "Meer over Kyero"
+			},
+			"join_cta": "Adverteren met Kyero",
+			"links": {
+				"about_us": "Informatie",
+				"advertise": "Adverteren op Kyero",
+				"advice": "Advies voor kopers",
+				"agent_directory": "Makelaarsgids",
+				"contact_us": "Neem contact met ons op",
+				"cookie_preferences": "Cookie-voorkeuren",
+				"cookies": "Cookies",
+				"faq": "Veelgestelde vragen",
+				"france_search": "Frankrijk onroerend goed",
+				"italy_search": "Italië onroerend goed",
+				"market_data": "Marktgegevens",
+				"podcasts": "Onroerend goed Podcasts",
+				"portugal_search": "Portugal onroerend goed",
+				"privacy": "Privacy",
+				"sitemap": "Site-overzicht",
+				"spain_search": "Spanje onroerend goed",
+				"terms": "Voorwaarde",
+				"work_with_us": "Werk met ons samen"
+			},
+			"sections": {
+				"find_property_title": "Zoek woning",
+				"for_agents": {
+					"cta": "Ontdek hoe Kyero u kan helpen meer woningen te verkopen",
+					"title": "Voor makelaars"
+				},
+				"help_info_title": "Hulp & Info",
+				"resources_title": "Hulpbronnen"
+			}
+		},
+		"form": {
+			"email": {
+				"invalid": "Geef een geldig e-mailadres op"
+			},
+			"required": "Dit veld is verplicht",
+			"submitting": "Versturen..."
+		},
+		"homepage": {
+			"advice_section": {
+				"cta": "Bekijk alle {{countryName}} gidsen & advies",
+				"fallback": {
+					"cta": "Hulp en advies voor {{countryName}}",
+					"text": "Vind je plek onder de zon met vertrouwen. Onze hulp- en adviessectie, geschreven door experts, zal je helpen de juiste beslissingen te nemen."
+				},
+				"title": "Lees onze nieuwste handleidingen"
+			},
+			"agents_section": {
+				"copy": "Wij werken samen met meer dan 10.000 makelaars in heel Europa. Vind de juiste makelaar voor u en zet de volgende stap naar uw droomhuis",
+				"cta": "Agenten zoeken in {{countryName}}",
+				"title": "Vind de juiste makelaar voor u"
+			},
+			"faq_section": {
+				"title": "Veelgestelde vragen over onroerend goed in {{countryName}}"
+			},
+			"france": {
+				"meta": {
+					"description": "Vind uw droomhuis in Frankrijk op Kyero - het Franse vastgoedportaal. Kies uit meer dan 200.000 buitenlandse woningen te koop en te huur van toonaangevende makelaars op Kyero.com.",
+					"title": "Onroerend goed te koop en te huur in Frankrijk"
+				},
+				"subtitle": "200.000 woningen te koop en te huur van makelaars in Frankrijk",
+				"title": "Vind uw droomhuis in <span class=\"char-decor\" data-char=\"k\">Frankrijk</span>",
+				"top_locations": {
+					"title": "Topregio's in Frankrijk"
+				}
+			},
+			"italy": {
+				"meta": {
+					"description": "Vind uw droomhuis in Italië op Kyero - het Italiaanse vastgoedportaal. Kies uit 45.000 buitenlandse woningen te koop en te huur van toonaangevende makelaars op Kyero.com",
+					"title": "Onroerend goed te koop in Italië"
+				},
+				"subtitle": "45.000 woningen te koop en te huur van makelaars in Italië",
+				"title": "Vind uw droomhuis in <span class=\"char-decor\">Italië</span>",
+				"top_locations": {
+					"title": "Topregio's in Italië"
+				}
+			},
+			"join_section": {
+				"copy": "Publiceer uw eigendommen op ons toonaangevende portaal om ze toegankelijk te maken voor miljoenen kopers wereldwijd.",
+				"cta": "Meer informatie",
+				"title": "Onroerend goed verkopen in {{countryName}}?"
+			},
+			"location_tree": {
+				"costas": "Costa's",
+				"islands": "Eilanden",
+				"provinces": "Provincies",
+				"regions": "Regio's",
+				"title": "Alle locaties in {{location}}"
+			},
+			"neutral": {
+				"meta": {
+					"description": "Meer dan 750.000 woningen te koop en huur in Spanje, Portugal, Frankrijk en Italië",
+					"title": "Vind uw droomhuis"
+				}
+			},
+			"portugal": {
+				"meta": {
+					"description": "Vind uw droomhuis in Portugal op Kyero - het Portugese vastgoedportaal. Kies uit meer dan 250.000 woningen te koop en te huur van toonaangevende makelaars in Portugal.",
+					"title": "Onroerend goed te koop en te huur in Portugal"
+				},
+				"subtitle": "250.000 woningen te koop en te huur van makelaars in Portugal",
+				"title": "Vind uw droomhuis in <span class=\"char-decor\" data-char=\"l\">Portugal</span>",
+				"top_locations": {
+					"title": "Topdistricten in Portugal"
+				}
+			},
+			"recommended_locations": {
+				"cta": "Vastgoed bekijken",
+				"error": {
+					"cta": "Blader door alle {{country}}",
+					"message": "Er is iets misgegaan",
+					"title": "Oeps"
+				},
+				"title": "Aanbevolen plaatsen in {{country}}"
+			},
+			"searchbox": {
+				"browse_in": "Of zoek een woning in <a href=\"{{first_href}}\" class=\"underline\">{{first_location}}</a>, <a href=\"{{second_href}}\" class=\"underline\">{{second_location}}</a> of <a href=\"{{third_href}}\" class=\"underline\">{{third_location}}</a>",
+				"clear_cta": "Zoekopdracht wissen",
+				"close_modal": "Zoekopdracht sluiten",
+				"cta": "Zoeken",
+				"label": "Zoek woningen te huur of te koop of vind een makelaar",
+				"loading": "Resultaten worden geladen...",
+				"min_chars": "Typ minimaal 3 tekens...",
+				"mobile_title": "Zoeken",
+				"no_results": "We hebben geen resultaten gevonden voor <strong>{{search}}</strong><br /> Probeer opnieuw te zoeken.",
+				"placeholder": "Zoek op regio, provincie of stad",
+				"route": {
+					"agents": "Zoek een makelaar",
+					"agents_mobile": "Makelaars",
+					"buy": "Woningen te koop",
+					"buy_mobile": "Kopen",
+					"rent": "Woningen te huur",
+					"rent_mobile": "Huur"
+				},
+				"route_label": "Selecteer zoektype"
+			},
+			"spain": {
+				"meta": {
+					"description": "Vind uw droomhuis in Spanje op Kyero - het Spaanse onroerend goed portaal. Kies uit 450.000 woningen te koop en te huur van toonaangevende makelaars in Spanje.",
+					"title": "Onroerend goed te koop en te huur in Spanje"
+				},
+				"subtitle": "450.000 woningen te koop en te huur van makelaars in Spanje.",
+				"title": "Vind uw droomhuis in <span class=\"char-decor\">Spanje</span>",
+				"top_locations": {
+					"title": "Topregio's in Spanje"
+				}
+			},
+			"testimonials_section": {
+				"title": "Klanten houden van Kyero"
+			},
+			"top_locations": {
+				"cta": "Zoek in alle gebieden",
+				"title": "Topregio's in {{country}}",
+				"view_properties": "{{count}} eigendommen"
+			},
+			"top_properties": {
+				"cta": "Alle eigendommen weergeven",
+				"title": "Top eigendommen in {{country}}"
+			},
+			"top_property_types": {
+				"cta": "Alle eigendommen weergeven",
+				"item_cta": "{{count}} eigendommen",
+				"title": "Top woningtypes"
+			}
+		},
+		"language_switcher": {
+			"title": "Selecteer een taal"
+		},
+		"main_menu": {
+			"advice": "Hulplijnen",
+			"agents": "Makelaars",
+			"agents_in": "Makelaars in {{countryName}}",
+			"buy": "Kopen",
+			"buy_in_country": "Koop in {{countryName}}",
+			"home": "Thuis",
+			"rent": "Huur",
+			"rent_in": "Huur in {{countryName}}"
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		},
+		"newsletter": {
+			"section": {
+				"form": {
+					"cta": "Inschrijven",
+					"email": "Uw e-mail",
+					"privacy": "<a href=\"{{policy}}\" rel=\"noreferrer noopener\" target=\"_blank\" class=\"underline\">Lees ons privacybeleid en onze voorwaarden</a>"
+				},
+				"title": "Ontvang aanbevelingen, suggesties en tips over verhuizen naar het buitenland"
+			}
+		},
+		"personalisation_modal": {
+			"form": {
+				"cta": "Inschrijven",
+				"email": {
+					"label": "E-mailadres"
+				},
+				"first_name": {
+					"label": "Voornaam"
+				},
+				"privacy": "<span>Door verder te gaan, accepteert u onze <a href='{{terms}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>algemene voorwaarden</a> en <a href='{{privacy}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>ons privacybeleid</a>. U kunt op elk moment stoppen met het ontvangen van e-mails door u af te melden onderaan elke e-mail.</span>",
+				"subtitle": "Help ons om u te helpen uw zonneschijn te vinden. We zullen deze informatie met niemand delen.",
+				"title": "Vertel ons meer over uzelf",
+				"wants_to_buy_in": {
+					"label": "Hoe snel bent u van plan om een huis te kopen?",
+					"options": {
+						"in_six_to_twelve_months": "6-12 maanden",
+						"in_three_months": "1-3 maanden",
+						"in_three_to_six_months": "3-6 maanden",
+						"more_than_year": "Meer dan 1 jaar",
+						"unsure": "Onzeker"
+					}
+				},
+				"why_buy": {
+					"label": "Wat is de belangrijkste reden dat u naar het buitenland wilt verhuizen?",
+					"options": {
+						"for_work": "Voor werk",
+						"holiday_home": "Als vakantiehuis",
+						"investment": "Als investering",
+						"relocate": "Verhuizen",
+						"to_retire": "Met pensioen gaan"
+					}
+				}
+			},
+			"intro": {
+				"later_button": "Ik doe het later",
+				"next_button": "Vertel ons meer over uw verhuizing"
+			},
+			"intro_guide": {
+				"subtitle": "We hebben uw gids gemaild naar <span class=\"font-bold\">{{email}}</span>. <br /> Als u het niet kunt zien, controleer dan uw map met ongewenste e-mail of <span class=\"font-bold\">bekijk de handleiding <a href=\"{{guidesURL}}\" class=\"underline\" target=\"_blank\" rel=\"noopener noreferrer\">hier</a></span>",
+				"title": "Bedankt! We hebben u de gids toegestuurd"
+			},
+			"intro_newsletter": {
+				"subtitle": "Elke zondag ontvangt u een wekelijkse e-mail met de nieuwste eigendommen waarvan wij denken dat ze u zullen bevallen. Kijk uit naar uw eerste e-mail aanstaande zondag!",
+				"title": "We sturen woningwaarschuwingen naar {{email}}"
+			},
+			"success": {
+				"cta": "Begrepen",
+				"subtitle": "Met deze informatie zorgen wij ervoor dat wij u eigendommen aanbevelen die alles bieden wat u nodig hebt om dichter bij uw woning in de zon te komen.",
+				"title": "We hebben uw informatie opgeslagen"
+			}
+		},
+		"property_gallery": {
+			"image_alt": "{{propertyDescription}} - foto {{number}}"
+		},
+		"property_types": {
+			"types": {
+				"town_houses": "Herenhuizen",
+				"under_100k": "Minder dan €100.000",
+				"under_150k": "Minder dan €150.000",
+				"villas": "Villas",
+				"with_pool": "Vastgoed met zwembad"
+			}
+		},
+		"recent_searches": {
+			"cta": {
+				"count": "{{count}} nieuwe eigenschappen",
+				"loading": "Laden...",
+				"no_count": "Bekijk woningen"
+			},
+			"features": {
+				"disabled_access": "Toegang voor gehandicapten",
+				"garage": "Garage",
+				"garden": "Tuin",
+				"lift": "Lift",
+				"near_beach": "Nabij strand",
+				"near_golf": "Nabijgelegen golfbaan",
+				"near_shops": "Bij winkels",
+				"near_transport": "Nabij openbaar vervoer",
+				"new_build": "Alleen nieuwbouw",
+				"parking": "Parkeerplaats",
+				"pool": "Zwembad",
+				"remote_viewing": "Online bezoek mogelijk",
+				"resale_only": "Alleen doorverkoop",
+				"terrace": "Terras",
+				"video": "Met video",
+				"virtual_tour": "Met virtuele rondleiding"
+			},
+			"filter_ranges": {
+				"price": {
+					"max": "<{{max}}",
+					"min": "{{min}}+",
+					"min_max": "{{min}}-{{max}}",
+					"no_range": "Elke prijs"
+				}
+			},
+			"payment_scheme": {
+				"for_sale": "Kopen",
+				"to_rent": "Huren"
+			},
+			"property_group": {
+				"apartment": "Appartement",
+				"cave_house": "Grotwoning",
+				"commercial_property": "Commercieel vastgoed",
+				"country_house": "Landhuis",
+				"garage": "Garage",
+				"land": "Grond",
+				"town_house": "Herenhuis",
+				"unknown": "Elk type woning",
+				"villa": "Villa",
+				"wooden_home": "Houten/mobiel huis"
+			},
+			"title": "Recente zoekopdrachten"
+		},
+		"ui": {
+			"close": "Sluiten",
+			"close_menu": "Menu sluiten",
+			"icons": {
+				"bathrooms": "Aantal badkamers",
+				"bedrooms": "Aantal slaapkamers",
+				"build_size": "Bouwgrootte",
+				"gallery_size": "Aantal afbeeldingen"
+			},
+			"modals": {
+				"error": {
+					"accept": "Begrepen",
+					"subtitle": "We hebben problemen om te doen wat u vroeg. Het probleem ligt bij ons, niet bij u. Klik op de knop om het opnieuw te proberen of probeer het later nog eens.",
+					"title": "Er werkt iets niet goed"
+				}
+			},
+			"next": "Volgend",
+			"open": "Openen",
+			"open_menu": "Menu openen",
+			"prev": "Vorig",
+			"retry": "Opnieuw",
+			"select": "Selecteren"
+		},
+		"user_menu": {
+			"links": {
+				"account": "Rekening",
+				"enquiries": "Vragen",
+				"favourites": "Favorieten",
+				"logout": "Uitloggen",
+				"saved_searches": "Opgeslagen zoekopdrachten"
+			},
+			"message": "Hoi, {{name}}",
+			"mobile_title": "Gebruikersaccount"
+		}
+	}
+}

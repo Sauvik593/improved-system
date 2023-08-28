@@ -1,0 +1,762 @@
+{
+	"homepage": {
+		"hero": {
+			"title": "Anúnciese globalmente. Venda más <span class=\"char-decor\">inmuebles</span>.",
+			"description": "Maximice su éxito anunciando sus propiedades a un mundo de compradores internacionales. Genere consultas que se traduzcan en ventas. Sus anuncios pueden estar activos en tan solo 1 hora.",
+			"image": {
+				"alt": "Propiedad mostrar vista"
+			}
+		},
+		"advantage_cards": {
+			"buyers": {
+				"description": "Sus inmuebles son vistos por hasta 3 millones de compradores internacionales al mes.",
+				"title": "3 millones <span class=\"text-h-5-sm\">de compradores</span>"
+			},
+			"enquiries": {
+				"description": "Más de {{enquiries}} consultas de calidad entregadas a agentes como usted cada mes. ",
+				"title": "{{enquiries}} <span class=\"text-h-5-sm\">consultas</span>"
+			},
+			"languages": {
+				"description": "Comercialice sus propiedades en 13 idiomas en {{countries}} países.",
+				"title": "13 <span class=\"text-h-5-sm\">idiomas</span>"
+			},
+			"live_listings": {
+				"description": "Los anuncios se publican en tan sólo 1 hora a través de nuestro feed XML estándar del sector.",
+				"title": "Los <span class=\"text-h-5-sm\">anuncios se publican</span> en 1 hora"
+			}
+		},
+		"country_neutral": {
+			"hero": {
+				"description": "<span class=\"font-bold text-h-4-sm md:text-h-4\">¡Bienvenido a Kyero!</span></br> Queremos ayudarle a tener éxito anunciando sus propiedades a un mundo de compradores internacionales.",
+				"title": "Acceso a millones de compradores <span class=\"char-decor\">internacionales</span>"
+			}
+		},
+		"international_audience": {
+			"description": "En los últimos 12 meses, millones de compradores de todo el mundo han visitado Kyero.com.",
+			"title": "Acceda a nuestra audiencia de compradores internacionales",
+			"unique_visits": "Visitas únicas"
+		},
+		"listings_exposure": {
+			"international_buyers": "Millones de compradores internacionales ven sus propiedades",
+			"mailing": "Nuestras múltiples campañas de correo electrónico, medios y relaciones públicas son vistas por cientos de miles de compradores cada mes.",
+			"prime_boost": "Prime Boost le permite asegurar los 3 primeros lugares en la ubicación elegida",
+			"prime_listings": "Los anuncios Prime aparecen en la parte superior de los resultados de búsqueda",
+			"publications": "Reportajes periódicos sobre las propiedades de Kyero en publicaciones nacionales",
+			"social_media": "Oportunidad de llegar a más compradores a través de las redes sociales de Kyero",
+			"title": "Aumente la visibilidad de sus anuncios"
+		},
+		"market_chart": {
+			"domestic": "Nacional",
+			"domestic_percentage": "de nuestros compradores son nacionales",
+			"international": "Internacional",
+			"international_percentage": "de nuestros compradores son internacionales",
+			"title": "Más tráfico de compradores internacionales"
+		},
+		"why_kyero": {
+			"advantages": {
+				"b_corp": "Nuestro objetivo es hacer el bien y somos una B-Corp certificada.",
+				"established_in": "Fundada en 2003, hemos ayudado a más de 50.000 personas a encontrar su rayo de sol con confianza en España, Portugal, Francia e Italia.",
+				"fast_and_easy": "Configuración rápida y sencilla con feeds XML de estándar de la industria. Sus propiedades estarán en línea en una hora y se actualizarán automáticamente todos los días.",
+				"guides_and_advice": "Guías exhaustivas y consejos para eliminar la incertidumbre del comprador. Compradores más informados que resultan en leads de mayor calidad. ",
+				"international_team": "Un equipo de ventas internacional y multilingüe que conoce el mercado y habla su idioma.",
+				"languages": "Traducción para compradores en 13 idiomas diferentes.",
+				"prime_portal": "Kyero es el portal principal para recibir leads de compradores internacionales."
+			},
+			"title": "¿Por qué Kyero?"
+		}
+	},
+	"articles": {
+		"navigation": {
+			"label": "Muéstreme:"
+		}
+	},
+	"comments": {
+		"length": {
+			"one": "{{length}} comentario",
+			"other": "{{length}} comentarios"
+		}
+	},
+	"contact": {
+		"description": "Obtenga una presentación personal de Kyero por parte de un miembro de nuestro equipo: introduzca algunos datos y nos pondremos en contacto con usted para ofrecerle más información.",
+		"form": {
+			"agent_province": {
+				"label": "¿Dónde tiene su sede?"
+			},
+			"arrange_callback": "Solicitar una llamada",
+			"business_information": "Introduzca la información sobre su empresa",
+			"business_name": {
+				"label": "Nombre de la empresa"
+			},
+			"contact_information": "Introduzca sus datos de contacto",
+			"date": {
+				"afternoon": "Tarde",
+				"aria_label": "Fecha de contacto",
+				"label": "¿Cuándo sería el mejor momento para hablar? (opcional)",
+				"morning": "Mañana"
+			},
+			"first_name": {
+				"label": "Su nombre"
+			},
+			"footer": {
+				"terms_and_privacy": "Al usar Kyero, acepta <a href=\\\"https://docs.kyero.com/es/privacy/\\\" class=\\\"text-ocean-100\\\">los términos de uso y política de privacidad</a>, y que se le pueda contactar con información relevante."
+			},
+			"get_in_touch": {
+				"email": "Email",
+				"label": "¿Cuál es la mejor manera de ponernos en contacto? (opcional)",
+				"phone_call": "Llamada",
+				"whatsapp": "WhatsApp"
+			},
+			"header": "Cuéntenos sobre su empresa",
+			"help": {
+				"label": "¿Cómo podemos ayudar? (opcional)"
+			},
+			"last_name": {
+				"label": "Su apellido"
+			},
+			"phone_number": {
+				"label": "Número de teléfono"
+			},
+			"properties": {
+				"label": "¿Cuántas propiedades hay en su cartera?"
+			},
+			"properties_number": {
+				"label": "Aproximadamente, ¿cuántas propiedades tiene en cartera?"
+			},
+			"select": {
+				"placeholder": "Seleccione"
+			},
+			"submit": "Enviar",
+			"user_type": {
+				"label": "Para una respuesta más rápida. Por favor, confirme si usted es:",
+				"options": {
+					"buyer": "Particular",
+					"current_agent": "Agente actual de Kyero",
+					"developer": "Promotor",
+					"new": "Nuevo en Kyero",
+					"other": "Otros"
+				},
+				"required": "Este campo es obligatorio"
+			},
+			"work_email": {
+				"label": "Dirección de correo electrónico del trabajo"
+			}
+		},
+		"success": {
+			"message": "Hemos enviado la confirmación de su solicitud a <span class=\"font-bold\">{{email}}</span>",
+			"title": "¡Gracias! Uno miembro de nuestro equipo se pondrá en contacto en las próximas 24 horas."
+		},
+		"title": "Más información sobre <span class=\"char-decor\">Kyero</span>"
+	},
+	"content": {
+		"ad": {
+			"placeholder": "Espacio publicitario"
+		},
+		"anchor": {
+			"title": "En este artículo:"
+		},
+		"comments": {
+			"add": "Haga oír su voz",
+			"cta": {
+				"cancel": "Cancelar",
+				"post": "Publique su comentario",
+				"reply": "Respuesta"
+			},
+			"errors": {
+				"email": {
+					"format": "El correo electrónico debe tener el formato correcto.",
+					"required": "El correo electrónico es obligatorio"
+				},
+				"name": {
+					"required": "El nombre es obligatorio"
+				},
+				"terms": {
+					"checked": "Este campo debe marcarse"
+				}
+			},
+			"first": "¡Sea el primero en comentar!",
+			"placeholders": {
+				"comment": "Su comentario",
+				"email": "Dirección de correo electrónico (no será publicada)",
+				"name": "Nombre"
+			},
+			"reply": "Responder a {{user}}",
+			"success": "Shas u comentario ha sido compartido con nuestro equipo de moderación. Será visible en breve",
+			"terms": "Acepto los <a href=\"https://docs.kyero.com/es/privacy/>términos de uso y la política de privacidad</a>"
+		},
+		"cta": {
+			"next_article": "Ver el artículo"
+		},
+		"info": {
+			"comment": "comentario",
+			"comments": "comentarios",
+			"minute_read": "Lectura de {{time}} minutos",
+			"no_comments": "Aún no hay comentarios"
+		},
+		"next_article": "El siguiente paso:",
+		"share": {
+			"copy_tooltip": "Enlace copiado al portapapeles",
+			"title": "Compártalo:"
+		}
+	},
+	"country_cards": {
+		"title": "¿Dónde están ubicadas sus propiedades?"
+	},
+	"error_404": {
+		"header": "No encontramos la página que busca.",
+		"message": "El enlace que ha seguido para llegar hasta aquí no parece funcionar. Eso puede deberse a que es antiguo y la página ya no existe, o puede que haya escrito mal la URL en la barra de direcciones.",
+		"title": "404: Página no encontrada"
+	},
+	"features": {
+		"features_list": {
+			"agent_branding": {
+				"subtitle": "Todos los anuncios Prime llevan su logotipo.",
+				"title": "Marca del agente"
+			},
+			"agent_directory": {
+				"subtitle": "Los agentes Prime siempre aparecen antes que los agentes Free.",
+				"title": "Directorio de agentes"
+			},
+			"bigger_photos": {
+				"subtitle": "Los anuncios Prime son visualmente más atractivos y se hace clic en ellos con más frecuencia.",
+				"title": "Fotos más grandes"
+			},
+			"daily_imports": {
+				"subtitle": "Sólo las propiedades de los agentes Prime se actualizan diariamente (en lugar de semanalmente).",
+				"title": "Importaciones diarias"
+			},
+			"email_alerts": {
+				"subtitle": "Sólo los nuevos anuncios Prime se envían automáticamente por correo electrónico a los compradores.",
+				"title": "Avisos por correo electrónico"
+			},
+			"enhanced_analytics": {
+				"subtitle": "Los agentes Prime pueden acceder a análisis de mercado y rendimiento más detallados.",
+				"title": "Análisis mejorados"
+			},
+			"floorplans": {
+				"subtitle": "Solo los anuncios Prime pueden mostrar un enlace de plano de planta.",
+				"title": "Planos de planta"
+			},
+			"full_export": {
+				"subtitle": "Sólo los agentes Prime pueden exportar sus anuncios completos y traducidos desde Kyero.",
+				"title": "Exportación completa"
+			},
+			"media_visibility": {
+				"subtitle": "Sólo los anuncios Prime son elegibles para la difusión adicional en redes sociales.",
+				"title": "Mayor visibilidad en los medios de comunicación"
+			},
+			"priority_results": {
+				"subtitle": "Los anuncios Prime siempre aparecen antes que los gratuitos.",
+				"title": "Resultados prioritarios"
+			},
+			"property_videos": {
+				"subtitle": "Solo los anuncios Prime pueden mostrar un enlace de video.",
+				"title": "Videos de la propiedad"
+			},
+			"recommended_properties": {
+				"subtitle": "Siempre se recomiendan los anuncios Prime antes que los gratuitos.",
+				"title": "Propiedades recomendadas"
+			},
+			"remote_viewing": {
+				"subtitle": "Solo los anuncios Prime muestran una opción de visualización remota.",
+				"title": "Visualización remota"
+			},
+			"virtual_tours": {
+				"subtitle": "Solo los anuncios Prime muestran un enlace de visita virtual.",
+				"title": "Visitas virtuales"
+			}
+		},
+		"hero": {
+			"description": "Proporciona a sus anuncios una exposición prioritaria ante compradores cualificados. Kyero Prime aumenta drásticamente el número de consultas que recibe. Es un impulso turbo para su marketing inmobiliario.",
+			"title": "La ventaja de Kyero <span class=\"char-decor\">Prime</span>"
+		},
+		"integrations": {
+			"cta": {
+				"button": "Más información",
+				"subtitle": "Nos integramos con todos los principales sistemas de administración de propiedades, por lo que es fácil mantener los anuncios sincronizados.",
+				"title": "Agregue y actualice automáticamente anuncios de propiedades con integraciones"
+			}
+		}
+	},
+	"footer": {
+		"b_corp": {
+			"alt": "Certificación B Corp"
+		},
+		"cta": {
+			"more_about": "Más sobre Kyero"
+		},
+		"description": "Kyero le ayuda a encontrar su rayo de sol. Le acompañamos en su camino y le proporcionamos inspiración, información y herramientas que le dan el control.",
+		"explore_kyero": {
+			"advertise": "Anúnciese con Kyero",
+			"advice": "Guías y Consejos",
+			"agent_search": "Búsqueda de agentes",
+			"search_properties": "Buscar propiedades",
+			"title": "Explora Kyero"
+		},
+		"for_agents": {
+			"description": "Descubra cómo Kyero puede ayudarle a vender más propiedades",
+			"title": "Para profesionales"
+		},
+		"help_and_information": {
+			"contact": "Contacto",
+			"faqs": "Preguntas Frecuentes",
+			"help": "Ayuda",
+			"title": "Ayuda e información"
+		},
+		"links": {
+			"find_property": {
+				"france": {
+					"link": "francia-propiedad-en-venta-0l55702",
+					"title": "Inmuebles en Francia"
+				},
+				"italy": {
+					"link": "italia-propiedad-en-venta-0l55732",
+					"title": "Inmuebles en Italia"
+				},
+				"portugal": {
+					"link": "portugal-propiedad-en-venta-0l55731",
+					"title": "Inmuebles en Portugal"
+				},
+				"spain": {
+					"link": "espana-propiedad-en-venta-0l55529",
+					"title": "Inmuebles en España"
+				},
+				"title": "Buscar propiedades"
+			},
+			"help_and_info": {
+				"about_us": {
+					"link": "nosotros",
+					"title": "Sobre nosotros"
+				},
+				"contact_us": {
+					"title": "Contáctenos"
+				},
+				"faq": {
+					"title": "Preguntas Frecuentes"
+				},
+				"title": "Ayuda e información",
+				"work_with_us": {
+					"title": "Trabaja con nosotros"
+				}
+			},
+			"resources": {
+				"buyer_advice": {
+					"title": "Consejos para el comprador"
+				},
+				"estate_agent_directory": {
+					"france": {
+						"title": "agentes-inmobiliarios-francia"
+					},
+					"italy": {
+						"title": "agentes-inmobiliarios-italia"
+					},
+					"portugal": {
+						"title": "agentes-inmobiliarios-portugal"
+					},
+					"spain": {
+						"title": "agentes-inmobiliarios-espana"
+					},
+					"title": "Directorio de Agentes Inmobiliarios"
+				},
+				"market_data": {
+					"link": "data/datos/espana",
+					"title": "Información de mercado"
+				},
+				"property_podcasts": {
+					"title": "Podcasts inmobiliarios"
+				},
+				"title": "Recursos"
+			}
+		},
+		"site_links": {
+			"cookie_preferences": "Preferencias de cookies",
+			"cookies": "Cookies",
+			"privacy": "Privacidad",
+			"sitemap": "Mapa del sitio",
+			"terms": "Términos"
+		}
+	},
+	"form": {
+		"error": {
+			"modal": {
+				"description": "Estamos teniendo problemas para enviar su formulario. Es culpa nuestra, no suya - usted no ha hecho nada mal. Le invitamos a que vuelva más tarde y lo intente de nuevo.",
+				"title": "Algo no funciona bien"
+			}
+		},
+		"validations": {
+			"business_name": "Introduce el nombre de su empresa",
+			"date": "La fecha debe ser superior a hoy",
+			"email": {
+				"format": "Introduce una dirección de correo electrónico válida",
+				"required": "El correo electrónico es obligatorio"
+			},
+			"first_name": "El nombre es obligatorio",
+			"last_name": "El apellido es obligatorio",
+			"phone_number": {
+				"format": "El número de teléfono debe tener el formato correcto",
+				"required": "Se requiere número de teléfono"
+			}
+		}
+	},
+	"general": {
+		"agent_display": {
+			"alt": "{{name}} logotipo",
+			"title": "Confiado por miles de agentes"
+		},
+		"countries": {
+			"france": {
+				"alt": "Bandera de Francia",
+				"title": "Francia"
+			},
+			"germany": {
+				"alt": "Bandera de Alemania",
+				"title": "Alemania"
+			},
+			"italy": {
+				"alt": "Bandera de Italia",
+				"title": "Italia"
+			},
+			"netherlands": {
+				"alt": "Bandera de Países Bajos",
+				"title": "Países Bajos"
+			},
+			"portugal": {
+				"alt": "Bandera de Portugal",
+				"title": "Portugal"
+			},
+			"spain": {
+				"alt": "Bandera de España",
+				"title": "España"
+			},
+			"united_kingdom": {
+				"alt": "Bandera del Reino Unido",
+				"title": "Reino Unido"
+			},
+			"united_states": {
+				"alt": "Bandera de Estados Unidos",
+				"title": "Estados Unidos"
+			}
+		},
+		"get_in_touch": {
+			"title": "¿Quiere hablar con alguien?"
+		},
+		"get_started": {
+			"title": "Empiece hoy mismo con Kyero Prime"
+		},
+		"icons": {
+			"error": "Icono de error",
+			"success": "Icono de éxito"
+		},
+		"properties_dashboard": {
+			"alt": "Kyero panel de control de propiedades"
+		},
+		"testimonials": {
+			"quotes": {
+				"alt": "Comillas dobles"
+			},
+			"title": "Lo que dicen nuestros agentes Prime"
+		}
+	},
+	"header": {
+		"menu": {
+			"close": {
+				"label": "Cerrar menú"
+			},
+			"features": "Características",
+			"hamburger": {
+				"label": "Menú"
+			},
+			"home": "Inicio",
+			"label": "Menú de navegación",
+			"log_in": "Iniciar sesión",
+			"market_insights": "Información del mercado",
+			"pricing": "Precios"
+		}
+	},
+	"insights_newsletter": {
+		"buttons": {
+			"sign_up": "Registrarse"
+		},
+		"description": "Sea el primero en leer los últimos análisis y opiniones publicados aquí",
+		"error": {
+			"title": "Lo sentimos, no lo captamos del todo"
+		},
+		"footer": {
+			"policy": "Vea nuestra política",
+			"privacy": "Nos preocupamos por su privacidad."
+		},
+		"title": "Reciba las últimas novedades en su buzón"
+	},
+	"integrations": {
+		"cta": {
+			"icon": {
+				"alt": "Flechas giratorias"
+			}
+		},
+		"hero": {
+			"description": "Ahorre tiempo actualizando sus anuncios Kyero automáticamente desde su propio sistema.",
+			"image": {
+				"alt": "Proceso de integraciones"
+			},
+			"title": "Añada y actualice automáticamente sus <span class=\"char-decor\">inmuebles</span>"
+		},
+		"learn_more": {
+			"compatible_systems": {
+				"cta": "Visite nuestro centro de ayuda",
+				"link": "inmobiliarias/pasarela-xml-de-kyero",
+				"title": "¿Cómo funcionan las integraciones?"
+			},
+			"missing_system": {
+				"cta": "Háganoslo saber",
+				"title": "¿Falta su sistema?"
+			},
+			"title": "Más información sobre cómo funciona"
+		},
+		"management_systems": {
+			"title": "Sistemas de gestión inmobiliaria compatibles"
+		}
+	},
+	"market_insights": {
+		"description": "Obtenga las últimas noticias, informes de mercado, perspectivas de los compradores y consejos de venta que le ayudarán a llegar a más compradores, generar más leads y vender más propiedades.",
+		"title": "Información del mercado"
+	},
+	"menu": {
+		"country_select": {
+			"close": "Cerrar menú país",
+			"countries": {
+				"france": "Anúnciese en Francia",
+				"italy": "Anúnciese en Italia",
+				"portugal": "Anúnciese en Portugal",
+				"spain": "Anúnciese en España"
+			},
+			"label": "Seleccionar país",
+			"title": "¿Dónde están los inmuebles que desea anunciar?"
+		},
+		"language_switcher": {
+			"close": "Cerrar menú de idiomas",
+			"en": "English",
+			"es": "Español",
+			"fr": "Français",
+			"it": "Italiano",
+			"label": "Seleccionar idioma",
+			"pt": "Português",
+			"title": "Seleccione un idioma",
+			"uk": {
+				"alt": "Bandera del Reino Unido"
+			}
+		}
+	},
+	"newsletter": {
+		"button": {
+			"label": "Suscribirse al boletín de noticias"
+		},
+		"email": {
+			"error": "El correo electrónico es obligatorio",
+			"format": "Introduce una dirección de correo electrónico válida",
+			"label": "Su correo electrónico",
+			"placeholder": "Su correo electrónico"
+		},
+		"error": {
+			"message": "Algo salió mal por nuestra parte, y no obtuvimos su dirección de correo electrónico. Volver a intentarlo debería solucionar el problema."
+		},
+		"footer": {
+			"privacy_policy": "política de privacidad",
+			"terms": "términos",
+			"text": "Su privacidad es importante para nosotros. Lea nuestra"
+		},
+		"success": {
+			"first_email": "¡Esté atento a su primer correo electrónico el próximo domingo!",
+			"property_alerts": "Enviaremos alertas inmobiliarias a {{email}}",
+			"weekly_email": "Todos los domingos recibirá un correo electrónico semanal con las últimas propiedades que creemos que le encantarán."
+		},
+		"title": "Manténgase al tanto de su mercado. Reciba la información más reciente en su bandeja de entrada."
+	},
+	"pricing": {
+		"all_plans": {
+			"agent_portal": {
+				"cta": "Explore las funciones del Portal del agente",
+				"description": "Optimice los anuncios, obtenga información sobre las consultas que le indican la probabilidad de que alguien compre y acceda a los informes que necesita para ser el mejor.",
+				"link": {
+					"title": "Explore las funciones del Portal del Agente"
+				},
+				"title": "Acceso completo al Portal del Agente"
+			},
+			"integration": {
+				"description": "¿Ya utiliza una herramienta de gestión inmobiliaria? No hay problema: Kyero integra sin problemas más de 80 sistemas para que no tenga que cambiar nada.",
+				"link": {
+					"title": "Explore nuestra lista de integraciones"
+				},
+				"title": "Integración total con sus sistemas actuales"
+			},
+			"prime_boost": {
+				"cta": "Más información sobre Prime boost",
+				"description": "Consiga que sus propiedades lleguen a más compradores con Prime Boost. Elija dónde promocionar y durante cuánto tiempo y vea cómo llegan las consultas.",
+				"link": {
+					"title": "Más acerca de Prime Boost"
+				},
+				"title": "Prime Boost: impulso adicional para propiedades importantes"
+			},
+			"title": "Todos los planes incluyen:"
+		},
+		"kyero_prime": {
+			"contact": "¿No ve un paquete que se adapte a su cartera o presupuesto? Tenemos más opciones, contáctenos ahora para decirnos lo que necesita.",
+			"description": "Kyero Prime ayuda a agencias de todos los tamaños a vender propiedades de forma más rápida y sencilla que nunca.",
+			"filters": {
+				"1_month": "1 mes",
+				"1_year": "1 año",
+				"3_months": "3 meses",
+				"6_months": "6 meses"
+			},
+			"plans": {
+				"billing": {
+					"1_month": "Facturado mensualmente",
+					"1_year": "Facturado anualmente",
+					"3_months": "Facturado cada 3 meses",
+					"6_months": "Facturado cada 6 meses"
+				},
+				"cost": {
+					"1_month": "{{cost}} /mes",
+					"1_year": "{{cost}} /año",
+					"3_months": "{{cost}} /3 meses",
+					"6_months": "{{cost}} /6 meses"
+				},
+				"cost_per_listing": "Coste por anuncio Prime: {{cost}} /mes",
+				"cta": {
+					"title": "Regístrese ahora"
+				},
+				"most_popular": "Más populares",
+				"prime_listings": "{{listings}} anuncios Prime"
+			},
+			"show_prices": "Mostrar precios para:",
+			"title": "Empiece hoy mismo con Kyero <span class=\"char-decor\">Prime</span>"
+		}
+	},
+	"seo": {
+		"homepage": {
+			"country_neutral": {
+				"description": "Kyero.com le da acceso a millones de compradores internacionales. Más de 10.000 agentes de España, Francia, Portugal e Italia confían en nosotros.",
+				"title": "Venda más propiedades"
+			}
+		}
+	},
+	"share_buttons": {
+		"copy": "Copiar enlace",
+		"email": "Enviar por correo electrónico",
+		"facebook": "Compartir en Facebook",
+		"linkedin": "Compartir en LinkedIn",
+		"twitter": "Compartir en Twitter"
+	},
+	"tell_us_about": {
+		"form": {
+			"address": {
+				"label": "Dirección"
+			},
+			"business_info": "Introduce la información de su empresa",
+			"company": {
+				"description": "Este es el nombre que los compradores verán en Kyero.com. No tiene por qué ser el nombre con el que está registrada su empresa.",
+				"label": "Nombre de la empresa"
+			},
+			"company_vat": "Introduzca el CIF de la empresa",
+			"country": {
+				"label": "País"
+			},
+			"cta": {
+				"title": "Guardar información de la empresa"
+			},
+			"email": {
+				"description": "Cuando los compradores realicen una consulta, se la enviaremos a esta dirección de correo electrónico",
+				"label": "Correo electrónico"
+			},
+			"first_name": {
+				"label": "Nombre"
+			},
+			"last_name": {
+				"label": "Apellido"
+			},
+			"legal_name": {
+				"label": "Nombre legal"
+			},
+			"manual_input": "Introduzca manualmente la dirección y el nombre legal",
+			"phone": {
+				"description": "Puede elegir mostrarlo en sus anuncios inmobiliarios.",
+				"label": "Número de teléfono de la empresa"
+			},
+			"postcode": {
+				"label": "Código postal"
+			},
+			"region": {
+				"label": "Región"
+			},
+			"subtitle": "¡Ya casi está! Introduzca la información de su empresa y de pago para empezar a utilizar Kyero.",
+			"title": "Cuéntenos sobre su empresa",
+			"town": {
+				"label": "Ciudad"
+			},
+			"vat_number": {
+				"description": "Lo utilizaremos para buscar la dirección de su empresa y su nombre legal.",
+				"label": "Número de registro de IVA de la UE"
+			},
+			"website": {
+				"description": "Se mostrará con la información de su agencia en Kyero.com.",
+				"label": "Sitio web (opcional)"
+			}
+		},
+		"package": {
+			"cost_per_listing": "Equivalente a {{cost}} /mes por anuncio",
+			"plan": {
+				"1_month": "Prime {{listings}} /mensual",
+				"1_year": "Prime {{listings}} / 12 meses",
+				"3_months": "Prime {{listings}} / 3 meses",
+				"6_months": "Prime {{listings}} / 6 meses"
+			},
+			"title": "Paquete preferido",
+			"total": "Total",
+			"vat_disclaimer": "Se aplicará el tipo de IVA vigente a las empresas del Reino Unido."
+		},
+		"success": {
+			"email_message": "Una vez que hayamos terminado, se enviará un correo electrónico de bienvenida a <span class=\"font-bold\">{{email}}</span> con instrucciones sobre cómo comenzar.",
+			"image_alt": "Banner de anuncios de propiedades Prime",
+			"message": "¡Gracias por registrarse en Kyero, {{name}}! Comprobaremos los datos de su empresa y nos aseguraremos de que todo esté correcto. Esto generalmente toma un par de días.",
+			"title": "Permítanos presentar sus inmuebles a millones de compradores internacionales"
+		}
+	},
+	"ui": {
+		"buttons": {
+			"call_back": "Solicitar una llamada",
+			"find_out_more": "Más información",
+			"get_in_touch": "Contáctanos",
+			"get_started": "Comenzar",
+			"pricing_and_packages": "Precios y paquetes",
+			"subscribe": "Suscribirse",
+			"try_again": "Inténtelo de nuevo"
+		},
+		"cookie": {
+			"bar": {
+				"cta": {
+					"accept": "Aceptar",
+					"preferences": "Preferencias de cookies"
+				},
+				"title": "Kyero utiliza cookies para brindarle una mejor experiencia"
+			},
+			"cookie_policy": "<span>Lea más en la política de <a href=\"https://docs.kyero.com/{{locale}}/cookies/\" class=\"text-ocean-100 underline\">cookies</a></span>",
+			"modal": {
+				"always_active": "Siempre activo",
+				"cta": {
+					"save_preferences": "Guardar preferencias"
+				},
+				"essential_cookies": {
+					"message": "Estas son nuestras propias cookies que son necesarias para el funcionamiento de Kyero.com. Sin ellos no podemos funcionar correctamente, por ejemplo, una cookie le permite iniciar sesión o recordar sus búsquedas.",
+					"title": "Cookies esenciales"
+				},
+				"non_essential": {
+					"message": "Estas cookies no esenciales nos ayudan a analizar cómo nos encontró y cómo utiliza Kyero.com. Esto nos ayuda a mejorar continuamente.",
+					"title": "Cookies no esenciales"
+				},
+				"switch": {
+					"active": "Activo",
+					"inactive": "Inactivo",
+					"label": "Interruptor de cookies no esenciales"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+- name: Build
+  type: serial
+  service: clients
+  steps:
+    - name: Preparing container
+      command: echo Install happens automagically
+    - name: Lints and Tests
+      command: .codeship/test.sh
+
+- name: Deployment to AWS
+  type: serial
+  tag: main
+  service: git_deploy
+  steps:
+    - name: App Deployment
+      type: parallel
+      steps:
+        - name: Deploy to Staging and production API
+          command: sh codeship-deploy.sh
+
+- name: Deployment to Heroku
+  type: serial
+  tag: main
+  service: heroku-deployment
+  steps:
+    - name: Pre-deploy Cleanup
+      command: /bin/sh -c "rm -fr ./tmp/*"
+    - name: App Deployment
+      type: parallel
+      steps:
+        - name: Deploy to Staging Agents Admin
+          command: codeship_heroku deploy . kyero-staging-new-admin
+        - name: Deploy to Staging Storybook
+          command: codeship_heroku deploy . kyero-staging-storybook
+        - name: Deploy to Production Agents Admin
+          command: codeship_heroku deploy . kyero-production-new-admin
+        - name: Deploy to Production Storybook
+          command: codeship_heroku deploy . kyero-production-storybook

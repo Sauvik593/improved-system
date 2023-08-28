@@ -1,0 +1,17 @@
+{
+	"common": {
+		"homepage": {
+			"meta": {
+				"description": {
+					"neutral": "Plus de 750 000 biens à vendre et à louer en Espagne, au Portugal, en France et en Italie"
+				},
+				"title": {
+					"neutral": "Trouvez le logement de vos rêves"
+				}
+			}
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		}
+	}
+}

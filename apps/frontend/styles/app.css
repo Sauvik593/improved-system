@@ -1,0 +1,330 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: normal;
+    font-display: swap;
+    src: url('/new-frontend-assets/fonts/gilroy-medium-webfont.woff2') format('woff2'),
+      url('/new-frontend-assets/fonts/gilroy-medium-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: normal;
+    font-display: swap;
+    font-style: italic;
+    src: url('/new-frontend-assets/fonts/gilroy-mediumitalic-webfont.woff2') format('woff2'),
+      url('/new-frontend-assets/fonts/gilroy-mediumitalic-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-display: swap;
+    src: url('/new-frontend-assets/fonts/gilroy-semibold-webfont.woff2') format('woff2'),
+      url('/new-frontend-assets/fonts/gilroy-semibold-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-display: swap;
+    font-style: italic;
+    src: url('/new-frontend-assets/fonts/gilroy-semibolditalic-webfont.woff2') format('woff2'),
+      url('/new-frontend-assets/fonts/gilroy-semibolditalic-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-display: swap;
+    src: url('/new-frontend-assets/fonts/gilroy-bold-webfont.woff2') format('woff2'),
+      url('/new-frontend-assets/fonts/gilroy-bold-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-display: swap;
+    font-style: italic;
+    src: url('/new-frontend-assets/fonts/gilroy-bolditalic-webfont.woff2') format('woff2'),
+      url('/new-frontend-assets/fonts/gilroy-bolditalic-webfont.woff') format('woff');
+  }
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .slider {
+    position: fixed;
+    width: 100%;
+    height: 3px;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+
+  .line {
+    position: fixed;
+    opacity: 0.4;
+    background: #4a8df8;
+    width: 100%;
+    height: 3px;
+    top: 0;
+    left: 0;
+  }
+
+  .subline {
+    position: absolute;
+    background: #4a8df8;
+    height: 3px;
+  }
+
+  .inc {
+    transform: translate3d(0, 0, 0);
+    animation: increase 2s infinite;
+  }
+  .dec {
+    transform: translate3d(0, 0, 0);
+    animation: decrease 2s 0.5s infinite;
+  }
+
+  @keyframes increase {
+    from {
+      left: 0%;
+      width: 15%;
+    }
+    to {
+      left: 130%;
+      width: 100%;
+    }
+  }
+  @keyframes decrease {
+    from {
+      left: -70%;
+      width: 70%;
+    }
+    to {
+      left: 100%;
+      width: 20%;
+    }
+  }
+
+  .curved-right {
+    clip-path: url(#curve-right);
+  }
+
+  .curved-bottom {
+    clip-path: url(#curve);
+  }
+
+  .char-decor {
+    position: relative;
+  }
+
+  .char-decor::after {
+    content: '';
+    position: absolute;
+    top: -0.15em;
+    right: -0.3em;
+    width: 0.8em;
+    height: 0.8em;
+    background-image: url('/new-frontend-assets/images/text-ray.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    pointer-events: none;
+  }
+
+  .char-decor[data-char='l']::after,
+  .char-decor[data-char='f']::after,
+  .char-decor[data-char='i']::after,
+  .char-decor[data-char='d']::after,
+  .char-decor[data-char='k']::after,
+  .char-decor[data-char='t']::after {
+    top: -0.35em;
+    right: -0.4em;
+  }
+
+  .char-decor[data-char='h']::after {
+    top: -0.3em;
+    right: -0.3em;
+  }
+
+  .banner-leaf-image::after,
+  .banner-wave-image::after,
+  .banner-pattern-image::after {
+    content: '';
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 100% calc(100% + 15vw);
+    top: 0;
+  }
+
+  .banner-leaf-image::after {
+    background-image: url('/new-frontend-assets/images/shapes/banner-wave-leaf-mobile.svg');
+  }
+
+  .banner-wave-image::after {
+    background-image: url('/new-frontend-assets/images/shapes/banner-wave-mobile.svg');
+  }
+
+  .banner-pattern-image::after {
+    background-image: url('/new-frontend-assets/images/shapes/hero-banner-mobile.svg');
+  }
+
+  @media screen and (min-width: 768px) {
+    .banner-leaf-image::after,
+    .banner-wave-image::after,
+    .banner-pattern-image::after {
+      background-position: 100% 105%;
+    }
+
+    .banner-pattern-image::after {
+      background-image: url('/new-frontend-assets/images/shapes/hero-banner.svg');
+    }
+
+    .banner-wave-image::after {
+      background-image: url('/new-frontend-assets/images/shapes/banner-wave.svg');
+    }
+
+    .banner-leaf-image::after {
+      background-image: url('/new-frontend-assets/images/shapes/banner-wave-leaf.svg');
+    }
+  }
+
+  @media screen and (min-width: 1650px) {
+    .banner-pattern-image::after,
+    .banner-wave-image::after,
+    .banner-leaf-image::after {
+      background-position: 100% 120%;
+      background-size: auto 250px;
+    }
+  }
+}
+
+/* TO BE MOVED! */
+.card-gradient {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 44.09%, rgba(0, 0, 0, 0.78) 86.94%),
+    linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 25.47%),
+    linear-gradient(0deg, transparent, transparent);
+}
+
+.skeleton-pulse {
+  animation: pulse 0.8s infinite alternate-reverse;
+}
+
+@keyframes pulse {
+  from {
+    opacity: 0.6;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.react-multi-carousel-list {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.react-multi-carousel-track {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform, transition;
+}
+
+.react-multi-carousel-item {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+@keyframes loading-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.map-animation {
+  animation: loading-animation 6.5s infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+
+.map-animation--stop {
+  animation-play-state: paused;
+}
+
+.list-gallery-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.list-gallery-dot {
+  padding: 7px;
+}
+
+.list-gallery-dot__content {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 50%;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.1));
+  transition: 0.1s transform, background-color ease-in-out;
+}
+
+.list-gallery-dot--active > .list-gallery-dot__content {
+  transform: scale(1.5);
+  background: rgba(255, 255, 255, 1);
+}
+
+#headlessui-portal-root {
+  position: relative;
+  z-index: 50;
+}
+
+@layer components {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

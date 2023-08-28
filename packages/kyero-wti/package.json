@@ -1,0 +1,76 @@
+{
+  "name": "@kyero/wti",
+  "version": "1.0.0",
+  "description": "A WTI CLI for node apps",
+  "author": "Kyero",
+  "bin": {
+    "wti": "./bin/run"
+  },
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "repository": "Kyero/wti-node",
+  "files": [
+    "/bin",
+    "/dist",
+    "/npm-shrinkwrap.json",
+    "/oclif.manifest.json"
+  ],
+  "dependencies": {
+    "@oclif/core": "^1",
+    "@oclif/plugin-help": "^5",
+    "@oclif/plugin-plugins": "^2.0.1",
+    "dotenv": "^16.0.0",
+    "eslint-config-kyero": "*",
+    "fs-extra": "^10.0.1",
+    "node-fetch": "^2.6.7",
+    "yaml": "^1.10.2"
+  },
+  "devDependencies": {
+    "@oclif/test": "^2",
+    "@types/chai": "^4",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^16.9.4",
+    "@types/node-fetch": "^2.6.1",
+    "@types/yaml": "^1.9.7",
+    "chai": "^4",
+    "eslint": "^7.32.0",
+    "eslint-config-oclif": "^4",
+    "eslint-config-oclif-typescript": "^1.0.2",
+    "globby": "^11",
+    "oclif": "^2",
+    "shx": "^0.3.3",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.4",
+    "vite-tsconfig-paths": "^3.5.2",
+    "vitest": "^0.25.2"
+  },
+  "oclif": {
+    "bin": "wti",
+    "dirname": "wti",
+    "commands": "./dist/commands",
+    "plugins": [
+      "@oclif/plugin-help",
+      "@oclif/plugin-plugins"
+    ],
+    "topicSeparator": " ",
+    "topics": {}
+  },
+  "scripts": {
+    "build": "shx rm -rf dist && tsc -b",
+    "lint": "eslint . --ext .ts",
+    "postpack": "shx rm -f oclif.manifest.json",
+    "posttest": "npm run lint",
+    "prepack": "npm run build && oclif manifest && oclif readme",
+    "test": "vitest run",
+    "version": "oclif readme && git add README.md"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "keywords": [
+    "oclif"
+  ],
+  "types": "dist/index.d.ts"
+}

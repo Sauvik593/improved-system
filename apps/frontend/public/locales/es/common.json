@@ -1,0 +1,429 @@
+{
+	"common": {
+		"auth": {
+			"common": {
+				"form": {
+					"email": {
+						"label": "Correo electrónico",
+						"placeholder": "Introduce la dirección de correo electrónico"
+					},
+					"first_name": {
+						"label": "Nombre"
+					},
+					"last_name": {
+						"label": "Apellido"
+					},
+					"newsletter": {
+						"label": "Inscríbete para recibir recomendaciones inmobiliarias, inspiración y consejos sobre mudanzas al extranjero"
+					},
+					"password": {
+						"label": "Contraseña",
+						"placeholder": "Introduce la contraseña"
+					}
+				},
+				"or_email": "O con correo electrónico"
+			},
+			"login": {
+				"aside": {
+					"copy": "Estamos aquí para ayudarte a encontrar la propiedad de tus sueños",
+					"cta": "Inscríbete ahora",
+					"subtitle": "Únete a la familia Kyero",
+					"title": "¿Nuevo por aquí?"
+				},
+				"cta": "Iniciar sesión",
+				"forgot_password": "¿Olvidó su contraseña?",
+				"switch_to_signup": "¿Aún no estás con Kyero?",
+				"title": "Bienvenido"
+			},
+			"login_button": "Iniciar sesión",
+			"oauth": {
+				"facebook": "Continuar con Facebook"
+			},
+			"signup": {
+				"cta": "Inscríbete en Kyero",
+				"disclaimer": "Al crear una cuenta aceptas nuestras condiciones de uso, la política de privacidad, consientes que se almacenen cookies en tu dispositivo y aceptas que nos pongamos en contacto contigo para proporcionarte información relevante. Puedes darte de baja o solicitar que se desactive tu cuenta en cualquier momento.",
+				"switch_to_login": "¿Ya eres socio de Kyero?",
+				"title": "Únete a la familia Kyero"
+			},
+			"signup_button": "Regístrate"
+		},
+		"buyers_guide": {
+			"section": {
+				"form": {
+					"cta": "Obtén la guía",
+					"email": "Tu correo electrónico",
+					"newsletter": "Regístrate para recibir recomendaciones inmobiliarias, sugerencias y consejos sobre mudanzas al extranjero",
+					"privacy": "Tu privacidad es importante para nosotros <a href='{{privacy}}' rel='noreferrer noopener' target='_blank' class='underline'>Lee nuestra política de privacidad y términos</a>"
+				},
+				"subtitle": "Desde información sobre sanidad hasta consideraciones legales, descubre todo lo que necesitas saber sobre la compra de una vivienda en {{countryName}}",
+				"title": "Descarga nuestra guía para comprar en {{countryName}}"
+			}
+		},
+		"cookie_policy": {
+			"learn_more": "Aprende más",
+			"opt_in": "Aceptar",
+			"text": "Kyero utiliza datos y cookies para ofrecerle una mejor experiencia, analizar el tráfico, y puede usarse para publicidad personalizada y no personalizada"
+		},
+		"errors": {
+			"error_401": "401: No autorizado",
+			"error_403": "403: No permitido",
+			"error_404": "404: Página no encontrada",
+			"error_500": "500: Error del servidor",
+			"error_client": "Error inesperado",
+			"links": {
+				"advertise_link": "Anunciar",
+				"for_rent_spain_link": "Propiedad en alquiler en España",
+				"for_sale_france_link": "Propiedad en venta en Francia",
+				"for_sale_portugal_link": "Propiedad en venta en Portugal",
+				"for_sale_spain_link": "Propiedad en venta en España",
+				"helpful_links": "Aquí tiene algunos enlaces útiles a cambio:",
+				"homepage_link": "Página de inicio",
+				"support_link": "Ayuda y soporte"
+			},
+			"title": "Vaya, algo ha ido mal"
+		},
+		"footer": {
+			"bcorp": {
+				"copy": "Kyero está aquí para ayudarte a encontrar tu sol, ayudándote en todo el camino, dándote la inspiración, la información y las herramientas que te permitan tener el control.",
+				"cta": "Más sobre Kyero"
+			},
+			"join_cta": "Anúnciate con Kyero",
+			"links": {
+				"about_us": "Sobre nosotros",
+				"advertise": "Anúnciate en Kyero",
+				"advice": "Asesoramiento al comprador",
+				"agent_directory": "Directorio de Agentes Inmobiliarios",
+				"contact_us": "Contáctenos",
+				"cookie_preferences": "Preferencias de cookies",
+				"cookies": "Cookies",
+				"faq": "Preguntas Frecuentes",
+				"france_search": "Propiedades en Francia",
+				"italy_search": "Propiedades en Italia",
+				"market_data": "Datos de mercado",
+				"podcasts": "Podcasts de propiedades",
+				"portugal_search": "Propiedades en Portugal",
+				"privacy": "Privacidad",
+				"sitemap": "Mapa del sitio",
+				"spain_search": "Propiedades en España",
+				"terms": "Letra chica",
+				"work_with_us": "Trabaja con nosotros"
+			},
+			"sections": {
+				"find_property_title": "Buscar inmueble",
+				"for_agents": {
+					"cta": "Descubra cómo Kyero puede ayudarle a vender más propiedades",
+					"title": "Para agentes"
+				},
+				"help_info_title": "Ayuda e información",
+				"resources_title": "Recursos"
+			}
+		},
+		"form": {
+			"email": {
+				"invalid": "Proporcione una dirección de correo electrónico válida"
+			},
+			"required": "Este campo es obligatorio",
+			"submitting": "Enviando..."
+		},
+		"homepage": {
+			"advice_section": {
+				"cta": "Ver todas las guías y consejos de {{countryName}}",
+				"fallback": {
+					"cta": "Consejos y guías para {{countryName}}",
+					"text": "Encuentra tu trocito de sol  con confianza. Escrita por expertos, nuestra sección de consejos y guías te ayudará a tomar las decisiones correctas."
+				},
+				"title": "Lee nuestras últimas guías"
+			},
+			"agents_section": {
+				"copy": "Trabajamos con más de 10.000 agentes inmobiliarios de toda Europa. Encuentra el agente inmobiliario que mejor se adapte a tus necesidades y da el siguiente paso para encontrar la propiedad de tus sueños.",
+				"cta": "Buscar agentes en {{countryName}}",
+				"title": "Encuentra el agente inmobiliario adecuado"
+			},
+			"faq_section": {
+				"title": "Preguntas frecuentes sobre inmuebles en {{countryName}}"
+			},
+			"france": {
+				"meta": {
+					"description": "Encuentre la casa de sus sueños en Francia en Kyero, el portal inmobiliario francés. Elija entre más de 200,000 propiedades en el extranjero en venta y alquiler de los principales agentes inmobiliarios en Kyero.com",
+					"title": "Inmuebles en venta y alquiler en Francia"
+				},
+				"subtitle": "200.000 propiedades en venta y alquiler de agentes inmobiliarios en Francia",
+				"title": "Encuentra la casa de tus sueños en <span class=\"char-decor\">Francia</span>",
+				"top_locations": {
+					"title": "Principales regiones de Francia"
+				}
+			},
+			"italy": {
+				"meta": {
+					"description": "Encuentre la casa de sus sueños en Italia en Kyero, el portal inmobiliario italiano. Elija entre 45,000 propiedades en el extranjero en venta y alquiler de los principales agentes inmobiliarios en Kyero.com",
+					"title": "Inmuebles en venta y alquiler en Italia"
+				},
+				"subtitle": "45.000 inmuebles en venta y alquiler de agentes inmobiliarios en Italia",
+				"title": "Encuentra la casa de tus sueños en <span class=\"char-decor\">Italia</span>",
+				"top_locations": {
+					"title": "Principales regiones de Italia"
+				}
+			},
+			"join_section": {
+				"copy": "Publique sus propiedades en nuestro portal líder en el mercado para ponerlas frente a millones de compradores globales",
+				"cta": "Más información",
+				"title": "¿Vender propiedades en {{countryName}}?"
+			},
+			"location_tree": {
+				"costas": "Costas",
+				"islands": "Islas",
+				"provinces": "Provincias",
+				"regions": "Regiones",
+				"title": "Todas las ubicaciones en {{location}}"
+			},
+			"neutral": {
+				"meta": {
+					"description": "Más de 750.000 inmuebles en venta y alquiler en España, Portugal, Francia e Italia",
+					"title": "Encuentre la casa de sus sueños"
+				}
+			},
+			"portugal": {
+				"meta": {
+					"description": "Encuentre la casa de sus sueños en Portugal en Kyero - el portal inmobiliario portugués. Elija entre más de 250.000 propiedades en venta y alquiler de los principales agentes inmobiliarios en Portugal",
+					"title": "Inmuebles en venta y alquiler en Portugal"
+				},
+				"subtitle": "250.000 propiedades en venta y alquiler de agentes inmobiliarios en Portugal",
+				"title": "Encuentra la casa de tus sueños en <span class=\"char-decor\" data-char=\"l\">Portugal</span>",
+				"top_locations": {
+					"title": "Principales distritos de Portugal"
+				}
+			},
+			"recommended_locations": {
+				"cta": "Ver inmuebles",
+				"error": {
+					"cta": "Ver todos {{country}}",
+					"message": "Algo salió mal",
+					"title": "Vaya,"
+				},
+				"title": "Lugares recomendados en {{country}}"
+			},
+			"searchbox": {
+				"browse_in": "O encuentre su inmueble en <a href=\"{{first_href}}\" class=\"underline\">{{first_location}}</a>, <a href=\"{{second_href}}\" class=\"underline\">{{second_location}}</a> o <a href=\"{{third_href}}\" class=\"underline\">{{third_location}}</a>",
+				"clear_cta": "Borrar búsqueda",
+				"close_modal": "Cerrar búsqueda",
+				"cta": "Buscar",
+				"label": "Busque propiedades en alquiler o venta o encuentre un agente",
+				"loading": "Cargando resultados...",
+				"min_chars": "Escriba un mínimo de 3 caracteres...",
+				"mobile_title": "Buscar",
+				"no_results": "No hemos encontrado ningún resultado para <strong>{{search}}</strong><br /> Intenta buscar de nuevo.",
+				"placeholder": "Buscar por región, provincia o ciudad",
+				"route": {
+					"agents": "Buscar agentes",
+					"agents_mobile": "Agentes",
+					"buy": "Inmuebles para comprar",
+					"buy_mobile": "Comprar",
+					"rent": "Inmuebles en alquiler",
+					"rent_mobile": "Alquilar"
+				},
+				"route_label": "Seleccione el tipo de búsqueda"
+			},
+			"spain": {
+				"meta": {
+					"description": "Encuentre la casa de sus sueños en España en Kyero - el portal inmobiliario español. Elija entre 450.000 propiedades en venta y alquiler de los principales agentes inmobiliarios de España",
+					"title": "Inmuebles en venta y alquiler en España"
+				},
+				"subtitle": "450.000 propiedades en venta y alquiler de agentes inmobiliarios en España",
+				"title": "Encuentra la casa de tus sueños en <span class=\"char-decor\">España</span>",
+				"top_locations": {
+					"title": "Principales regiones de España"
+				}
+			},
+			"testimonials_section": {
+				"title": "A los clientes les encanta Kyero"
+			},
+			"top_locations": {
+				"cta": "Buscar en todas las áreas",
+				"title": "Principales regiones en {{country}}",
+				"view_properties": "{{count}} inmuebles"
+			},
+			"top_properties": {
+				"cta": "Ver todas las propiedades",
+				"title": "Los mejores inmuebles en {{country}}"
+			},
+			"top_property_types": {
+				"cta": "Ver todos los inmuebles",
+				"item_cta": "{{count}} inmuebles",
+				"title": "Principales tipos de propiedades"
+			}
+		},
+		"language_switcher": {
+			"title": "Selecciona un idioma"
+		},
+		"main_menu": {
+			"advice": "Guías",
+			"agents": "Agentes",
+			"agents_in": "Agentes en {{countryName}}",
+			"buy": "Comprar",
+			"buy_in_country": "Comprar en {{countryName}}",
+			"home": "Hogar",
+			"rent": "Alquilar",
+			"rent_in": "Alquiler en {{countryName}}"
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		},
+		"newsletter": {
+			"section": {
+				"form": {
+					"cta": "Subscribir",
+					"email": "Tu correo electrónico",
+					"privacy": "<a href=\"{{policy}}\" rel=\"noreferrer noopener\" target=\"_blank\" class=\"underline\">Lea nuestra política de privacidad y términos</a>"
+				},
+				"title": "Obtén recomendaciones inmobiliarias, sugerencias y consejos sobre mudanzas al extranjero"
+			}
+		},
+		"personalisation_modal": {
+			"form": {
+				"cta": "Subscribir",
+				"email": {
+					"label": "Dirección de correo electrónico"
+				},
+				"first_name": {
+					"label": "Nombre"
+				},
+				"privacy": "<span>Al continuar, aceptas <a href='{{terms}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>nuestros términos</a> y <a href='{{privacy}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>política de privacidad</a>. Puedes dejar de recibir correos electrónicos en cualquier momento dándote de baja en la parte inferior de cada correo electrónico.</span>",
+				"subtitle": "Ayúdanos a encontrar tu rayo de sol. No compartiremos esta información con nadie.",
+				"title": "Cuéntanos más sobre ti",
+				"wants_to_buy_in": {
+					"label": "¿Cuándo piensas comprar una vivienda?",
+					"options": {
+						"in_six_to_twelve_months": "6-12 meses",
+						"in_three_months": "1-3 meses",
+						"in_three_to_six_months": "3-6 meses",
+						"more_than_year": "Más de 1 año",
+						"unsure": "Incierto"
+					}
+				},
+				"why_buy": {
+					"label": "¿Cuál es la razón principal por la que estás buscando mudarte al extranjero?",
+					"options": {
+						"for_work": "Para el trabajo",
+						"holiday_home": "Como casa de vacaciones",
+						"investment": "Como inversión",
+						"relocate": "Para reubicarse",
+						"to_retire": "Para jubilarse"
+					}
+				}
+			},
+			"intro": {
+				"later_button": "Lo haré más tarde",
+				"next_button": "Cuéntanos más sobre tu mudanza"
+			},
+			"intro_guide": {
+				"subtitle": "Hemos enviado tu guía por correo electrónico <span class=\"font-bold\">{{email}}</span>. <br /> Si no puedes verla, comprueba tu carpeta de spam o correo no deseado, o  <span class=\"font-bold\">consulta la guía  <a href=\"{{guidesURL}}\" class=\"underline\" target=\"_blank\" rel=\"noopener noreferrer\">aquí</a></span>",
+				"title": "¡Gracias! Te hemos enviado la guía"
+			},
+			"intro_newsletter": {
+				"subtitle": "Todos los domingos recibirás un correo electrónico semanal regular con las últimas propiedades que creemos que te encantarán. El próximo domingo recibirás tu primer correo electrónico.",
+				"title": "Enviaremos alertas de propiedades a {{email}}"
+			},
+			"success": {
+				"cta": "Entiendo",
+				"subtitle": "Con esta información, nos aseguramos de recomendarte inmuebles que ofrezcan todo lo que necesitas para estar un paso más cerca de encontrar tu lugar al sol.",
+				"title": "Hemos guardado tu información"
+			}
+		},
+		"property_gallery": {
+			"image_alt": "{{propertyDescription}} - foto {{number}}"
+		},
+		"property_types": {
+			"types": {
+				"town_houses": "Adosados",
+				"under_100k": "Menos de 100.000 €",
+				"under_150k": "Menos de 150.000 €",
+				"villas": "Villas",
+				"with_pool": "Lugares con piscina"
+			}
+		},
+		"recent_searches": {
+			"cta": {
+				"count": "{{count}} nuevas propiedades",
+				"loading": "Cargando…",
+				"no_count": "Ver inmuebles"
+			},
+			"features": {
+				"disabled_access": "Acceso para discapacitados",
+				"garage": "Garaje",
+				"garden": "Jardín",
+				"lift": "Ascensor",
+				"near_beach": "Cerca de la playa",
+				"near_golf": "Cerca del campo de golf",
+				"near_shops": "Cerca de tiendas",
+				"near_transport": "Cerca de transporte público",
+				"new_build": "Sólo nueva construcción",
+				"parking": "Aparcamiento",
+				"pool": "Piscina",
+				"remote_viewing": "Visita en línea disponible",
+				"resale_only": "Sólo reventa",
+				"terrace": "Terraza",
+				"video": "Con video",
+				"virtual_tour": "Con visita virtual"
+			},
+			"filter_ranges": {
+				"price": {
+					"max": "<{{max}}",
+					"min": "{{min}}+",
+					"min_max": "{{min}}-{{max}}",
+					"no_range": "Cualquier precio"
+				}
+			},
+			"payment_scheme": {
+				"for_sale": "Comprar",
+				"to_rent": "Alquilar"
+			},
+			"property_group": {
+				"apartment": "Apartamento",
+				"cave_house": "Casa cueva",
+				"commercial_property": "Propiedad comercial",
+				"country_house": "Casa de campo",
+				"garage": "Garaje",
+				"land": "Terreno",
+				"town_house": "Adosado",
+				"unknown": "Cualquier tipo de propiedad",
+				"villa": "Villa",
+				"wooden_home": "Casa de madera/móvil"
+			},
+			"title": "Búsquedas recientes"
+		},
+		"ui": {
+			"close": "Cerrar",
+			"close_menu": "Cerrar menú",
+			"icons": {
+				"bathrooms": "Número de baños",
+				"bedrooms": "Número de habitaciones",
+				"build_size": "Tamaño del inmueble",
+				"gallery_size": "Número de imágenes"
+			},
+			"modals": {
+				"error": {
+					"accept": "Entiendo",
+					"subtitle": "Tenemos problemas para hacer lo que nos pediste. El problema es nuestro, no tuyo. Haz clic en el botón para volver a intentarlo o inténtalo más tarde.",
+					"title": "Algo no funciona correctamente"
+				}
+			},
+			"next": "Próximo",
+			"open": "Abrir",
+			"open_menu": "Abrir menú",
+			"prev": "Anterior",
+			"retry": "Reintentar",
+			"select": "Escoger"
+		},
+		"user_menu": {
+			"links": {
+				"account": "Cuenta",
+				"enquiries": "Consultas",
+				"favourites": "Favoritos",
+				"logout": "Cerrar sesión",
+				"saved_searches": "Búsquedas guardadas"
+			},
+			"message": "Hola, {{name}}",
+			"mobile_title": "Cuenta de usuario"
+		}
+	}
+}

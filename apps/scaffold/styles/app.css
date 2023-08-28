@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: normal;
+    font-display: swap;
+    src: url('/fonts/gilroy-medium-webfont.woff2') format('woff2'),
+      url('/fonts/gilroy-medium-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: normal;
+    font-display: swap;
+    font-style: italic;
+    src: url('/fonts/gilroy-mediumitalic-webfont.woff2') format('woff2'),
+      url('/fonts/gilroy-mediumitalic-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-display: swap;
+    src: url('/fonts/gilroy-semibold-webfont.woff2') format('woff2'),
+      url('/fonts/gilroy-semibold-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-display: swap;
+    font-style: italic;
+    src: url('/fonts/gilroy-semibolditalic-webfont.woff2') format('woff2'),
+      url('/fonts/gilroy-semibolditalic-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-display: swap;
+    src: url('/fonts/gilroy-bold-webfont.woff2') format('woff2'),
+      url('/fonts/gilroy-bold-webfont.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: 800;
+    font-display: swap;
+    font-style: italic;
+    src: url('/fonts/gilroy-bolditalic-webfont.woff2') format('woff2'),
+      url('/fonts/gilroy-bolditalic-webfont.woff') format('woff');
+  }
+}
+
+@layer {
+  body {
+    @apply antialiased;
+  }
+}

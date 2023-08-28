@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TellUsAboutForm When form is filled shows validation errors 1`] = `
+<DocumentFragment>
+  <section
+    class="order-2 max-w-2xl rounded-xl bg-white shadow-sm sm:order-1"
+    data-testid="form-wrapper"
+  >
+    <form
+      class="text-tile-100 p-6"
+      data-testid="form"
+    >
+      <header
+        class="mb-4"
+      >
+        <h3
+          class="text-h-4 lg:text-h-3 mb-2 font-bold"
+        >
+          tell_us_about.form.title
+        </h3>
+        <p
+          class="text-p-2-sm lg:text-p-2"
+        >
+          tell_us_about.form.subtitle
+        </p>
+      </header>
+      <section
+        class="mb-4 grid grid-rows-none gap-y-4 lg:grid-cols-2 lg:gap-x-6"
+      >
+        <div>
+          <label
+            class="text-p-2 md:text-h-6 font-bold text-tile-100"
+            for="firstName"
+          >
+            tell_us_about.form.first_name.label
+          </label>
+          <input
+            class="border-sierra-night-40 text-sierra-night-60 w-full rounded-md border p-2 pl-4 mt-2"
+            data-testid="first-name"
+            name="firstName"
+            type="text"
+          />
+          <p
+            class="px-2 text-terracotta-100 mt-2"
+            data-testid="first-name-error"
+          >
+            form.validations.first_name
+          </p>
+        </div>
+        <div>
+          <label
+            class="text-p-2 md:text-h-6 font-bold text-tile-100"
+            for="lastName"
+          >
+            tell_us_about.form.last_name.label
+          </label>
+          <input
+            class="border-sierra-night-40 text-sierra-night-60 w-full rounded-md border p-2 pl-4 mt-2"
+            data-testid="last-name"
+            name="lastName"
+            type="text"
+          />
+          <p
+            class="px-2 text-terracotta-100 mt-2"
+            data-testid="last-name-error"
+          >
+            form.validations.last_name
+          </p>
+        </div>
+      </section>
+      <div>
+        <label
+          class="text-p-2 md:text-h-6 font-bold text-tile-100"
+          for="email"
+        >
+          tell_us_about.form.email.label
+        </label>
+        <p
+          class="text-p-3-sm lg:text-p-3 text-sierra-night-60 w-full"
+        >
+          tell_us_about.form.email.description
+        </p>
+        <input
+          class="border-sierra-night-40 text-sierra-night-60 w-full rounded-md border p-2 pl-4 mt-2"
+          data-testid="email"
+          name="email"
+          type="text"
+        />
+        <p
+          class="px-2 text-terracotta-100 mt-2"
+          data-testid="email-error"
+        >
+          form.validations.email.format
+        </p>
+      </div>
+      <p
+        class="text-p-2-sm lg:text-p-2 my-4"
+      >
+        tell_us_about.form.business_info
+      </p>
+      <section
+        class="space-y-4 lg:w-3/4"
+      >
+        <div>
+          <label
+            class="text-p-2 md:text-h-6 font-bold text-tile-100"
+            for="company"
+          >
+            tell_us_about.form.company.label
+          </label>
+          <p
+            class="text-p-3-sm lg:text-p-3 text-sierra-night-60 w-full"
+          >
+            tell_us_about.form.company.description
+          </p>
+          <input
+            class="border-sierra-night-40 text-sierra-night-60 w-full rounded-md border p-2 pl-4 mt-2"
+            data-testid="company-name"
+            name="company"
+            type="text"
+          />
+          <p
+            class="px-2 text-terracotta-100 mt-2"
+            data-testid="company-name-error"
+          >
+            form.validations.business_name
+          </p>
+        </div>
+        <div>
+          <label
+            class="text-p-2 md:text-h-6 font-bold text-tile-100"
+            for="website"
+          >
+            tell_us_about.form.website.label
+          </label>
+          <p
+            class="text-p-3-sm lg:text-p-3 text-sierra-night-60 w-full"
+          >
+            tell_us_about.form.website.description
+          </p>
+          <input
+            class="border-sierra-night-40 text-sierra-night-60 w-full rounded-md border p-2 pl-4 mt-2"
+            name="website"
+            type="text"
+          />
+        </div>
+        <div>
+          <label
+            class="text-p-2 md:text-h-6 font-bold text-tile-100"
+            for="phone"
+          >
+            tell_us_about.form.phone.label
+          </label>
+          <p
+            class="text-p-3-sm lg:text-p-3 text-sierra-night-60 w-full"
+          >
+            tell_us_about.form.phone.description
+          </p>
+          <input
+            class="border-sierra-night-40 text-sierra-night-60 w-full rounded-md border p-2 pl-4 mt-2"
+            data-testid="phone-number"
+            name="phone"
+            type="text"
+          />
+          <p
+            class="px-2 text-terracotta-100 mt-2"
+            data-testid="phone-number-error"
+          >
+            form.validations.phone_number.format
+          </p>
+        </div>
+        <div>
+          <label
+            class="text-p-2 md:text-h-6 font-bold text-tile-100"
+            for="taxNumberContact"
+          >
+            tell_us_about.form.vat_number.label
+          </label>
+          <p
+            class="text-p-3-sm lg:text-p-3 text-sierra-night-60 w-full"
+          >
+            tell_us_about.form.vat_number.description
+          </p>
+          <input
+            class="border-sierra-night-40 text-sierra-night-60 w-full rounded-md border p-2 pl-4 mt-2"
+            data-testid="vat-number"
+            name="taxNumberContact"
+            type="text"
+          />
+        </div>
+      </section>
+      <section
+        class="my-4 grid grid-rows-none gap-y-3 lg:grid-cols-2 lg:gap-x-6"
+      >
+        <div
+          class="lg:col-span-2"
+        >
+          <div>
+            <label
+              class="text-p-2 md:text-h-6 font-bold text-tile-100"
+              for="address"
+            >
+              tell_us_about.form.address.label
+            </label>
+            <input
+              class="border-sierra-night-40 text-sierra-night-60 w-full rounded-md border p-2 pl-4 mt-2"
+              data-testid="address"
+              name="address"
+              type="text"
+            />
+          </div>
+        </div>
+        <div>
+          <label
+            class="text-p-2 md:text-h-6 font-bold text-tile-100"
+            for="city"
+          >
+            Town
+          </label>
+          <input
+            class="border-sierra-night-40 text-sierra-night-60 w-full rounded-md border p-2 pl-4 mt-2"
+            data-testid="address-town"
+            name="city"
+            type="text"
+          />
+        </div>
+        <div>
+          <label
+            class="text-p-2 md:text-h-6 font-bold text-tile-100"
+            for="state"
+          >
+            tell_us_about.form.region.label
+          </label>
+          <input
+            class="border-sierra-night-40 text-sierra-night-60 w-full rounded-md border p-2 pl-4 mt-2"
+            data-testid="address-region"
+            name="state"
+            type="text"
+          />
+        </div>
+        <div>
+          <label
+            class="text-p-2 md:text-h-6 font-bold text-tile-100"
+            for="zip"
+          >
+            tell_us_about.form.postcode.label
+          </label>
+          <input
+            class="border-sierra-night-40 text-sierra-night-60 w-full rounded-md border p-2 pl-4 mt-2"
+            data-testid="address-postcode"
+            name="zip"
+            type="text"
+          />
+        </div>
+        <div>
+          <label
+            class="text-p-2 md:text-h-6 font-bold text-tile-100"
+            for="country"
+          >
+            tell_us_about.form.country.label
+          </label>
+          <input
+            class="border-sierra-night-40 text-sierra-night-60 w-full rounded-md border p-2 pl-4 mt-2"
+            data-testid="address-country"
+            name="country"
+            type="text"
+          />
+        </div>
+      </section>
+      <input
+        data-testid="prime-package-selected"
+        name="primePackageSelected"
+        type="hidden"
+        value="25_prime_listings_1_month"
+      />
+      <input
+        name="defaultNationContact"
+        type="hidden"
+        value="Spain"
+      />
+      <input
+        name="hsLanguage"
+        type="hidden"
+        value="en"
+      />
+      <footer
+        class="my-4 space-y-3"
+      >
+        <button
+          class="inline-block w-full rounded-full px-4 text-center font-bold text-white disabled:cursor-not-allowed bg-ocean-100 border-ocean-100 hover:border-ocean-120 hover:bg-ocean-120 focus:border-ocean-120 focus:bg-ocean-120 disabled:bg-ocean-40 disabled:border-ocean-40 border-2 py-3"
+        >
+          tell_us_about.form.cta.title
+        </button>
+      </footer>
+    </form>
+  </section>
+</DocumentFragment>
+`;

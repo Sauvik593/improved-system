@@ -1,0 +1,21 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["dist", "node_modules", ".../../node_modules/**/*"],
+  "compilerOptions": {
+    "types": ["vitest/globals"],
+    "declaration": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "target": "ESNext",
+    "baseUrl": "./",
+    "paths": {
+      "@helpers": ["src/helpers/*"]
+    },
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "importsNotUsedAsValues": "preserve"
+  }
+}

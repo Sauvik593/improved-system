@@ -1,0 +1,17 @@
+{
+	"common": {
+		"homepage": {
+			"meta": {
+				"description": {
+					"neutral": "Meer dan 750.000 koop- en huurwoningen in Spanje, Portugal, Frankrijk en Italië"
+				},
+				"title": {
+					"neutral": "Vind uw droomhuis"
+				}
+			}
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		}
+	}
+}

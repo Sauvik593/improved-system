@@ -1,0 +1,429 @@
+{
+	"common": {
+		"auth": {
+			"common": {
+				"form": {
+					"email": {
+						"label": "Correu electrònic",
+						"placeholder": "Indica un correu electrònic"
+					},
+					"first_name": {
+						"label": "Primer nom"
+					},
+					"last_name": {
+						"label": "Cognoms"
+					},
+					"newsletter": {
+						"label": "Inscriu-te per a rebre recomanacions sobre propietats i dades inspiradores i consells per a viure a l'estranger"
+					},
+					"password": {
+						"label": "Contrasenya",
+						"placeholder": "Indica contrasenya"
+					}
+				},
+				"or_email": "O correu electrònic"
+			},
+			"login": {
+				"aside": {
+					"copy": "Som aquí perquè trobis la propietat dels teus somnis",
+					"cta": "Uneix-te ara",
+					"subtitle": "Uneix-te a la família Kyero",
+					"title": "Ets nou aquí?"
+				},
+				"cta": "Inicia sessió",
+				"forgot_password": "Heu perdut la contrasenya?",
+				"switch_to_signup": "Encara no t'has unit a Kyero?",
+				"title": "Hola de nou"
+			},
+			"login_button": "Inici de sessió",
+			"oauth": {
+				"facebook": "Continua amb Facebook"
+			},
+			"signup": {
+				"cta": "Uneix-te a Kyero",
+				"disclaimer": "Creant un nou compte vostè accepta els nostres termes d'ús, política de privacitat, el consentiment de les galetes de ser emmagatzemades en el seu dispositiu i d'acord que ens poden en contacte amb informació rellevant. Podeu cancel·lar la subscripció o demanar que el seu compte es desactiva en qualsevol moment.",
+				"switch_to_login": "Ja ets membre de Kyero?",
+				"title": "Uneix-te a la família Kyero"
+			},
+			"signup_button": "Registra't"
+		},
+		"buyers_guide": {
+			"section": {
+				"form": {
+					"cta": "Obtenir la guia",
+					"email": "La teva adreça d'e-mail",
+					"newsletter": "Inscriu-te per a rebre recomanacions sobre propietats i dades inspiradores i consells per a viure a l'estranger",
+					"privacy": "La teva privadesa compta <a href=\"{{privacy}}\" rel=\"noreferrer noopener\" target=\"_blank\" class=\"underline\">Llegeix la política i termes de privadesa </a>"
+				},
+				"subtitle": "Per saber-ne més sobre aspectes legals o sanitaris, descobreix tot el que et cal saber sobre comprar una propietat a {{countryName}}",
+				"title": "Descarrega't la nostra guia per comprar a {{countryName}}"
+			}
+		},
+		"cookie_policy": {
+			"learn_more": "Saber-ne més",
+			"opt_in": "Accepta",
+			"text": "Kyero utilitza dades i cookies per oferir-te una millor experiència, analitzar el trànsit i es pot utilitzar per a publicitat personalitzada i no personalitzada"
+		},
+		"errors": {
+			"error_401": "401: sense autorització",
+			"error_403": "403: sense permís",
+			"error_404": "404 La pàgina no s'ha trobat",
+			"error_500": "500: error del servidor",
+			"error_client": "Error inesperat",
+			"links": {
+				"advertise_link": "Anunciar",
+				"for_rent_spain_link": "Propietat en lloguer a Espanya",
+				"for_sale_france_link": "Propietat en venda a França",
+				"for_sale_portugal_link": "Propietat en venda a Portugal",
+				"for_sale_spain_link": "Propietat en venda a Espanya",
+				"helpful_links": "Tot seguit es mostren alguns enllaços útils:",
+				"homepage_link": "Pàgina d’inici",
+				"support_link": "Ajuda i assistència"
+			},
+			"title": "S'ha produït un error"
+		},
+		"footer": {
+			"bcorp": {
+				"copy": "Kyero és aquí per ajudar-te a trobar els teus somnis i a recórrer tot el teu viatge, donant-te la inspiració, la informació i les eines que et donen el control.",
+				"cta": "Més sobre Kyero"
+			},
+			"join_cta": "Anunci amb Kyero",
+			"links": {
+				"about_us": "Sobre nosaltres",
+				"advertise": "Anuncia't a Kyero",
+				"advice": "Guia sobre com comprar",
+				"agent_directory": "Directori d'Agents de la Propietat Immobiliària",
+				"contact_us": "Contacta amb nosaltres",
+				"cookie_preferences": "Preferències de cookies",
+				"cookies": "Galetes",
+				"faq": "Preguntes freqüents",
+				"france_search": "Propietats a França",
+				"italy_search": "Propietats a Itàlia",
+				"market_data": "Dades de mercat",
+				"podcasts": "Podcasts de propietats",
+				"portugal_search": "Propietats a Portugal",
+				"privacy": "Privacitat",
+				"sitemap": "Mapa del lloc",
+				"spain_search": "Propietats a Espanya",
+				"terms": "Termes",
+				"work_with_us": "Treballa amb nosaltres"
+			},
+			"sections": {
+				"find_property_title": "Cerca propietats",
+				"for_agents": {
+					"cta": "Descobreix com Kyero et pot ajudar a vendre més propietats",
+					"title": "Per als agents"
+				},
+				"help_info_title": "Obtén ajuda",
+				"resources_title": "Recursos"
+			}
+		},
+		"form": {
+			"email": {
+				"invalid": "Assenyala una adreça de correu electrònic vàlida"
+			},
+			"required": "Aquest camp és obligatori",
+			"submitting": "Enviant..."
+		},
+		"homepage": {
+			"advice_section": {
+				"cta": "Consulta totes les guies i consells sobre {{countryName}}",
+				"fallback": {
+					"cta": "Guies i consells de {{countryName}}",
+					"text": "Troba el teu sol amb confiança. Escrit per experts, la nostra secció de guies i consells t'ajudarà a prendre les decisions correctes."
+				},
+				"title": "Llegeix les últimes guies"
+			},
+			"agents_section": {
+				"copy": "Treballem amb més de 10.000 agents immobiliaris a tot Europa. Troba l'agent immobiliari adequat per satisfer les teves necessitats i fes el següent pas per trobar la propietat dels teus somnis",
+				"cta": "Troba agents a {{countryName}}",
+				"title": "Troba l'agent immobiliari adequat per a tu"
+			},
+			"faq_section": {
+				"title": "Preguntes freqüents sobre les propietats a {{countryName}}"
+			},
+			"france": {
+				"meta": {
+					"description": "Troba la casa dels teus somnis a França amb Kyero - el portal immobiliari frances. Tria entre 200.000 propietats en venda i lloguer dels principals agents immobiliaris amb Kyero.com.",
+					"title": "Propietats en venda i lloguer a França"
+				},
+				"subtitle": "200.000 propietats en venda i lloguer d'agents immobiliaris a França",
+				"title": "Troba la casa dels teus somnis a <span class=\"char-decor\">França</span>",
+				"top_locations": {
+					"title": "Principals regions de França"
+				}
+			},
+			"italy": {
+				"meta": {
+					"description": "Troba la casa dels teus somnis a Itàlia amb Kyero - el portal immobiliari italian. Tria entre 45,000 propietats en venda i lloguer dels principals agents immobiliaris amb Kyero.com.",
+					"title": "Propietats en venda i lloguer a Itàlia"
+				},
+				"subtitle": "45.000 propietats en venda i lloguer d'agents immobiliaris a Itàlia",
+				"title": "Troba la casa dels teus somnis a <span class=\"char-decor\">Itàlia</span>",
+				"top_locations": {
+					"title": "Principals regions de Itàlia"
+				}
+			},
+			"join_section": {
+				"copy": "Publica les teves propietats en el nostre portal líder en el mercat i mostra-les a milions de compradors globals.",
+				"cta": "Més informació",
+				"title": "Vens propietats a {{countryName}}?"
+			},
+			"location_tree": {
+				"costas": "Costes",
+				"islands": "Illes",
+				"provinces": "Províncies",
+				"regions": "Regions",
+				"title": "Totes les ubicacions a {{location}}"
+			},
+			"neutral": {
+				"meta": {
+					"description": "Más de 750.000 propietats en venda i lloguer a Espanya, Portugal, França i Itàlia",
+					"title": "Troba la teva casa de somni"
+				}
+			},
+			"portugal": {
+				"meta": {
+					"description": "Troba la casa dels teus somnis a Portugal amb Kyero.com - el portal immobiliari portuguese. Tria entre 250.000 propietats en venda i lloguer dels principals agents immobiliaris a Portugal",
+					"title": "Propietats en venda i lloguer a Portugal"
+				},
+				"subtitle": "250.000 propietats en venda i lloguer d'agents immobiliaris a Portugal",
+				"title": "Troba la casa dels teus somnis a <span class=\"char-decor\" data-char=\"l\">Portugal</span>",
+				"top_locations": {
+					"title": "Principals districtes de Portugal"
+				}
+			},
+			"recommended_locations": {
+				"cta": "Visualitza les propietats",
+				"error": {
+					"cta": "Cerca tot}{{country}}",
+					"message": "S'ha produït un error",
+					"title": "¡Vaja!"
+				},
+				"title": "Llocs recomanatas a {{country}}"
+			},
+			"searchbox": {
+				"browse_in": "O cerca propietat a <a href=\"{{first_href}}\" class=\"underline\">{{first_location}}</a>, <a href=\"{{second_href}}\" class=\"underline\">{{second_location}}</a> o <a href=\"{{third_href}}\" class=\"underline\">{{third_location}}</a>",
+				"clear_cta": "Elimina cerca.",
+				"close_modal": "Surt de la cerca.",
+				"cta": "Cerca",
+				"label": "Cerca propietats en venda o lloguer, o un agent.",
+				"loading": "Carregant resultats...",
+				"min_chars": "Cal introduir 3 caràcters com a mínim.",
+				"mobile_title": "Cerca",
+				"no_results": "No hi ha resultats per <strong>{{search}}</strong><br />Intenta fer una nova cerca.",
+				"placeholder": "Cerca per regió, província o ciutat.",
+				"route": {
+					"agents": "Troba un agent",
+					"agents_mobile": "Agents",
+					"buy": "Propietats per comprar",
+					"buy_mobile": "Comprar",
+					"rent": "Propietats per lloguer",
+					"rent_mobile": "Llogar"
+				},
+				"route_label": "Escull la cerca."
+			},
+			"spain": {
+				"meta": {
+					"description": "Troba la casa dels teus somnis a Espanya amb Kyero.com - el portal immobiliari espanyol. Tria entre 450.000 propietats en venda i lloguer dels principals agents immobiliaris a Espanya",
+					"title": "Propietats en venda i lloguer a Espanya"
+				},
+				"subtitle": "450.000 propietats en venda i lloguer d'agents immobiliaris a Espanya",
+				"title": "Troba la casa dels teus somnis a <span class=\"char-decor\">Espanya</span>",
+				"top_locations": {
+					"title": "Principals regions de Espanya"
+				}
+			},
+			"testimonials_section": {
+				"title": "Als clients els encanta Kyero"
+			},
+			"top_locations": {
+				"cta": "Cerca a totes les zones",
+				"title": "Principals regions de {{country}}",
+				"view_properties": "{{count}} propietats"
+			},
+			"top_properties": {
+				"cta": "Veure totes les propietats",
+				"title": "Allotjaments principals a {{country}}"
+			},
+			"top_property_types": {
+				"cta": "Veure totes les propietats",
+				"item_cta": "{{count}} propietats",
+				"title": "Tipus d'immobles principals"
+			}
+		},
+		"language_switcher": {
+			"title": "Seleccioneu una llengua"
+		},
+		"main_menu": {
+			"advice": "Guies",
+			"agents": "Agents",
+			"agents_in": "Agents a {{countryName}}",
+			"buy": "Comprar",
+			"buy_in_country": "Comprar a {{countryName}}",
+			"home": "Llar",
+			"rent": "Llogar",
+			"rent_in": "Llogar a {{countryName}}"
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		},
+		"newsletter": {
+			"section": {
+				"form": {
+					"cta": "Subscriu-m'hi",
+					"email": "La teva adreça d'e-mail",
+					"privacy": "<a href=\"{{policy}}\" rel=\"noreferrer noopener\" target=\"_blank\" class=\"underline\">Llegeix la política i termes de privadesa</a>"
+				},
+				"title": "Rep recomanacions sobre propietats i dades inspiradores i consells per a viure a l'estranger"
+			}
+		},
+		"personalisation_modal": {
+			"form": {
+				"cta": "Subscriu-m'hi",
+				"email": {
+					"label": "Correu electrònic"
+				},
+				"first_name": {
+					"label": "Nom"
+				},
+				"privacy": "<span>Si decideixes continuar, accepte <a href='{{terms}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>els nostres termes</a> i <a href='{{privacy}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'> i política de privacitat</a>. Pots deixar de rebre correus electrònics en qualsevol moment donant-te de baixa a la part inferior de qualsevol correu electrònic.</span>",
+				"subtitle": "Ajuda'ns a trobar la propietat que somies. No compartirem la informació amb ningú.",
+				"title": "Digue'ns més sobre tu",
+				"wants_to_buy_in": {
+					"label": "Quan vols comprar una propietat?",
+					"options": {
+						"in_six_to_twelve_months": "6-12 mesos",
+						"in_three_months": "1-3 mesos",
+						"in_three_to_six_months": "3-6 mesos",
+						"more_than_year": "Més d'1 any",
+						"unsure": "No n'estic segur"
+					}
+				},
+				"why_buy": {
+					"label": "Quina és la principal raó per mudar-te a l'estranger?",
+					"options": {
+						"for_work": "Per treball",
+						"holiday_home": "Com a casa de vacances",
+						"investment": "Com a inversió",
+						"relocate": "Per traslladar-m'hi",
+						"to_retire": "Jubilar-me"
+					}
+				}
+			},
+			"intro": {
+				"later_button": "Ho faré més tard.",
+				"next_button": "Digue'ns més sobre la teva mudança"
+			},
+			"intro_guide": {
+				"subtitle": "T'hem enviat la guia a <span class=\"font-bold\">{{email}}</span>. <br /> Si la veus, mira el correu brossa o no desitjat, o <span class=\"font-bold\">consulta la guia <a href=\"{{guidesURL}}\" class=\"underline\" target=\"_blank\" rel=\"noopener noreferrer\">here</a></span>",
+				"title": "Gràcies! T'hem enviat la guia"
+			},
+			"intro_newsletter": {
+				"subtitle": "Cada dilluns rebràs correus electrònics amb les últimes propietats que podrien agradar-te. El teu primer correu arribarà aquest diumenge!",
+				"title": "Enviarem alertes de propietats a {{email}}"
+			},
+			"success": {
+				"cta": "Entesos",
+				"subtitle": "La farem servir per recomanar-te les propietats que tinguin tot el que necessites: ets a un pas d'aconseguir els teus somnis.",
+				"title": "Hem guardat la teva informació"
+			}
+		},
+		"property_gallery": {
+			"image_alt": "{{propertyDescription}} - foto {{number}}"
+		},
+		"property_types": {
+			"types": {
+				"town_houses": "Casa en ciutat",
+				"under_100k": "Menys de 100.000€",
+				"under_150k": "Menys de 150.000€",
+				"villas": "Villas",
+				"with_pool": "Places amb piscina"
+			}
+		},
+		"recent_searches": {
+			"cta": {
+				"count": "{{count}} propietats noves",
+				"loading": "Carregant...",
+				"no_count": "Veure propietats"
+			},
+			"features": {
+				"disabled_access": "Accés per a minusvàlids",
+				"garage": "Garatge",
+				"garden": "Jardí",
+				"lift": "Ascensor",
+				"near_beach": "A prop de la platja",
+				"near_golf": "A prop del golf",
+				"near_shops": "A prop de les botigues",
+				"near_transport": "A prop del transport",
+				"new_build": "Només nova construcció",
+				"parking": "Pàrquing",
+				"pool": "Piscina",
+				"remote_viewing": "Visita en línia disponible",
+				"resale_only": "Només revenda",
+				"terrace": "Terrassa",
+				"video": "Amb vídeo",
+				"virtual_tour": "Amb visita virtual"
+			},
+			"filter_ranges": {
+				"price": {
+					"max": "<{{max}}",
+					"min": "{{min}}+",
+					"min_max": "{{min}}-{{max}}",
+					"no_range": "Qualsevol preu"
+				}
+			},
+			"payment_scheme": {
+				"for_sale": "Comprar",
+				"to_rent": "Lloguer"
+			},
+			"property_group": {
+				"apartment": "Apartament",
+				"cave_house": "Casa cova",
+				"commercial_property": "Propietat comercial",
+				"country_house": "Masia",
+				"garage": "Garatge",
+				"land": "Terra",
+				"town_house": "Casa adossada",
+				"unknown": "Qualsevol tipus d'immoble",
+				"villa": "Vila",
+				"wooden_home": "Casa de fusta/mòbil"
+			},
+			"title": "Cerques recents"
+		},
+		"ui": {
+			"close": "Tanca",
+			"close_menu": "Tanca el menú",
+			"icons": {
+				"bathrooms": "Nombre de banys",
+				"bedrooms": "Nombre d'habitacions",
+				"build_size": "Mida de la construcció",
+				"gallery_size": "Nombre d'imatges"
+			},
+			"modals": {
+				"error": {
+					"accept": "Entesos",
+					"subtitle": "Tenim problemes per fer el que demanes. El problema és nostre, no teu. Fes clic al botó per intentar-ho de nou o torna més tard.",
+					"title": "Quelcom no està funcionant com cal"
+				}
+			},
+			"next": "Següent",
+			"open": "Obre",
+			"open_menu": "Obre el menú",
+			"prev": "Anterior",
+			"retry": "Prova de nou",
+			"select": "Seleccioneu"
+		},
+		"user_menu": {
+			"links": {
+				"account": "Compte",
+				"enquiries": "Consultes",
+				"favourites": "Favorits",
+				"logout": "Tancar sessió",
+				"saved_searches": "Cerques desades"
+			},
+			"message": "Hola, {{name}}",
+			"mobile_title": "Compte d'usuari"
+		}
+	}
+}

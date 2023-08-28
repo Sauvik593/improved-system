@@ -1,0 +1,429 @@
+{
+	"common": {
+		"auth": {
+			"common": {
+				"form": {
+					"email": {
+						"label": "E-Mail",
+						"placeholder": "E-Mail-Adresse eingeben"
+					},
+					"first_name": {
+						"label": "Vorname"
+					},
+					"last_name": {
+						"label": "Nachname"
+					},
+					"newsletter": {
+						"label": "Melden Sie sich an, um Immobilienempfehlungen, Anregungen und Tipps zum Umzug ins Ausland zu erhalten"
+					},
+					"password": {
+						"label": "Passwort",
+						"placeholder": "Passwort eingeben"
+					}
+				},
+				"or_email": "Oder per E-Mail"
+			},
+			"login": {
+				"aside": {
+					"copy": "Wir sind hier, um Ihnen zu helfen, Ihre Traumimmobilie zu finden",
+					"cta": "Jetzt anmelden",
+					"subtitle": "Werden Sie Teil der Kyero-Familie",
+					"title": "Neu hier?"
+				},
+				"cta": "Einloggen",
+				"forgot_password": "Passwort vergessen?",
+				"switch_to_signup": "Sie sind noch nicht bei Kyero angemeldet?",
+				"title": "Willkommen zurück"
+			},
+			"login_button": "Anmelden",
+			"oauth": {
+				"facebook": "Weiter mit Facebook"
+			},
+			"signup": {
+				"cta": "Treten Sie Kyero bei",
+				"disclaimer": "Durch die Erstellung eines Kontos akzeptieren Sie unsere Nutzungsbedingungen, Datenschutzrichtlinien, stimmen der Speicherung von Cookies auf Ihrem Gerät zu und erklären sich damit einverstanden, dass wir Sie mit relevanten Informationen kontaktieren dürfen. Sie können sich jederzeit abmelden oder die Deaktivierung Ihres Kontos beantragen.",
+				"switch_to_login": "Sie sind bereits Mitglied bei Kyero?",
+				"title": "Werden Sie Teil der Kyero-Familie"
+			},
+			"signup_button": "Anmelden"
+		},
+		"buyers_guide": {
+			"section": {
+				"form": {
+					"cta": "Holen Sie sich den Leitfaden",
+					"email": "Ihre E-Mail-Adresse",
+					"newsletter": "Melden Sie sich an, um Immobilienempfehlungen, Anregungen und Tipps zum Umzug ins Ausland zu erhalten",
+					"privacy": "Ihre Privatsphäre ist uns wichtig <a href='{{privacy}}' rel='noreferrer noopener' target='_blank' class='underline'>Lesen Sie unsere Datenschutzrichtlinien und Bedingungen</a>"
+				},
+				"subtitle": "Von Informationen zur Gesundheitsfürsorge bis hin zu rechtlichen Aspekten - erfahren Sie alles, was Sie über den Kauf einer Immobilie in {{countryName}} wissen müssen",
+				"title": "Laden Sie unseren Leitfaden zum Kauf in {{countryName}} herunter"
+			}
+		},
+		"cookie_policy": {
+			"learn_more": "Mehr dazu",
+			"opt_in": "Annehmen",
+			"text": "Kyero verwendet Daten und Cookies, um Ihnen ein besseres Erlebnis zu bieten, den Verkehr zu analysieren und kann für personalisierte und nicht personalisierte Werbung verwendet werden"
+		},
+		"errors": {
+			"error_401": "401: Unbefugt",
+			"error_403": "403: Nicht gestattet",
+			"error_404": "404 Seite nicht gefunden",
+			"error_500": "500: Serverfehler",
+			"error_client": "Unerwarteter Fehler",
+			"links": {
+				"advertise_link": "Inserieren",
+				"for_rent_spain_link": "Mietobjekte in Spanien",
+				"for_sale_france_link": "Kaufobjekte in Frankreich",
+				"for_sale_portugal_link": "Kaufobjekte in Portugal",
+				"for_sale_spain_link": "Kaufobjekte in Spanien",
+				"helpful_links": "Hier sind stattdessen einige hilfreiche Links:",
+				"homepage_link": "Startseite",
+				"support_link": "Hilfe und Unterstützung"
+			},
+			"title": "Hoppla, da ist etwas schiefgegangen"
+		},
+		"footer": {
+			"bcorp": {
+				"copy": "Kyero möchte Ihnen helfen, Ihren Sonnenschein zu finden, indem wir Sie auf Ihrer gesamten Reise begleiten und Ihnen die Inspiration, die Informationen und die Hilfsmittel geben, die Sie brauchen.",
+				"cta": "Mehr über Kyero"
+			},
+			"join_cta": "Auf Kyero werben",
+			"links": {
+				"about_us": "Über uns",
+				"advertise": "Auf Kyero werben",
+				"advice": "Kaufberatung",
+				"agent_directory": "Verzeichnis der Immobilienmakler",
+				"contact_us": "Kontaktieren Sie uns",
+				"cookie_preferences": "Cookie-Einstellungen",
+				"cookies": "Cookies",
+				"faq": "Häufig gestellte Fragen",
+				"france_search": "Immobilie in Frankreich",
+				"italy_search": "Immobilie in Italien",
+				"market_data": "Marktdaten",
+				"podcasts": "Immobilien-Podcasts",
+				"portugal_search": "Immobilie in Portugal",
+				"privacy": "Privatsphäre",
+				"sitemap": "Sitemap",
+				"spain_search": "Immobilie in Spanien",
+				"terms": "Bedingungen",
+				"work_with_us": "Mit uns arbeiten"
+			},
+			"sections": {
+				"find_property_title": "Immobilie finden",
+				"for_agents": {
+					"cta": "Erfahren Sie, wie Kyero Ihnen helfen kann mehr Immobilien zu verkaufen.",
+					"title": "Für Makler"
+				},
+				"help_info_title": "Hilfe & Info",
+				"resources_title": "Ressourcen"
+			}
+		},
+		"form": {
+			"email": {
+				"invalid": "Bitte geben Sie eine gültige E-Mail-Adresse an"
+			},
+			"required": "Dieses Feld muss ausgefüllt werden",
+			"submitting": "Übermittlung..."
+		},
+		"homepage": {
+			"advice_section": {
+				"cta": "Alle {{countryName}} Anleitungen & Ratschläge anzeigen",
+				"fallback": {
+					"cta": "Reiseführer und Ratschläge für {{countryName}}",
+					"text": "Finden Sie mit Sicherheit Ihren Platz an der Sonne. Mit unseren professionellen Anleitungen und Ratschlägen werden auch Sie die richtigen Entscheidungen treffen."
+				},
+				"title": "Lesen Sie unsere neuesten Leitfäden"
+			},
+			"agents_section": {
+				"copy": "Wir arbeiten mit über 10.000 Immobilienmaklern in ganz Europa zusammen. Finden Sie den richtigen Makler für sich und machen Sie den nächsten Schritt zu Ihrer Traumimmobilie",
+				"cta": "Makler in {{countryName}} finden",
+				"title": "Finden Sie den richtigen Makler für sich"
+			},
+			"faq_section": {
+				"title": "Häufige Fragen zu Immobilien in {{countryName}}"
+			},
+			"france": {
+				"meta": {
+					"description": "Finden Sie Ihr Traumhaus in Frankreich auf Kyero - dem französischen Immobilienportal. Wählen Sie aus über 200.000 Auslandsimmobilien zum Verkauf und zur Miete bei führenden Immobilienmaklern auf Kyero.com.",
+					"title": "Immobilien zum Verkauf und zur Miete in Frankreich"
+				},
+				"subtitle": "200.000 Immobilien zum Verkauf und zur Miete von Immobilienmaklern in Frankreich",
+				"title": "Finden Sie Ihr Traumhaus in <span class=\"char-decor\" data-char=\"h\">Frankreich</span>",
+				"top_locations": {
+					"title": "Top-Regionen in Frankreich"
+				}
+			},
+			"italy": {
+				"meta": {
+					"description": "Finden Sie Ihr Traumhaus in Italien auf Kyero - dem italienischen Immobilienportal. Wählen Sie aus über 45.000 Auslandsimmobilien zum Verkauf und zur Miete bei führenden Immobilienmaklern auf Kyero.com.",
+					"title": "Immobilien zum Verkauf und zur Miete in Italien"
+				},
+				"subtitle": "45.000 Immobilien zum Verkauf und zur Miete von Immobilienmaklern in Italien",
+				"title": "Finden Sie Ihr Traumhaus in <span class=\"char-decor\">Italien</span>",
+				"top_locations": {
+					"title": "Top-Regionen in Italien"
+				}
+			},
+			"join_section": {
+				"copy": "Veröffentlichen Sie Ihre Immobilien auf unserem marktführenden Portal, um sie Millionen von Käufern weltweit zugänglich zu machen.",
+				"cta": "Mehr Informationen",
+				"title": "Verkaufen Sie Immobilien in {{countryName}}?"
+			},
+			"location_tree": {
+				"costas": "Costas",
+				"islands": "Inseln",
+				"provinces": "Provinzen",
+				"regions": "Regionen",
+				"title": "Alle Orte in {{location}}"
+			},
+			"neutral": {
+				"meta": {
+					"description": "Über 750.000 Immobilien zum Verkauf und zur Miete in Spanien, Portugal, Frankreich und Italien",
+					"title": "Finden Sie Ihr Traumhaus"
+				}
+			},
+			"portugal": {
+				"meta": {
+					"description": "Finden Sie Ihr Traumhaus in Portugal auf Kyero - dem portugiesischen Immobilienportal. Wählen Sie aus über 250.000 Immobilien zum Kauf und zur Miete von führenden Immobilienmaklern in Portugal",
+					"title": "Immobilien zum Verkauf und zur Miete in Portugal"
+				},
+				"subtitle": "250.000 Immobilien zum Verkauf und zur Miete von Immobilienmaklern in Portugal",
+				"title": "Finden Sie Ihr Traumhaus in <span class=\"char-decor\" data-char=\"l\">Portugal</span>",
+				"top_locations": {
+					"title": "Top-Bezirke in Portugal"
+				}
+			},
+			"recommended_locations": {
+				"cta": "Immobilien anzeigen",
+				"error": {
+					"cta": "Alle durchsuchen {{country}}",
+					"message": "Irgendetwas ist schief gelaufen",
+					"title": "Hoppla"
+				},
+				"title": "Empfohlene Orte in {{country}}"
+			},
+			"searchbox": {
+				"browse_in": "Oder finden Sie Immobilien in <a href=\"{{first_href}}\" class=\"underline\">{{first_location}}</a>, <a href=\"{{second_href}}\" class=\"underline\">{{second_location}}</a> oder <a href=\"{{third_href}}\" class=\"underline\">{{third_location}}</a>",
+				"clear_cta": "Suche löschen",
+				"close_modal": "Suche schließen",
+				"cta": "Suchen",
+				"label": "Immobilien zur Miete oder zum Kauf suchen oder einen Makler finden",
+				"loading": "Ergebnisse werden geladen...",
+				"min_chars": "Bitte geben Sie mindestens 3 Zeichen ein...",
+				"mobile_title": "Suchen",
+				"no_results": "Wir konnten keine Ergebnisse für <strong>{{search}}</strong><br /> finden. Bitte versuchen Sie es erneut.",
+				"placeholder": "Suche nach Region, Provinz oder Stadt",
+				"route": {
+					"agents": "Makler finden",
+					"agents_mobile": "Makler",
+					"buy": "Immobilien zu kaufen",
+					"buy_mobile": "Kaufen",
+					"rent": "Immobilien zu vermieten",
+					"rent_mobile": "Mieten"
+				},
+				"route_label": "Suchart auswählen"
+			},
+			"spain": {
+				"meta": {
+					"description": "Finden Sie Ihr Traumhaus in Spanien auf Kyero.com - dem Portal für spanische Immobilien. Wählen Sie aus 450.000 zum Verkauf oder zur Miete angebotenen Immobilien von führenden Immobilienmaklern",
+					"title": "Immobilien zum Verkauf und zur Miete in Spanien"
+				},
+				"subtitle": "450.000 Immobilien zum Verkauf und zur Miete von Immobilienmaklern in Spanien",
+				"title": "Finden Sie Ihr Traumhaus in <span class=\"char-decor\">Spanien</span>",
+				"top_locations": {
+					"title": "Top-Regionen in Spanien"
+				}
+			},
+			"testimonials_section": {
+				"title": "Kunden lieben Kyero"
+			},
+			"top_locations": {
+				"cta": "Suche in allen Gebieten",
+				"title": "Top-Regionen in {{country}}",
+				"view_properties": "{{count}} Immobilien"
+			},
+			"top_properties": {
+				"cta": "Alle Immobilien ansehen",
+				"title": "Top-Immobilien in {{country}}"
+			},
+			"top_property_types": {
+				"cta": "Alle Immobilien ansehen",
+				"item_cta": "{{count}} Immobilien",
+				"title": "Top-Immobilientypen"
+			}
+		},
+		"language_switcher": {
+			"title": "Wählen Sie eine Sprache"
+		},
+		"main_menu": {
+			"advice": "Leitfäden",
+			"agents": "Makler",
+			"agents_in": "Makler in {{countryName}}",
+			"buy": "Kaufen",
+			"buy_in_country": "Kaufen in {{countryName}}",
+			"home": "Startseite",
+			"rent": "Miete",
+			"rent_in": "Mieten in {{countryName}}"
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		},
+		"newsletter": {
+			"section": {
+				"form": {
+					"cta": "Newsletter abonnieren",
+					"email": "Ihre E-Mail-Adresse",
+					"privacy": "<a href=\"{{policy}}\" rel=\"noreferrer noopener\" target=\"_blank\" class=\"underline\">Lesen Sie unsere Datenschutzrichtlinie und -bedingungen</a>"
+				},
+				"title": "Holen Sie sich Immobilienempfehlungen, Anregungen und Tipps zum Umzug ins Ausland"
+			}
+		},
+		"personalisation_modal": {
+			"form": {
+				"cta": "Abonnieren",
+				"email": {
+					"label": "E-Mail-Adresse"
+				},
+				"first_name": {
+					"label": "Vorname"
+				},
+				"privacy": "<span>Indem Sie fortfahren, akzeptieren Sie <a href='{{terms}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>unsere Bedingungen</a> und <a href='{{privacy}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>Datenschutzrichtlinien</a>. Sie können den Erhalt von E-Mails jederzeit beenden, indem Sie sich unten in der E-Mail abmelden.</span>",
+				"subtitle": "Helfen Sie uns, Ihren Sonnenschein zu finden. Wir geben diese Informationen an niemanden weiter.",
+				"title": "Erzählen Sie uns mehr über sich",
+				"wants_to_buy_in": {
+					"label": "Wie bald wollen Sie eine Immobilie kaufen?",
+					"options": {
+						"in_six_to_twelve_months": "6-12 Monate",
+						"in_three_months": "1-3 Monate",
+						"in_three_to_six_months": "3-6 Monate",
+						"more_than_year": "Mehr als 1 Jahr",
+						"unsure": "Ungewiss"
+					}
+				},
+				"why_buy": {
+					"label": "Was ist der Hauptgrund, warum Sie ins Ausland ziehen möchten?",
+					"options": {
+						"for_work": "Für die Arbeit",
+						"holiday_home": "Als Ferienhaus",
+						"investment": "Als Kapitalanlage",
+						"relocate": "Umzuziehen",
+						"to_retire": "In den Ruhestand gehen"
+					}
+				}
+			},
+			"intro": {
+				"later_button": "Ich mache es später",
+				"next_button": "Erzählen Sie uns mehr über Ihren Umzug"
+			},
+			"intro_guide": {
+				"subtitle": "Wir haben Ihren Leitfaden per E-Mail an <span class=\"font-bold\">{{email}}</span> <br />geschickt.  Wenn Sie ihn nicht sehen können, überprüfen Sie Ihren Spam- oder Junk-Ordner, oder <span class=\"font-bold\">sehen Sie sich den Leitfaden<a href=\"{{guidesURL}}\" class=\"underline\" target=\"_blank\" rel=\"noopener noreferrer\">hier an</a></span>",
+				"title": "Danke! Wir haben Ihnen den Leitfaden geschickt"
+			},
+			"intro_newsletter": {
+				"subtitle": "Jeden Sonntag erhalten Sie eine regelmäßige wöchentliche E-Mail mit den neuesten Immobilien, von denen wir denken, dass sie Ihnen gefallen könnten. Achten Sie am kommenden Sonntag auf Ihre erste E-Mail!",
+				"title": "Wir senden Ihnen Immobilienbenachrichtigungen an {{email}}"
+			},
+			"success": {
+				"cta": "Verstanden",
+				"subtitle": "Mit diesen Informationen stellen wir sicher, dass wir Ihnen Immobilien empfehlen, die alles bieten, was Sie brauchen, um Ihrer Sonnenschein-Immobilie näher zu kommen.",
+				"title": "Wir haben Ihre Informationen gespeichert"
+			}
+		},
+		"property_gallery": {
+			"image_alt": "{{propertyDescription}} - Foto {{number}}"
+		},
+		"property_types": {
+			"types": {
+				"town_houses": "Stadthäuser",
+				"under_100k": "Unter 100.000 €",
+				"under_150k": "Unter 150.000 €",
+				"villas": "Villen",
+				"with_pool": "Immobilien mit Schwimmbädern"
+			}
+		},
+		"recent_searches": {
+			"cta": {
+				"count": "{{count}} neue Eigenschaften",
+				"loading": "Lade...",
+				"no_count": "Immobilien anzeigen"
+			},
+			"features": {
+				"disabled_access": "Behindertengerecht",
+				"garage": "Garage",
+				"garden": "Garten",
+				"lift": "Lift",
+				"near_beach": "In Strandnähe",
+				"near_golf": "Nähe Golfplatz",
+				"near_shops": "In der Nähe von Geschäften",
+				"near_transport": "Verkehrsgünstig gelgen",
+				"new_build": "Nur Neubau",
+				"parking": "Parkplatz",
+				"pool": "Pool",
+				"remote_viewing": "Online-Besichtigung verfügbar",
+				"resale_only": "Nur Wiederverkauf",
+				"terrace": "Terrasse",
+				"video": "Mit Video",
+				"virtual_tour": "Mit Virtueller Rundgang"
+			},
+			"filter_ranges": {
+				"price": {
+					"max": "<{{max}}",
+					"min": "{{min}}+",
+					"min_max": "{{min}}-{{max}}",
+					"no_range": "Beliebiger Preis"
+				}
+			},
+			"payment_scheme": {
+				"for_sale": "Kaufen",
+				"to_rent": "Mieten"
+			},
+			"property_group": {
+				"apartment": "Wohnung",
+				"cave_house": "Höhlenhaus",
+				"commercial_property": "Gewerbeimmobilie",
+				"country_house": "Landhaus",
+				"garage": "Garage",
+				"land": "Grundstück",
+				"town_house": "Stadthaus",
+				"unknown": "Alle Immobilientypen",
+				"villa": "Haus",
+				"wooden_home": "Holzhaus/Wohnmobil"
+			},
+			"title": "Kürzliche Suchanfragen"
+		},
+		"ui": {
+			"close": "Schließen",
+			"close_menu": "Menü schließen",
+			"icons": {
+				"bathrooms": "Anzahl der Badezimmer",
+				"bedrooms": "Anzahl der Schlafzimmer",
+				"build_size": "Baugröße",
+				"gallery_size": "Anzahl der Bilder"
+			},
+			"modals": {
+				"error": {
+					"accept": "Verstanden",
+					"subtitle": "Wir haben Schwierigkeiten, das zu tun, worum Sie uns gebeten haben. Das Problem liegt auf unserer Seite, nicht auf Ihrer. Bitte klicken Sie auf die Schaltfläche, um es erneut zu versuchen, oder versuchen Sie es später nochmal.",
+					"title": "Irgendetwas funktioniert nicht richtig"
+				}
+			},
+			"next": "Nächster",
+			"open": "Öffnen",
+			"open_menu": "Menü öffnen",
+			"prev": "Vorhergehend",
+			"retry": "Wiederholen",
+			"select": "Auswählen"
+		},
+		"user_menu": {
+			"links": {
+				"account": "Konto",
+				"enquiries": "Anfragen",
+				"favourites": "Favoriten",
+				"logout": "Ausloggen",
+				"saved_searches": "Gespeicherte Suchen"
+			},
+			"message": "Hallo, {{name}}",
+			"mobile_title": "Benutzerkonto"
+		}
+	}
+}

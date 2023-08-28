@@ -1,0 +1,509 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> when at the beginning of the pagination renders correctly 1`] = `
+<nav
+  className="mt-4"
+>
+  <ul
+    className="flex items-center gap-2"
+  >
+    <li
+      data-testid="pagination-prev-inactive"
+    >
+      <svg
+        className="text-ocean-40"
+        fill="none"
+        height="32"
+        viewBox="0 0 32 32"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="16"
+          cy="16"
+          r="15.25"
+          stroke="currentColor"
+          strokeWidth="1.5"
+        />
+        <path
+          d="M17.6665 21.3333L12.3332 15.9999L17.6665 10.6666"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.5"
+        />
+      </svg>
+    </li>
+    <li
+      data-testid="pagination-firstpage"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-ocean-100 text-white"
+        href="/?page=1&search=test"
+      >
+        1
+      </a>
+    </li>
+    <li
+      data-testid="pagination-page-2"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=2&search=test"
+      >
+        2
+      </a>
+    </li>
+    <li
+      data-testid="pagination-page-3"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=3&search=test"
+      >
+        3
+      </a>
+    </li>
+    <li
+      data-testid="pagination-page-4"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=4&search=test"
+      >
+        4
+      </a>
+    </li>
+    <li
+      data-testid="pagination-page-5"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=5&search=test"
+      >
+        5
+      </a>
+    </li>
+    <li
+      className="font-bold"
+      data-testid="pagination-more-next-dots"
+    >
+      ...
+    </li>
+    <li
+      data-testid="pagination-lastpage"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=10&search=test"
+      >
+        10
+      </a>
+    </li>
+    <li
+      data-testid="pagination-next"
+    >
+      <a
+        className="flex h-[32px] w-[32px] items-center justify-center"
+        href="/?page=2&search=test"
+      >
+        <svg
+          className="text-ocean-100"
+          fill="none"
+          height="32"
+          viewBox="0 0 32 32"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="16"
+            cy="16"
+            r="15.25"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            transform="rotate(-180 16 16)"
+          />
+          <path
+            d="M14.3335 10.6667L19.6668 16.0001L14.3335 21.3334"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="1.5"
+          />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`<Pagination /> when at the end of the pagination renders correctly 1`] = `
+<nav
+  className="mt-4"
+>
+  <ul
+    className="flex items-center gap-2"
+  >
+    <li
+      data-testid="pagination-prev"
+    >
+      <a
+        className="flex h-[32px] w-[32px] items-center justify-center"
+        href="/?page=9&search=test"
+      >
+        <svg
+          className="text-ocean-100"
+          fill="none"
+          height="32"
+          viewBox="0 0 32 32"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="16"
+            cy="16"
+            r="15.25"
+            stroke="currentColor"
+            strokeWidth="1.5"
+          />
+          <path
+            d="M17.6665 21.3333L12.3332 15.9999L17.6665 10.6666"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="1.5"
+          />
+        </svg>
+      </a>
+    </li>
+    <li
+      data-testid="pagination-firstpage"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=1&search=test"
+      >
+        1
+      </a>
+    </li>
+    <li
+      className="font-bold"
+      data-testid="pagination-more-prev-dots"
+    >
+      ...
+    </li>
+    <li
+      data-testid="pagination-page-6"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=6&search=test"
+      >
+        6
+      </a>
+    </li>
+    <li
+      data-testid="pagination-page-7"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=7&search=test"
+      >
+        7
+      </a>
+    </li>
+    <li
+      data-testid="pagination-page-8"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=8&search=test"
+      >
+        8
+      </a>
+    </li>
+    <li
+      data-testid="pagination-page-9"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=9&search=test"
+      >
+        9
+      </a>
+    </li>
+    <li
+      data-testid="pagination-lastpage"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-ocean-100 text-white"
+        href="/?page=10&search=test"
+      >
+        10
+      </a>
+    </li>
+    <li
+      data-testid="pagination-next-inactive"
+    >
+      <svg
+        className="text-ocean-40"
+        fill="none"
+        height="32"
+        viewBox="0 0 32 32"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="16"
+          cy="16"
+          r="15.25"
+          stroke="currentColor"
+          strokeWidth="1.5"
+          transform="rotate(-180 16 16)"
+        />
+        <path
+          d="M14.3335 10.6667L19.6668 16.0001L14.3335 21.3334"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.5"
+        />
+      </svg>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`<Pagination /> when in the middle of pagination renders correctly 1`] = `
+<nav
+  className="mt-4"
+>
+  <ul
+    className="flex items-center gap-2"
+  >
+    <li
+      data-testid="pagination-prev"
+    >
+      <a
+        className="flex h-[32px] w-[32px] items-center justify-center"
+        href="/?page=5&search=test"
+      >
+        <svg
+          className="text-ocean-100"
+          fill="none"
+          height="32"
+          viewBox="0 0 32 32"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="16"
+            cy="16"
+            r="15.25"
+            stroke="currentColor"
+            strokeWidth="1.5"
+          />
+          <path
+            d="M17.6665 21.3333L12.3332 15.9999L17.6665 10.6666"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="1.5"
+          />
+        </svg>
+      </a>
+    </li>
+    <li
+      data-testid="pagination-firstpage"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=1&search=test"
+      >
+        1
+      </a>
+    </li>
+    <li
+      className="font-bold"
+      data-testid="pagination-more-prev-dots"
+    >
+      ...
+    </li>
+    <li
+      data-testid="pagination-page-4"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=4&search=test"
+      >
+        4
+      </a>
+    </li>
+    <li
+      data-testid="pagination-page-5"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=5&search=test"
+      >
+        5
+      </a>
+    </li>
+    <li
+      data-testid="pagination-page-6"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-ocean-100 text-white"
+        href="/?page=6&search=test"
+      >
+        6
+      </a>
+    </li>
+    <li
+      data-testid="pagination-page-7"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=7&search=test"
+      >
+        7
+      </a>
+    </li>
+    <li
+      data-testid="pagination-page-8"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=8&search=test"
+      >
+        8
+      </a>
+    </li>
+    <li
+      className="font-bold"
+      data-testid="pagination-more-next-dots"
+    >
+      ...
+    </li>
+    <li
+      data-testid="pagination-lastpage"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-white"
+        href="/?page=10&search=test"
+      >
+        10
+      </a>
+    </li>
+    <li
+      data-testid="pagination-next"
+    >
+      <a
+        className="flex h-[32px] w-[32px] items-center justify-center"
+        href="/?page=7&search=test"
+      >
+        <svg
+          className="text-ocean-100"
+          fill="none"
+          height="32"
+          viewBox="0 0 32 32"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="16"
+            cy="16"
+            r="15.25"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            transform="rotate(-180 16 16)"
+          />
+          <path
+            d="M14.3335 10.6667L19.6668 16.0001L14.3335 21.3334"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="1.5"
+          />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`<Pagination /> when there is only 1 page results renders correctly 1`] = `
+<nav
+  className="mt-4"
+>
+  <ul
+    className="flex items-center gap-2"
+  >
+    <li
+      data-testid="pagination-prev-inactive"
+    >
+      <svg
+        className="text-ocean-40"
+        fill="none"
+        height="32"
+        viewBox="0 0 32 32"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="16"
+          cy="16"
+          r="15.25"
+          stroke="currentColor"
+          strokeWidth="1.5"
+        />
+        <path
+          d="M17.6665 21.3333L12.3332 15.9999L17.6665 10.6666"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.5"
+        />
+      </svg>
+    </li>
+    <li
+      data-testid="pagination-lastpage"
+    >
+      <a
+        className="flex h-[32px] w-[32px]  items-center justify-center rounded-full bg-ocean-100 text-white"
+        href="/?page=1&search=test"
+      >
+        1
+      </a>
+    </li>
+    <li
+      data-testid="pagination-next-inactive"
+    >
+      <svg
+        className="text-ocean-40"
+        fill="none"
+        height="32"
+        viewBox="0 0 32 32"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="16"
+          cy="16"
+          r="15.25"
+          stroke="currentColor"
+          strokeWidth="1.5"
+          transform="rotate(-180 16 16)"
+        />
+        <path
+          d="M14.3335 10.6667L19.6668 16.0001L14.3335 21.3334"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="1.5"
+        />
+      </svg>
+    </li>
+  </ul>
+</nav>
+`;

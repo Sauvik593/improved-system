@@ -1,0 +1,429 @@
+{
+	"common": {
+		"auth": {
+			"common": {
+				"form": {
+					"email": {
+						"label": "Email",
+						"placeholder": "Enter email address"
+					},
+					"first_name": {
+						"label": "First name"
+					},
+					"last_name": {
+						"label": "Last name"
+					},
+					"newsletter": {
+						"label": "Opt in to receive property recommendations, inspiration and tips on moving abroad"
+					},
+					"password": {
+						"label": "Password",
+						"placeholder": "Enter password"
+					}
+				},
+				"or_email": "Or with email"
+			},
+			"login": {
+				"aside": {
+					"copy": "We're here to help you find your dream property",
+					"cta": "Join now",
+					"subtitle": "Join the Kyero family",
+					"title": "New around here?"
+				},
+				"cta": "Login",
+				"forgot_password": "Forgot your password?",
+				"switch_to_signup": "Not joined Kyero yet?",
+				"title": "Welcome back"
+			},
+			"login_button": "Log in",
+			"oauth": {
+				"facebook": "Continue with Facebook"
+			},
+			"signup": {
+				"cta": "Join Kyero",
+				"disclaimer": "By creating an account you accept our terms of use, privacy policy, consent to cookies being stored on your device, and agree that we may contact you with relevant information. You can unsubscribe or request your account is deactivated at any time.",
+				"switch_to_login": "Already a member of Kyero?",
+				"title": "Join the Kyero family"
+			},
+			"signup_button": "Sign up"
+		},
+		"buyers_guide": {
+			"section": {
+				"form": {
+					"cta": "Get the guide",
+					"email": "Your email",
+					"newsletter": "Opt in to receive property recommendations, inspiration and tips on moving abroad",
+					"privacy": "Your privacy is important to us <a href=\"{{privacy}}\" rel=\"noreferrer noopener\" target=\"_blank\" class=\"underline\">Read our privacy policy and terms</a>"
+				},
+				"subtitle": "From information about healthcare to legal considerations, discover everything you need to know about buying a property in {{countryName}}",
+				"title": "Download our guide to buying in {{countryName}}"
+			}
+		},
+		"cookie_policy": {
+			"learn_more": "Learn more",
+			"opt_in": "Accept",
+			"text": "Kyero uses data and cookies to give you a better experience, to analyse traffic, and may be used for personalised and non-personalised advertising"
+		},
+		"errors": {
+			"error_401": "401: Unauthorised",
+			"error_403": "403: Not permitted",
+			"error_404": "404 Page not found",
+			"error_500": "500: Server error",
+			"error_client": "Unexpected Error",
+			"links": {
+				"advertise_link": "Advertise",
+				"for_rent_spain_link": "Property for rent in Spain",
+				"for_sale_france_link": "Property for sale in France",
+				"for_sale_portugal_link": "Property for sale in Portugal",
+				"for_sale_spain_link": "Property for sale in Spain",
+				"helpful_links": "Here are some helpful links instead:",
+				"homepage_link": "Homepage",
+				"support_link": "Help & support"
+			},
+			"title": "Oops, something went wrong"
+		},
+		"footer": {
+			"bcorp": {
+				"copy": "Kyero is here to help you find your sunshine, helping you navigate your entire journey and giving you the inspiration, information and tools that put you in control.",
+				"cta": "More about Kyero"
+			},
+			"join_cta": "Advertise with Kyero",
+			"links": {
+				"about_us": "About us",
+				"advertise": "Advertise on Kyero",
+				"advice": "Buyer Advice",
+				"agent_directory": "Estate Agent Directory",
+				"contact_us": "Contact us",
+				"cookie_preferences": "Cookie preferences",
+				"cookies": "Cookies",
+				"faq": "FAQs",
+				"france_search": "France property",
+				"italy_search": "Italy property",
+				"market_data": "Market Data",
+				"podcasts": "Property Podcasts",
+				"portugal_search": "Portugal property",
+				"privacy": "Privacy",
+				"sitemap": "Sitemap",
+				"spain_search": "Spain property",
+				"terms": "Terms",
+				"work_with_us": "Work with us"
+			},
+			"sections": {
+				"find_property_title": "Find property",
+				"for_agents": {
+					"cta": "Find out how Kyero can help you sell more properties",
+					"title": "For agents"
+				},
+				"help_info_title": "Help & Info",
+				"resources_title": "Resources"
+			}
+		},
+		"form": {
+			"email": {
+				"invalid": "Please provide a valid email address"
+			},
+			"required": "This field is required",
+			"submitting": "Submitting..."
+		},
+		"homepage": {
+			"advice_section": {
+				"cta": "See all {{countryName}} guides & advice",
+				"fallback": {
+					"cta": "{{countryName}} guides and advice",
+					"text": "Find your sunshine with confidence. Written by experts, our guides and advice section will help you make the right decisions."
+				},
+				"title": "Read our latest guides"
+			},
+			"agents_section": {
+				"copy": "We work with over 10,000 estate agents across Europe. Find the right estate agent to fulfil your requirements and take that next step to finding your dream property",
+				"cta": "Find agents in {{countryName}}",
+				"title": "Find the right estate agent for you"
+			},
+			"faq_section": {
+				"title": "Frequently asked questions about property in {{countryName}}"
+			},
+			"france": {
+				"meta": {
+					"description": "Find your dream home in France on Kyero - the French property portal. Choose from over 200,000 overseas properties for sale and rent from leading real estate agents on Kyero.com.",
+					"title": "Property for sale and rent in France"
+				},
+				"subtitle": "200,000 properties for sale and rent from real estate agents in France",
+				"title": "Find your dream home in <span class=\"char-decor\">France</span>",
+				"top_locations": {
+					"title": "Top regions in France"
+				}
+			},
+			"italy": {
+				"meta": {
+					"description": "Find your dream home in Italy on Kyero - the Italian property portal. Choose from 45,000 overseas properties for sale and rent from leading real estate agents on Kyero.com",
+					"title": "Property for sale and rent in Italy"
+				},
+				"subtitle": "45,000 properties for sale and rent from real estate agents in Italy",
+				"title": "Find your dream home in <span class=\"char-decor\">Italy</span>",
+				"top_locations": {
+					"title": "Top regions in Italy"
+				}
+			},
+			"join_section": {
+				"copy": "List your properties on our market-leading portal to get them in front of milions of global buyers",
+				"cta": "Find out more",
+				"title": "Selling properties in {{countryName}}?"
+			},
+			"location_tree": {
+				"costas": "Costas",
+				"islands": "Islands",
+				"provinces": "Provinces",
+				"regions": "Regions",
+				"title": "All locations in {{location}}"
+			},
+			"neutral": {
+				"meta": {
+					"description": "Over 750,000 properties for sale and rent in Spain, Portugal, France and Italy",
+					"title": "Find your dream home"
+				}
+			},
+			"portugal": {
+				"meta": {
+					"description": "Find your dream home in Portugal on Kyero - the Portuguese property portal. Choose from over 250,000 properties for sale and rent from leading real estate agents in Portugal",
+					"title": "Property for sale and rent in Portugal"
+				},
+				"subtitle": "250,000 properties for sale and rent from real estate agents in Portugal",
+				"title": "Find your dream home in <span class=\"char-decor\" data-char=\"l\">Portugal</span>",
+				"top_locations": {
+					"title": "Top districts in Portugal"
+				}
+			},
+			"recommended_locations": {
+				"cta": "View properties",
+				"error": {
+					"cta": "Browse all {{country}}",
+					"message": "Something went wrong",
+					"title": "Oops"
+				},
+				"title": "Recommended places in {{country}}"
+			},
+			"searchbox": {
+				"browse_in": "Or browse property in <a href=\"{{first_href}}\" class=\"underline\">{{first_location}}</a>, <a href=\"{{second_href}}\" class=\"underline\">{{second_location}}</a> or <a href=\"{{third_href}}\" class=\"underline\">{{third_location}}</a>",
+				"clear_cta": "Clear search",
+				"close_modal": "Close search",
+				"cta": "Search",
+				"label": "Search properties for rent or sale or find an agent",
+				"loading": "Loading results...",
+				"min_chars": "Please type minimum 3 characters...",
+				"mobile_title": "Search",
+				"no_results": "We couldn't find any results for <strong>{{search}}</strong><br />Try searching again.",
+				"placeholder": "Search by Region, Province or City",
+				"route": {
+					"agents": "Find agents",
+					"agents_mobile": "Agents",
+					"buy": "Properties to buy",
+					"buy_mobile": "Buy",
+					"rent": "Properties to rent",
+					"rent_mobile": "Rent"
+				},
+				"route_label": "Select search type"
+			},
+			"spain": {
+				"meta": {
+					"description": "Find your dream home in Spain on Kyero - the Spanish property portal. Choose from 450,000 properties for sale and rent from leading real estate agents in Spain",
+					"title": "Property for sale and rent in Spain"
+				},
+				"subtitle": "450,000 properties for sale and rent from real estate agents in Spain",
+				"title": "Find your dream home in <span class=\"char-decor\">Spain</span>",
+				"top_locations": {
+					"title": "Top regions in Spain"
+				}
+			},
+			"testimonials_section": {
+				"title": "Customers love Kyero"
+			},
+			"top_locations": {
+				"cta": "Search all areas",
+				"title": "Top regions in {{country}}",
+				"view_properties": "{{count}} properties"
+			},
+			"top_properties": {
+				"cta": "See all properties",
+				"title": "Top properties in {{country}}"
+			},
+			"top_property_types": {
+				"cta": "See all properties",
+				"item_cta": "{{count}} properties",
+				"title": "Top property types"
+			}
+		},
+		"language_switcher": {
+			"title": "Select a language"
+		},
+		"main_menu": {
+			"advice": "Guides",
+			"agents": "Agents",
+			"agents_in": "Agents in {{countryName}}",
+			"buy": "Buy",
+			"buy_in_country": "Buy in {{countryName}}",
+			"home": "Home",
+			"rent": "Rent",
+			"rent_in": "Rent in {{countryName}}"
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		},
+		"newsletter": {
+			"section": {
+				"form": {
+					"cta": "Subscribe",
+					"email": "Your email",
+					"privacy": "<a href=\"{{policy}}\" rel=\"noreferrer noopener\" target=\"_blank\" class=\"underline\">Read our privacy policy and terms</a>"
+				},
+				"title": "Receive property recommendations, inspiration and tips on moving abroad"
+			}
+		},
+		"personalisation_modal": {
+			"form": {
+				"cta": "Subscribe",
+				"email": {
+					"label": "Email address"
+				},
+				"first_name": {
+					"label": "First name"
+				},
+				"privacy": "<span>By continuing, you accept <a href='{{terms}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>our terms</a> and <a href='{{privacy}}' class='text-ocean-100 hover:text-ocean-150 focus:text-ocean-150'>privacy policy</a>. You can stop receiving emails at any time by unsubscribing at the bottom of each email.</span>",
+				"subtitle": "Help us to help you find your sunshine. We won’t share this information with anyone.",
+				"title": "Tell us more about yourself",
+				"wants_to_buy_in": {
+					"label": "How soon do you intend to buy a property?",
+					"options": {
+						"in_six_to_twelve_months": "6-12 months",
+						"in_three_months": "1-3 months",
+						"in_three_to_six_months": "3-6 months",
+						"more_than_year": "More than 1 year",
+						"unsure": "Unsure"
+					}
+				},
+				"why_buy": {
+					"label": "What is the main reason you’re looking to move abroad?",
+					"options": {
+						"for_work": "For work",
+						"holiday_home": "As a holiday home",
+						"investment": "As an investment",
+						"relocate": "To relocate",
+						"to_retire": "To retire"
+					}
+				}
+			},
+			"intro": {
+				"later_button": "I'll do it later",
+				"next_button": "Tell us more about your move"
+			},
+			"intro_guide": {
+				"subtitle": "We’ve emailed your guide to <span class=\"font-bold\">{{email}}</span>. <br /> If you can’t see it, check your spam or junk folder, or <span class=\"font-bold\">view the guide <a href=\"{{guidesURL}}\" class=\"underline\" target=\"_blank\" rel=\"noopener noreferrer\">here</a></span>",
+				"title": "Thanks! We’ve sent you the guide"
+			},
+			"intro_newsletter": {
+				"subtitle": "Every Sunday you'll get a regular weekly email with the latest properties we think you’ll love. Look out for your first email this coming Sunday!",
+				"title": "We'll send property alerts to {{email}}"
+			},
+			"success": {
+				"cta": "Got it",
+				"subtitle": "We'll use it to make sure we recommend properties that have all the things you need, so you're one step closer to finding your sunshine.",
+				"title": "We've saved your information"
+			}
+		},
+		"property_gallery": {
+			"image_alt": "{{propertyDescription}} - photo {{number}}"
+		},
+		"property_types": {
+			"types": {
+				"town_houses": "Townhouses",
+				"under_100k": "Under €100,000",
+				"under_150k": "Under €150,000",
+				"villas": "Villas",
+				"with_pool": "Places with pools"
+			}
+		},
+		"recent_searches": {
+			"cta": {
+				"count": "{{count}} new properties",
+				"loading": "Loading...",
+				"no_count": "View properties"
+			},
+			"features": {
+				"disabled_access": "Disabled access",
+				"garage": "Garage",
+				"garden": "Garden",
+				"lift": "Lift",
+				"near_beach": "Near beach",
+				"near_golf": "Near golf",
+				"near_shops": "Near shops",
+				"near_transport": "Near transport",
+				"new_build": "New build only",
+				"parking": "Parking",
+				"pool": "Pool",
+				"remote_viewing": "Remote viewing available",
+				"resale_only": "Resale only",
+				"terrace": "Terrace",
+				"video": "With video",
+				"virtual_tour": "With virtual tour"
+			},
+			"filter_ranges": {
+				"price": {
+					"max": "<{{max}}",
+					"min": "{{min}}+",
+					"min_max": "{{min}}-{{max}}",
+					"no_range": "Any price"
+				}
+			},
+			"payment_scheme": {
+				"for_sale": "To buy",
+				"to_rent": "To rent"
+			},
+			"property_group": {
+				"apartment": "Apartment",
+				"cave_house": "Cave house",
+				"commercial_property": "Commercial property",
+				"country_house": "Country house",
+				"garage": "Garage",
+				"land": "Land",
+				"town_house": "Town house",
+				"unknown": "Any property type",
+				"villa": "Villa",
+				"wooden_home": "Wooden/mobile home"
+			},
+			"title": "Recent searches"
+		},
+		"ui": {
+			"close": "Close",
+			"close_menu": "Close menu",
+			"icons": {
+				"bathrooms": "Number of bathrooms",
+				"bedrooms": "Number of bedrooms",
+				"build_size": "Build size",
+				"gallery_size": "Number of images"
+			},
+			"modals": {
+				"error": {
+					"accept": "Got it",
+					"subtitle": "We’re having trouble doing what you asked. The problem is at our end, not yours. Please click the button to retry or come back later.",
+					"title": "Something’s not working properly"
+				}
+			},
+			"next": "Next",
+			"open": "Open",
+			"open_menu": "Open menu",
+			"prev": "Previous",
+			"retry": "Retry",
+			"select": "Select"
+		},
+		"user_menu": {
+			"links": {
+				"account": "Account",
+				"enquiries": "Enquiries",
+				"favourites": "Favourites",
+				"logout": "Log out",
+				"saved_searches": "Saved searches"
+			},
+			"message": "Hi, {{name}}",
+			"mobile_title": "User account"
+		}
+	}
+}

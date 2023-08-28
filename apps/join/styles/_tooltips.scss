@@ -1,0 +1,35 @@
+.clipboard-tooltip {
+  @apply bg-sierra-night-100 text-p-3 relative mt-3 h-10 rounded-md py-1 text-white;
+}
+
+.clipboard-tooltip:after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  right: 10px;
+  border-style: solid;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 7px solid #232559;
+  display: block;
+}
+
+.success-tooltip {
+  @apply bg-meadow-20 text-meadow-100 text-p-3 relative mt-3 h-10 rounded-md py-1;
+}
+
+.success-tooltip:after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: 10px;
+  border-style: solid;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 7px solid #ddede5;
+  display: block;
+}
+
+.error-tooltip {
+  @apply bg-terracotta-10 text-terracotta-100 text-p-3 relative mt-3 h-7 rounded-md py-1;
+}

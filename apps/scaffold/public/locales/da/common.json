@@ -1,0 +1,17 @@
+{
+	"common": {
+		"homepage": {
+			"meta": {
+				"description": {
+					"neutral": "Over 750.000 ejendomme til salg og leje i Spanien, Portugal, Frankrig og Italien"
+				},
+				"title": {
+					"neutral": "Find dit drømmehjem"
+				}
+			}
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		}
+	}
+}

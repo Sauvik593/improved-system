@@ -1,0 +1,183 @@
+{
+  "name": "Portugal Homepage",
+  "translations": {
+    "_title_": "common.homepage.portugal.meta.title",
+    "_description_": "common.homepage.portugal.meta.description"
+  },
+  "tags": [
+    {
+      "selector": "meta[name=\"description\"]",
+      "key": "content",
+      "content": "_description_"
+    },
+    {
+      "selector": "meta[name=\"owner\"]",
+      "key": "content",
+      "content": "Kyero.com"
+    },
+    {
+      "selector": "meta[name=\"robots\"]",
+      "key": "content",
+      "content": "noindex, nofollow"
+    },
+    {
+      "selector": "meta[name=\"copyright\"]",
+      "key": "content",
+      "content": "Portal47 Ltd. 2023"
+    },
+    {
+      "selector": "meta[name=\"google\"]",
+      "key": "content",
+      "content": "notranslate"
+    },
+    {
+      "selector": "meta[name=\"apple-mobile-web-app-title\"]",
+      "key": "content",
+      "content": "Kyero"
+    },
+    {
+      "selector": "meta[name=\"application-name\"]",
+      "key": "content",
+      "content": "Kyero"
+    },
+    {
+      "selector": "meta[name=\"msapplication-config\"]",
+      "key": "content",
+      "content": "/new-frontend-assets/favicon/browserconfig.xml"
+    },
+    {
+      "selector": "meta[name=\"theme-color\"]",
+      "key": "content",
+      "content": "#1F4DEF"
+    },
+    {
+      "selector": "meta[property=\"og:site_name\"]",
+      "key": "content",
+      "content": "Kyero.com"
+    },
+    {
+      "selector": "meta[property=\"og:locale\"]",
+      "key": "content",
+      "content": "_ogLocale_"
+    },
+    {
+      "selector": "meta[property=\"article:author\"]",
+      "key": "content",
+      "content": "https://www.facebook.com/kyero.co.uk"
+    },
+    {
+      "selector": "meta[property=\"article:publisher\"]",
+      "key": "content",
+      "content": "https://www.facebook.com/kyero.co.uk"
+    },
+    {
+      "selector": "meta[property=\"og:title\"]",
+      "key": "content",
+      "content": "_title_"
+    },
+    {
+      "selector": "meta[property=\"og:description\"]",
+      "key": "content",
+      "content": "_description_"
+    },
+    {
+      "selector": "meta[property=\"og:type\"]",
+      "key": "content",
+      "content": "article"
+    },
+    {
+      "selector": "meta[property=\"og:url\"]",
+      "key": "content",
+      "content": "http://localhost:3000"
+    },
+    {
+      "selector": "meta[name=\"twitter:site\"]",
+      "key": "content",
+      "content": "@kyero"
+    },
+    {
+      "selector": "meta[name=\"twitter:domain\"]",
+      "key": "content",
+      "content": "kyero.com"
+    },
+    {
+      "selector": "meta[name=\"twitter:card\"]",
+      "key": "content",
+      "content": "summary_large_image"
+    },
+    {
+      "selector": "meta[name=\"twitter:title\"]",
+      "key": "content",
+      "content": "_title_"
+    },
+    {
+      "selector": "meta[name=\"twitter:description\"]",
+      "key": "content",
+      "content": "_description_"
+    },
+    {
+      "selector": "meta[name=\"twitter:image\"]",
+      "key": "content",
+      "content": "http://localhost:3000/new-frontend-assets/images/social_cards/twitter_social_image.jpg"
+    },
+    {
+      "selector": "meta[name=\"twitter:url\"]",
+      "key": "content",
+      "content": "http://localhost:3000"
+    }
+  ],
+  "languages": {
+    "ca": {
+      "path": "/ca/portugal",
+      "_ogLocale_": "ca_ES"
+    },
+    "da": {
+      "path": "/da/portugal",
+      "_ogLocale_": "da_DK"
+    },
+    "de": {
+      "path": "/de/portugal",
+      "_ogLocale_": "de_DE"
+    },
+    "en": {
+      "path": "/en/portugal",
+      "_ogLocale_": "en_GB"
+    },
+    "es": {
+      "path": "/es/portugal",
+      "_ogLocale_": "es_ES"
+    },
+    "fi": {
+      "path": "/fi/portugali",
+      "_ogLocale_": "fi_FI"
+    },
+    "fr": {
+      "path": "/fr/portugal",
+      "_ogLocale_": "fr_FR"
+    },
+    "it": {
+      "path": "/it/portogallo",
+      "_ogLocale_": "it_IT"
+    },
+    "nl": {
+      "path": "/nl/portugal",
+      "_ogLocale_": "nl_NL"
+    },
+    "no": {
+      "path": "/no/portugal",
+      "_ogLocale_": "nb_NO"
+    },
+    "pt": {
+      "path": "/pt/portugal",
+      "_ogLocale_": "pt_PT"
+    },
+    "ru": {
+      "path": "/ru/португалия",
+      "_ogLocale_": "ru_RU"
+    },
+    "sv": {
+      "path": "/sv/portugal",
+      "_ogLocale_": "sv_SE"
+    }
+  }
+}

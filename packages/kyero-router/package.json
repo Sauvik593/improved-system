@@ -1,0 +1,37 @@
+{
+  "name": "@kyero/router",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "license": "",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --watch --dts",
+    "test": "jest",
+    "lint": "eslint \"./src\"",
+    "lint:fix": "npm run lint -- --fix",
+    "typecheck": "tsc"
+  },
+  "prettier": "../../.prettierrc.json",
+  "dependencies": {
+    "@kyero/icons": "*",
+    "eslint-config-kyero": "*"
+  },
+  "devDependencies": {
+    "@kyero/tsconfig": "*",
+    "@types/jest": "^29.2.3",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "tsup": "6.2.3",
+    "typescript": "^4.5.2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"common": {
+		"homepage": {
+			"meta": {
+				"description": {
+					"neutral": "Yli 750 000 myytävää ja vuokrattavaa kiinteistöä Espanjassa, Portugalissa, Ranskassa ja Italiassa."
+				},
+				"title": {
+					"neutral": "Löydä unelmiesi koti"
+				}
+			}
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		}
+	}
+}

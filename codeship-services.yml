@@ -1,0 +1,35 @@
+clients:
+  build:
+    image: clients_image
+    dockerfile_path: Dockerfile.codeship
+  working_dir: /app
+  volumes:
+    - '/app/node_modules'
+    - './:/app'
+  encrypted_env_file:
+    - '.codeship/.env.encrypted'
+  environment:
+    REDIS_URL: 'redis://redis:6379'
+    CI: true
+  depends_on:
+    - redis
+  cached: true
+
+redis:
+  image: redis:5.0-alpine
+
+heroku-deployment:
+  image: codeship/heroku-deployment
+  encrypted_env_file:
+    - '.codeship/.env.encrypted'
+  working_dir: /app
+  volumes:
+    - './:/app'
+
+git_deploy:
+  image: debian:latest
+  working_dir: /app
+  volumes:
+    - './:/app'
+  encrypted_env_file:
+    - '.codeship/.env.encrypted'

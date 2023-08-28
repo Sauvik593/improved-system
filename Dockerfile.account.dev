@@ -1,0 +1,29 @@
+FROM node:16-bullseye-slim as base
+
+ENV NODE_ENV development
+
+# add turborepo
+RUN npm install --global turbo
+
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+# Install app dependencies
+COPY  ["package-lock.json", "package.json", "./"]  /usr/src/app/
+
+# Copy source files
+COPY . /usr/src/app
+
+# Install app dependencies
+RUN npm install
+
+COPY docker.dev/npm-package-update /usr/local/bin/
+ENTRYPOINT ["npm-package-update"]
+
+# Ports
+# 3000 - account(remix)
+# 8002 - hot reloading
+# 6006 - storybook
+EXPOSE 3000 8002 6006
+
+CMD ["npm", "run", "dev:account"]

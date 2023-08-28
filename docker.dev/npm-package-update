@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo -n "Installing npm packages... "
+npm install
+echo "OK 👍"
+exec "$@"

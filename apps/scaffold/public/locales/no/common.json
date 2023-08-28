@@ -1,0 +1,17 @@
+{
+	"common": {
+		"homepage": {
+			"meta": {
+				"description": {
+					"neutral": "Over 750 000 eiendommer til salgs og leie i Spania, Portugal, Frankrike og Italia."
+				},
+				"title": {
+					"neutral": "Finn drømmeboligen din"
+				}
+			}
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		}
+	}
+}

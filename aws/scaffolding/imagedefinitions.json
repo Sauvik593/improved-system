@@ -1,0 +1,6 @@
+[
+  {
+    "name": "SERVICE-container-ENV",
+    "imageUri": "REPOSITORY_URI:ENV-CODEBUILD_BUILD_NUMBER"
+  }
+]

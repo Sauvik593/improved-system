@@ -1,0 +1,17 @@
+{
+	"common": {
+		"homepage": {
+			"meta": {
+				"description": {
+					"neutral": "Oltre 750.000 immobili in vendita e in affitto in Spagna, Portogallo, Francia e Italia"
+				},
+				"title": {
+					"neutral": "Trova la casa dei tuoi sogni"
+				}
+			}
+		},
+		"meta": {
+			"copyright": "Portal47 Ltd. {{ year }}"
+		}
+	}
+}
